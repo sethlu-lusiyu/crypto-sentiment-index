@@ -217,12 +217,12 @@
       "name": "BFUSD"
     },
     {
-      "symbol": "DOT",
-      "name": "Polkadot"
-    },
-    {
       "symbol": "MORPHO",
       "name": "Morpho"
+    },
+    {
+      "symbol": "DOT",
+      "name": "Polkadot"
     },
     {
       "symbol": "ICP",
@@ -269,12 +269,12 @@
       "name": "Blockchain Capital"
     },
     {
-      "symbol": "PI",
-      "name": "Pi Network"
-    },
-    {
       "symbol": "USTB",
       "name": "Invesco Short Duration US Government Securities Fund"
+    },
+    {
+      "symbol": "PI",
+      "name": "Pi Network"
     },
     {
       "symbol": "EUTBL",
@@ -293,12 +293,12 @@
       "name": "Janus Henderson Anemoy Treasury Fund"
     },
     {
-      "symbol": "QNT",
-      "name": "Quant"
-    },
-    {
       "symbol": "BTW",
       "name": "Bitway"
+    },
+    {
+      "symbol": "QNT",
+      "name": "Quant"
     },
     {
       "symbol": "ENA",
@@ -401,16 +401,20 @@
       "name": "Ether.fi"
     },
     {
-      "symbol": "A7A5",
-      "name": "A7A5"
-    },
-    {
       "symbol": "CAKE",
       "name": "PancakeSwap"
     },
     {
       "symbol": "APT",
       "name": "Aptos"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
+    },
+    {
+      "symbol": "A7A5",
+      "name": "A7A5"
     },
     {
       "symbol": "HASH",
@@ -445,10 +449,6 @@
       "name": "Curve DAO"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "VIRTUAL",
       "name": "Virtuals Protocol"
     },
@@ -477,12 +477,12 @@
       "name": "Humanity"
     },
     {
-      "symbol": "BSV",
-      "name": "Bitcoin SV"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "BSV",
+      "name": "Bitcoin SV"
     },
     {
       "symbol": "APXUSD",
@@ -525,12 +525,12 @@
       "name": "Olympus"
     },
     {
-      "symbol": "ZRO",
-      "name": "LayerZero"
-    },
-    {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "ZRO",
+      "name": "LayerZero"
     },
     {
       "symbol": "SEI",
@@ -581,12 +581,12 @@
       "name": "Kite"
     },
     {
-      "symbol": "PENDLE",
-      "name": "Pendle"
-    },
-    {
       "symbol": "AKE",
       "name": "Akedo"
+    },
+    {
+      "symbol": "PENDLE",
+      "name": "Pendle"
     },
     {
       "symbol": "CFX",
@@ -649,12 +649,12 @@
       "name": "Optimism"
     },
     {
-      "symbol": "APEPE",
-      "name": "Ape and Pepe"
-    },
-    {
       "symbol": "JASMY",
       "name": "JasmyCoin"
+    },
+    {
+      "symbol": "APEPE",
+      "name": "Ape and Pepe"
     },
     {
       "symbol": "VBILL",
@@ -697,28 +697,28 @@
       "name": "Ethereum Name Service"
     },
     {
+      "symbol": "RAY",
+      "name": "Raydium"
+    },
+    {
       "symbol": "2Z",
       "name": "DoubleZero"
     },
     {
-      "symbol": "RAY",
-      "name": "Raydium"
+      "symbol": "TWT",
+      "name": "Trust Wallet"
     },
     {
       "symbol": "EURCV",
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "PC0000033",
-      "name": "Tradable APAC Diversified Finance Provider SSTN"
-    },
-    {
       "symbol": "COMP",
       "name": "Compound"
     },
     {
-      "symbol": "TWT",
-      "name": "Trust Wallet"
+      "symbol": "PC0000033",
+      "name": "Tradable APAC Diversified Finance Provider SSTN"
     },
     {
       "symbol": "USTBL",
@@ -741,12 +741,12 @@
       "name": "Akash Network"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
-    },
-    {
       "symbol": "BTSE",
       "name": "BTSE Token"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "GUSD",
@@ -769,6 +769,10 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
+    },
+    {
       "symbol": "B",
       "name": "BUILDon"
     },
@@ -789,10 +793,6 @@
       "name": "Fartcoin"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
       "symbol": "RUNE",
       "name": "THORChain"
     },
@@ -801,7 +801,7 @@
       "name": "Audiera"
     }
   ],
-  "updated_at": "2026-08-16T07:42:15.919273+00:00",
+  "updated_at": "2026-08-16T08:12:12.432174+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
