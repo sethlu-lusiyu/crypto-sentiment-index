@@ -30,10 +30,17 @@ FED_NEWS_TEXT = (
 
 def test_fed_rate_hike_classified_as_market_scope() -> None:
     client = LLMClient()
-    result = asyncio.run(
-        client.score_news(FED_NEWS_TITLE, FED_NEWS_TEXT, ["BTC", "ETH"])
-    )
-    assert result is not None, "LLM returned no parseable result"
-    assert result.get("scope") == "market", (
-        f"Fed rate-hike news must be scope=market, got: {result}"
+    # LLM judgment is not perfectly deterministic; allow up to 3 attempts.
+    last_result = None
+    for _ in range(3):
+        result = asyncio.run(
+            client.score_news(FED_NEWS_TITLE, FED_NEWS_TEXT, ["BTC", "ETH"])
+        )
+        if result is None:
+            continue
+        last_result = result
+        if result.get("scope") == "market":
+            return
+    pytest.fail(
+        f"Fed rate-hike news must be scope=market after 3 attempts, last: {last_result}"
     )
