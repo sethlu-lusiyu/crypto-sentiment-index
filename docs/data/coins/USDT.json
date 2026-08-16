@@ -1,10 +1,34 @@
 [
   {
+    "ts": "2026-08-16T04:00:00+00:00",
+    "family": "news",
+    "sent": 1.0,
+    "sent_z": null,
+    "mentions": 1,
+    "confidence_flag": "low"
+  },
+  {
     "ts": "2026-08-16T05:00:00+00:00",
     "family": "news",
-    "sent": 0.3239939916653413,
+    "sent": 0.8259751889658583,
     "sent_z": null,
-    "mentions": 46,
-    "confidence_flag": "normal"
+    "mentions": 2,
+    "confidence_flag": "low"
+  },
+  {
+    "ts": "2026-08-16T05:15:00+00:00",
+    "family": "news",
+    "sent": 0.8259751889658583,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-08-16T05:30:00+00:00",
+    "family": "news",
+    "sent": 0.8259751889658583,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
   }
 ]

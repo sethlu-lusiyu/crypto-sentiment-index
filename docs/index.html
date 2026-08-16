@@ -1,74 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crypto Sentiment Index</title>
+  <title>加密货币情绪指数</title>
   <script src="https://unpkg.com/lightweight-charts@4.2.1/dist/lightweight-charts.standalone.production.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Crypto Sentiment Index</h1>
-      <div id="updated-at">Loading...</div>
+      <div>
+        <h1>加密货币情绪指数</h1>
+        <div class="subtitle">纯文本驱动 · 每 15 分钟更新 · 新闻与社媒双通道</div>
+      </div>
+      <div class="header-meta">
+        <div id="updated-at">加载中…</div>
+        <div id="quality-info"></div>
+      </div>
     </header>
 
     <section class="cards" id="cards">
       <div class="card" id="card-overall-news">
-        <div class="card-title">OVERALL NEWS</div>
+        <div class="card-title">全网新闻情绪 <span class="card-title-en">OVERALL NEWS</span></div>
         <div class="card-value" id="value-overall-news">-</div>
+        <div class="card-badge-row"><span class="badge neutral" id="badge-overall-news">-</span></div>
         <div class="card-change" id="change-overall-news">-</div>
+        <div class="card-desc">全市场新闻情绪，按市值加权，并混入市场级宏观新闻</div>
         <div class="sparkline" id="spark-overall-news"></div>
       </div>
       <div class="card" id="card-overall-social">
-        <div class="card-title">OVERALL SOCIAL</div>
+        <div class="card-title">全网社媒情绪 <span class="card-title-en">OVERALL SOCIAL</span></div>
         <div class="card-value" id="value-overall-social">-</div>
+        <div class="card-badge-row"><span class="badge neutral" id="badge-overall-social">-</span></div>
         <div class="card-change" id="change-overall-social">-</div>
+        <div class="card-desc">全市场社媒讨论情绪，按市值加权</div>
         <div class="sparkline" id="spark-overall-social"></div>
       </div>
       <div class="card" id="card-market-news">
-        <div class="card-title">MARKET NEWS</div>
+        <div class="card-title">市场级新闻 <span class="card-title-en">MARKET NEWS</span></div>
         <div class="card-value" id="value-market-news">-</div>
+        <div class="card-badge-row"><span class="badge neutral" id="badge-market-news">-</span></div>
         <div class="card-change" id="change-market-news">-</div>
+        <div class="card-desc">宏观、监管、ETF 等影响整个市场（而非单个币种）的新闻情绪</div>
         <div class="sparkline" id="spark-market-news"></div>
       </div>
       <div class="card" id="card-breadth">
-        <div class="card-title">BREADTH</div>
+        <div class="card-title">多空广度 <span class="card-title-en">BREADTH</span></div>
         <div class="card-value" id="value-breadth">-</div>
+        <div class="card-badge-row"><span class="badge neutral" id="badge-breadth">-</span></div>
         <div class="card-change" id="change-breadth">-</div>
+        <div class="card-desc">看涨币种占比 − 看跌币种占比（±0.1 为多空分界）</div>
         <div class="sparkline" id="spark-breadth"></div>
       </div>
     </section>
 
     <section class="chart-section">
       <div class="coin-controls">
-        <label for="coin-select">Coin</label>
+        <label for="coin-select">币种</label>
         <select id="coin-select"></select>
-        <input type="text" id="coin-search" placeholder="Search coin...">
+        <input type="text" id="coin-search" placeholder="搜索币种…">
+        <span id="coin-status" class="coin-status"></span>
+      </div>
+      <div class="chart-legend">
+        <span><i class="legend-line solid green"></i>新闻情绪</span>
+        <span><i class="legend-line dashed red"></i>社媒情绪</span>
+        <span><i class="legend-line dotted green"></i><i class="legend-line dotted red"></i>历史未满 30 天（z 分数未启用）</span>
+        <span><i class="legend-line dotted gray"></i>该时段无新数据，沿用前值</span>
+        <span><i class="legend-bar"></i>该 15 分钟新增提及量</span>
       </div>
       <div id="main-chart"></div>
     </section>
 
     <section class="leaderboard">
       <div class="leaderboard-col">
-        <h2>Top 10 (24h avg)</h2>
+        <h2>最看涨 Top 10（近 24h 均值）</h2>
         <table id="top-table">
-          <thead><tr><th>Coin</th><th>News</th><th>Social</th></tr></thead>
+          <thead><tr><th>币种</th><th>新闻</th><th>社媒</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
       <div class="leaderboard-col">
-        <h2>Bottom 10 (24h avg)</h2>
+        <h2>最看跌 Top 10（近 24h 均值）</h2>
         <table id="bottom-table">
-          <thead><tr><th>Coin</th><th>News</th><th>Social</th></tr></thead>
+          <thead><tr><th>币种</th><th>新闻</th><th>社媒</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
+      <p class="leaderboard-note">灰色行：近 24h 内提及量过低（单槽 &lt; 3 条）或全部为沿用值，统计意义有限，仅供参考。</p>
+    </section>
+
+    <section class="methodology">
+      <h2>计算方法与数据说明</h2>
+
+      <h3>数据来源（9 个）</h3>
+      <p>
+        新闻通道：RSS 新闻聚合、Google News、Bing News、CryptoPanic、币安公告；
+        社媒通道：Bluesky、StockTwits、Reddit、4chan /biz/。
+        每 15 分钟抓取一次，仅处理文本内容，不使用任何行情价格数据。
+      </p>
+
+      <h3>LLM 打分</h3>
+      <p>
+        每条文本由大模型（当前为 DeepSeek）独立打分：判断与哪些币种相关（或属于市场级新闻），
+        给出方向 v ∈ [-1, +1]（利空到利好）与置信度 c ∈ [0, 1]；社媒文本额外识别"喊单/水军"（is_shill），
+        命中后权重降为 0.2 倍。
+      </p>
+
+      <h3>单币种情绪 SENT</h3>
+      <p class="formula">SENT = Σ(v · c · w · d) / Σ(c · w · d)</p>
+      <table class="param-table">
+        <thead><tr><th>参数</th><th>含义</th><th>取值</th></tr></thead>
+        <tbody>
+          <tr><td>v</td><td>方向（利空 ↔ 利好）</td><td>[-1, +1]</td></tr>
+          <tr><td>c</td><td>LLM 置信度</td><td>[0, 1]</td></tr>
+          <tr><td>w</td><td>来源权重</td><td>币安公告 1.5；RSS/Google/Bing/CryptoPanic 1.0；社媒 0.8；喊单 ×0.2</td></tr>
+          <tr><td>d</td><td>时间衰减（指数半衰）</td><td>新闻半衰期 24h；社媒半衰期 6h；统计窗口 72h</td></tr>
+        </tbody>
+      </table>
+
+      <h3>衍生指标</h3>
+      <table class="param-table">
+        <thead><tr><th>指标</th><th>计算逻辑</th></tr></thead>
+        <tbody>
+          <tr><td>z 分数</td><td>当前 SENT 相对过去 30 天均值的标准化偏离；(SENT − μ₃₀d) / σ₃₀d。历史样本不足 96 个槽位（约 1 天）时不计算，图中以点线表示</td></tr>
+          <tr><td>市场级新闻</td><td>scope = market 的新闻按同一加权衰减公式聚合；窗口为空时沿用上一值</td></tr>
+          <tr><td>全网新闻情绪</td><td>各币种新闻情绪按市值加权后，与市场级新闻按 1 : 0.5 混合并归一化</td></tr>
+          <tr><td>全网社媒情绪</td><td>各币种社媒情绪按市值加权</td></tr>
+          <tr><td>多空广度</td><td>（新闻+社媒均值 &gt; 0.1 的币种占比）−（&lt; −0.1 的币种占比）</td></tr>
+        </tbody>
+      </table>
+
+      <h3>数据完整性规则</h3>
+      <p>
+        每个 15 分钟槽位的"新增提及量"只统计发布时间落在该区间内的文本，绝不混入之前的数据。
+        若某槽位没有新提及，则沿用前一槽位的数值并在图中以<span class="gray-text">灰色点线</span>明确标注，
+        保证曲线连续的同时不伪造新信息。
+      </p>
+
+      <h3>纯度原则与免责声明</h3>
+      <p>
+        本指数完全由文本情绪推导，不掺杂价格、成交量等行情数据，可作为与行情相互独立的交叉验证信号。
+        本项目为开源研究实验，不构成任何投资建议。
+      </p>
     </section>
 
     <footer>
-      <p>Data sources: RSS news, Google News, Bluesky, StockTwits. Sentiment is derived from text only; not financial advice.</p>
+      <p>数据每 15 分钟自动更新（GitHub Actions 调度，可能有几分钟排队延迟） · 纯文本情绪 · 不构成投资建议</p>
     </footer>
   </div>
   <script src="app.js"></script>

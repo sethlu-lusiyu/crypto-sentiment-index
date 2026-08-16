@@ -27,7 +27,7 @@ from src.config import (
 )
 from src.aliases import refresh_aliases
 from src.database import init_db, insert_raw_items, prune_raw_items
-from src.index import aggregate_hour, export_csv_backup, export_json
+from src.index import aggregate_recent, export_csv_backup, export_json
 from src.llm_client import LLMClient, normalize_symbol, scored_at_now
 from src.quality import run_self_check
 from src.utils import clean_text, now_iso
@@ -370,8 +370,8 @@ async def run_pipeline(dry_run: bool = False, source_names: list[str] | None = N
     score_stats = await score_with_llm(conn, coin_manager, dry_run=dry_run)
     print(f"[pipeline] Scoring stats: {score_stats}")
 
-    print("[pipeline] Aggregating hourly index...")
-    agg_stats = aggregate_hour(conn, coin_manager)
+    print("[pipeline] Aggregating 15-minute slots (current + previous)...")
+    agg_stats = aggregate_recent(conn, coin_manager, slots=2)
     print(f"[pipeline] Aggregation stats: {agg_stats}")
 
     print("[pipeline] Exporting JSON...")
@@ -381,12 +381,23 @@ async def run_pipeline(dry_run: bool = False, source_names: list[str] | None = N
     export_stats = export_json(conn, coin_manager, export_ts)
     print(f"[pipeline] Export stats: {export_stats}")
 
-    print("[pipeline] Backing up CSV...")
-    csv_paths = export_csv_backup(conn, export_ts)
-    print(f"[pipeline] CSV backups: {list(csv_paths.keys())}")
+    csv_paths: dict[str, Path] = {}
+    if export_ts.minute == 0:
+        # Full-table CSV snapshots are large; once per hour is enough.
+        print("[pipeline] Backing up CSV (top of hour)...")
+        csv_paths = export_csv_backup(conn, export_ts)
+        print(f"[pipeline] CSV backups: {list(csv_paths.keys())}")
+    else:
+        print("[pipeline] Skipping CSV backup (runs at the top of the hour only)")
 
-    print("[pipeline] Running self-check...")
-    quality_stats = await run_self_check(conn, coin_manager)
+    if export_ts.minute == 0:
+        # Self-check re-scores a sample with the LLM (serial calls); hourly
+        # cadence is enough and protects the per-run call budget.
+        print("[pipeline] Running self-check (top of hour)...")
+        quality_stats = await run_self_check(conn, coin_manager)
+    else:
+        print("[pipeline] Skipping self-check (runs at the top of the hour only)")
+        quality_stats = {"sample_n": 0, "agreement_rate": None, "note": "hourly only"}
     print(f"[pipeline] Self-check: {quality_stats}")
 
     print("[pipeline] Checking alias refresh...")

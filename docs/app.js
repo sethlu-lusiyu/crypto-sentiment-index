@@ -3,8 +3,11 @@
     meta: null,
     overall: [],
     coins: {},
+    coinList: [], // normalized [{symbol, name}]
     selectedCoin: 'BTC',
   };
+
+  const SLOT_MS = 15 * 60 * 1000;
 
   async function loadJSON(url) {
     const resp = await fetch(url);
@@ -22,13 +25,35 @@
     return n > 0 ? 'positive' : n < 0 ? 'negative' : 'neutral';
   }
 
+  function badgeFor(n) {
+    if (n === null || n === undefined || isNaN(n)) return { text: '-', cls: 'neutral' };
+    if (n > 0.05) return { text: '偏多', cls: 'positive' };
+    if (n < -0.05) return { text: '偏空', cls: 'negative' };
+    return { text: '中性', cls: 'neutral' };
+  }
+
+  function tsOf(r) {
+    return new Date(r.ts).getTime();
+  }
+
+  // Find the point closest to (but not after) the target timestamp.
+  function pointAtOrBefore(data, targetMs) {
+    let best = null;
+    for (const d of data) {
+      const t = tsOf(d);
+      if (t <= targetMs && (best === null || t > tsOf(best))) best = d;
+    }
+    return best;
+  }
+
   function drawSparkline(containerId, data, key) {
     const container = document.getElementById(containerId);
     if (!container) return;
     container.innerHTML = '';
     if (!data.length) return;
-    // Spec: mini sparkline covers the last 30 days (~720 hourly points).
-    const recent = data.slice(-720);
+    // Mini trend covers the last 30 days.
+    const cutoff = tsOf(data[data.length - 1]) - 30 * 24 * 3600 * 1000;
+    const recent = data.filter(d => tsOf(d) >= cutoff);
     const vals = recent.map(d => d[key]).filter(v => v !== null && !isNaN(v));
     if (vals.length < 2) return;
     const min = Math.min(...vals);
@@ -52,7 +77,7 @@
     poly.setAttribute('d', path);
     poly.setAttribute('fill', 'none');
     poly.setAttribute('stroke', color);
-    poly.setAttribute('stroke-width', '2');
+    poly.setAttribute('stroke-width', '1.5');
     svg.appendChild(poly);
     container.appendChild(svg);
   }
@@ -60,12 +85,20 @@
   function updateCard(name, key) {
     const data = state.overall;
     if (!data.length) return;
-    const cur = data[data.length - 1][key];
-    const prev = data.length > 24 ? data[data.length - 25][key] : data[0][key];
-    const change = cur - prev;
-    document.getElementById(`value-${name}`).textContent = fmtNum(cur, 3);
+    const latest = data[data.length - 1];
+    const cur = latest[key];
+    // 24h change by timestamp, robust to 15-min slots and gaps.
+    const prevPoint = pointAtOrBefore(data, tsOf(latest) - 24 * 3600 * 1000) || data[0];
+    const change = cur - prevPoint[key];
+    const valueEl = document.getElementById(`value-${name}`);
+    valueEl.textContent = fmtNum(cur, 3);
+    valueEl.className = `card-value ${signClass(cur)}`;
+    const badge = badgeFor(cur);
+    const badgeEl = document.getElementById(`badge-${name}`);
+    badgeEl.textContent = badge.text;
+    badgeEl.className = `badge ${badge.cls}`;
     const changeEl = document.getElementById(`change-${name}`);
-    changeEl.textContent = `${change >= 0 ? '+' : ''}${fmtNum(change, 3)} (24h)`;
+    changeEl.textContent = `24h ${change >= 0 ? '+' : ''}${fmtNum(change, 3)}`;
     changeEl.className = `card-change ${signClass(change)}`;
     drawSparkline(`spark-${name}`, data, key);
   }
@@ -77,15 +110,22 @@
     updateCard('breadth', 'breadth');
   }
 
+  function normalizeCoinList(meta) {
+    // Compatible with both the old format (["BTC", ...]) and the new
+    // format ([{symbol, name}, ...]).
+    return (meta.coins || []).map(c =>
+      typeof c === 'string' ? { symbol: c, name: c } : c
+    );
+  }
+
   function renderCoinSelector() {
     const select = document.getElementById('coin-select');
     select.innerHTML = '';
-    const coins = state.meta.coins || [];
-    coins.forEach(sym => {
+    state.coinList.forEach(c => {
       const opt = document.createElement('option');
-      opt.value = sym;
-      opt.textContent = sym;
-      if (sym === state.selectedCoin) opt.selected = true;
+      opt.value = c.symbol;
+      opt.textContent = c.name && c.name !== c.symbol ? `${c.symbol} · ${c.name}` : c.symbol;
+      if (c.symbol === state.selectedCoin) opt.selected = true;
       select.appendChild(opt);
     });
     select.addEventListener('change', e => {
@@ -95,7 +135,7 @@
     document.getElementById('coin-search').addEventListener('input', e => {
       const q = e.target.value.toUpperCase();
       for (const opt of select.options) {
-        opt.hidden = !opt.value.includes(q);
+        opt.hidden = !opt.textContent.toUpperCase().includes(q);
       }
     });
   }
@@ -105,6 +145,17 @@
     const news = data.filter(r => r.family === 'news');
     const social = data.filter(r => r.family === 'social');
 
+    // Status line: latest values and whether they are carried forward.
+    const statusEl = document.getElementById('coin-status');
+    const latestNews = news.length ? news[news.length - 1] : null;
+    const latestSocial = social.length ? social[social.length - 1] : null;
+    function statusPart(label, rec) {
+      if (!rec) return `${label} 暂无数据`;
+      const carried = rec.confidence_flag === 'carried' ? '（沿用前值）' : '';
+      return `${label} ${fmtNum(rec.sent)}${carried}`;
+    }
+    statusEl.textContent = `当前：${statusPart('新闻', latestNews)} / ${statusPart('社媒', latestSocial)}`;
+
     const container = document.getElementById('main-chart');
     container.innerHTML = '';
     const chart = LightweightCharts.createChart(container, {
@@ -112,74 +163,79 @@
       layout: { background: { color: '#ffffff' }, textColor: '#1f2328' },
       grid: { vertLines: { color: '#eef0f2' }, horzLines: { color: '#eef0f2' } },
       rightPriceScale: { borderColor: '#d0d7de' },
-      timeScale: { borderColor: '#d0d7de', timeVisible: true },
+      timeScale: { borderColor: '#d0d7de', timeVisible: true, secondsVisible: false },
     });
 
+    function toPoint(r) {
+      return { time: Math.floor(tsOf(r) / 1000), value: r.sent };
+    }
+
+    // Split records into segments by rendering class. Priority:
+    // carried (gray dotted) > z-null (family-colored sparse dots) > normal.
+    function splitSegments(records) {
+      const normal = [], znull = [], carried = [];
+      let prev = null;
+      let prevCls = null;
+      for (const r of records) {
+        const cls = r.confidence_flag === 'carried'
+          ? 'carried'
+          : (r.sent_z === null || r.sent_z === undefined) ? 'znull' : 'normal';
+        const pt = toPoint(r);
+        const target = cls === 'carried' ? carried : cls === 'znull' ? znull : normal;
+        if (prev && cls !== prevCls) target.push(prev); // continuity at the transition
+        target.push(pt);
+        prev = pt;
+        prevCls = cls;
+      }
+      return { normal, znull, carried };
+    }
+
+    const newsSplit = splitSegments(news);
+    const socialSplit = splitSegments(social);
+
     const newsLine = chart.addLineSeries({
-      color: '#2e7d32',
-      lineWidth: 2,
-      title: 'News Sentiment',
+      color: '#2e7d32', lineWidth: 2, title: '新闻情绪',
     });
     const socialLine = chart.addLineSeries({
-      color: '#c62828',
-      lineWidth: 2,
-      lineStyle: LightweightCharts.LineStyle.Dashed,
-      title: 'Social Sentiment',
+      color: '#c62828', lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.Dashed, title: '社媒情绪',
     });
+    newsLine.setData(newsSplit.normal);
+    socialLine.setData(socialSplit.normal);
+
+    const newsZNull = chart.addLineSeries({
+      color: '#2e7d32', lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.SparseDotted, title: '新闻（z 未启用）',
+    });
+    const socialZNull = chart.addLineSeries({
+      color: '#c62828', lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.SparseDotted, title: '社媒（z 未启用）',
+    });
+    newsZNull.setData(newsSplit.znull);
+    socialZNull.setData(socialSplit.znull);
+
+    const carriedSeries = chart.addLineSeries({
+      color: '#9fa5ab', lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.SparseDotted, title: '沿用前值（无新数据）',
+    });
+    // Carried points from both families share one gray series; when both
+    // families are carried at the same ts their values are nearly identical,
+    // so merging keeps the chart readable.
+    const carriedMerged = [...newsSplit.carried, ...socialSplit.carried]
+      .sort((a, b) => a.time - b.time)
+      .filter((p, i, arr) => i === 0 || p.time !== arr[i - 1].time);
+    carriedSeries.setData(carriedMerged);
+
     const mentionsSeries = chart.addHistogramSeries({
-      color: '#57606a',
+      color: '#b9bfc7',
       priceFormat: { type: 'volume' },
       priceScaleId: 'mentions',
     });
-    chart.priceScale('mentions').applyOptions({ scaleMargins: { top: 0.7, bottom: 0 } });
-
-    function toCandle(r) {
-      const time = new Date(r.ts).getTime() / 1000;
-      return { time, value: r.sent };
-    }
-
-    // Spec: segments where the 30d z-score is unavailable (sent_z === null)
-    // are drawn as dotted lines. Family style is preserved (news solid /
-    // social dashed); z-null overrides to sparse dots on both.
-    function splitByZ(records) {
-      const solid = [], dotted = [];
-      let prev = null;
-      let prevDotted = false;
-      for (const r of records) {
-        const pt = toCandle(r);
-        const isDotted = r.sent_z === null || r.sent_z === undefined;
-        const target = isDotted ? dotted : solid;
-        if (prev && isDotted !== prevDotted) target.push(prev); // continuity at the transition
-        target.push(pt);
-        prev = pt;
-        prevDotted = isDotted;
-      }
-      return { solid, dotted };
-    }
-
-    const newsSplit = splitByZ(news);
-    const socialSplit = splitByZ(social);
-    newsLine.setData(newsSplit.solid);
-    socialLine.setData(socialSplit.solid);
-
-    const newsZNull = chart.addLineSeries({
-      color: '#2e7d32',
-      lineWidth: 2,
-      lineStyle: LightweightCharts.LineStyle.SparseDotted,
-      title: 'News (z-score pending)',
-    });
-    const socialZNull = chart.addLineSeries({
-      color: '#c62828',
-      lineWidth: 2,
-      lineStyle: LightweightCharts.LineStyle.SparseDotted,
-      title: 'Social (z-score pending)',
-    });
-    newsZNull.setData(newsSplit.dotted);
-    socialZNull.setData(socialSplit.dotted);
+    chart.priceScale('mentions').applyOptions({ scaleMargins: { top: 0.75, bottom: 0 } });
 
     const mentionsMap = new Map();
     [...news, ...social].forEach(r => {
-      const t = new Date(r.ts).getTime() / 1000;
+      const t = Math.floor(tsOf(r) / 1000);
       mentionsMap.set(t, (mentionsMap.get(t) || 0) + (r.mentions || 0));
     });
     const mentionsData = Array.from(mentionsMap.entries())
@@ -191,27 +247,31 @@
   }
 
   function computeLeaderboard() {
-    // Spec: leaderboard ranks the *current 24h* average SENT, not the full history.
+    // Ranks the current 24h average SENT, not the full history.
     const latest = state.overall.length
-      ? new Date(state.overall[state.overall.length - 1].ts).getTime()
+      ? tsOf(state.overall[state.overall.length - 1])
       : Date.now();
     const cutoff = latest - 24 * 3600 * 1000;
     const avg = {};
     Object.entries(state.coins).forEach(([symbol, records]) => {
-      const recent = records.filter(r => new Date(r.ts).getTime() >= cutoff);
+      const recent = records.filter(r => tsOf(r) >= cutoff);
+      if (!recent.length) return;
+      // Fresh points carry real information; carried points are stale echoes.
+      const fresh = recent.filter(r => r.confidence_flag !== 'carried');
+      const used = fresh.length ? fresh : recent;
       const byFamily = { news: [], social: [] };
-      recent.forEach(r => {
+      used.forEach(r => {
         if (byFamily[r.family]) byFamily[r.family].push(r.sent);
       });
       const newsAvg = byFamily.news.length ? byFamily.news.reduce((a, b) => a + b, 0) / byFamily.news.length : null;
       const socialAvg = byFamily.social.length ? byFamily.social.reduce((a, b) => a + b, 0) / byFamily.social.length : null;
       const all = [...byFamily.news, ...byFamily.social];
       const combined = all.length ? all.reduce((a, b) => a + b, 0) / all.length : null;
-      const lowConfidence = recent.length > 0 && recent.every(r => r.confidence_flag === 'low');
-      avg[symbol] = { news: newsAvg, social: socialAvg, combined, lowConfidence };
+      const stale = fresh.length === 0 || fresh.every(r => r.confidence_flag === 'low');
+      avg[symbol] = { news: newsAvg, social: socialAvg, combined, stale };
     });
     const ranked = Object.entries(avg)
-      .filter(([_, v]) => v.combined !== null)
+      .filter(([, v]) => v.combined !== null)
       .sort((a, b) => b[1].combined - a[1].combined);
     return { ranked, avg };
   }
@@ -226,7 +286,7 @@
       tbody.innerHTML = '';
       rows.forEach(([sym, v]) => {
         const tr = document.createElement('tr');
-        if (v.lowConfidence) tr.classList.add('low-confidence');
+        if (v.stale) tr.classList.add('low-confidence');
         tr.innerHTML = `
           <td>${sym}</td>
           <td class="${signClass(v.news)}">${fmtNum(v.news)}</td>
@@ -239,21 +299,37 @@
     fill('bottom-table', bottom);
   }
 
+  function renderHeaderMeta() {
+    const updated = new Date(state.meta.updated_at);
+    document.getElementById('updated-at').textContent =
+      `数据更新于 ${updated.toLocaleString('zh-CN')}`;
+    const q = state.meta.quality_summary || {};
+    const qEl = document.getElementById('quality-info');
+    if (q.agreement_rate !== null && q.agreement_rate !== undefined) {
+      qEl.textContent = `最近自校验一致率 ${(q.agreement_rate * 100).toFixed(0)}%（样本 ${q.sample_n}）`;
+    } else {
+      qEl.textContent = '自校验暂未运行';
+    }
+  }
+
   async function init() {
     state.meta = await loadJSON('data/meta.json');
     state.overall = await loadJSON('data/overall.json');
-    const coinSymbols = state.meta.coins || [];
+    state.coinList = normalizeCoinList(state.meta);
     await Promise.all(
-      coinSymbols.map(async sym => {
+      state.coinList.map(async c => {
         try {
-          state.coins[sym] = await loadJSON(`data/coins/${sym}.json`);
+          state.coins[c.symbol] = await loadJSON(`data/coins/${c.symbol}.json`);
         } catch (e) {
-          state.coins[sym] = [];
+          state.coins[c.symbol] = [];
         }
       })
     );
+    if (!state.coinList.some(c => c.symbol === state.selectedCoin) && state.coinList.length) {
+      state.selectedCoin = state.coinList[0].symbol;
+    }
 
-    document.getElementById('updated-at').textContent = `Updated: ${new Date(state.meta.updated_at).toLocaleString()}`;
+    renderHeaderMeta();
     renderCards();
     renderCoinSelector();
     await loadCoinChart(state.selectedCoin);
@@ -262,6 +338,6 @@
 
   init().catch(err => {
     console.error(err);
-    document.getElementById('updated-at').textContent = 'Error loading data. See console.';
+    document.getElementById('updated-at').textContent = '数据加载失败，请查看控制台。';
   });
 })();
