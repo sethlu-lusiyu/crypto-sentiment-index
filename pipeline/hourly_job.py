@@ -21,6 +21,7 @@ from src.coins import CoinManager
 from src.config import (
     DATABASE_PATH,
     DOCS_DATA_DIR,
+    LLM_CONCURRENCY,
     LLM_MAX_CALLS_PER_RUN,
     MIN_TEXT_LENGTH,
 )
@@ -195,16 +196,27 @@ async def score_with_llm(
         inserted = insert_scores(conn, scores)
         return {"news_scored": len(news_rows), "social_scored": len(social_rows), "inserted": inserted}
 
-    # Real LLM path.
-    news_scored = 0
-    social_scored = 0
+    # Real LLM path — concurrent scoring bounded by a semaphore.
+    # Serial scoring costs ~5s per call; with 10 in flight a full hourly
+    # pass drops from ~15 min to ~2 min at identical token cost.
+    sem = asyncio.Semaphore(LLM_CONCURRENCY)
 
-    for raw_id, title, text in news_rows:
-        if client.call_count >= client.max_calls:
-            print("[pipeline] LLM budget exhausted, skipping remaining news.")
-            break
+    def budget_exhausted() -> bool:
+        return client.call_count >= client.max_calls
+
+    async def call_news(row: tuple[int, str, str]) -> tuple[int, dict[str, Any] | None]:
+        raw_id, title, text = row
         candidates = list(coin_manager.attribution_candidates(text))
-        result = await client.score_news(title, text, candidates)
+        async with sem:
+            if budget_exhausted():
+                return raw_id, None
+            result = await client.score_news(title, text, candidates)
+        return raw_id, result
+
+    news_results = await asyncio.gather(*(call_news(r) for r in news_rows))
+
+    news_scored = 0
+    for raw_id, result in news_results:
         if result is None:
             continue
         scope = result.get("scope", "coin")
@@ -261,20 +273,31 @@ async def score_with_llm(
             )
         news_scored += 1
 
-    # Batch social.
+    # Batch social (also concurrent across batches).
     social_batches = [
         social_rows[i : i + SOCIAL_BATCH_SIZE]
         for i in range(0, len(social_rows), SOCIAL_BATCH_SIZE)
     ]
-    for batch in social_batches:
-        if client.call_count >= client.max_calls:
-            print("[pipeline] LLM budget exhausted, skipping remaining social.")
-            break
+
+    async def call_social(
+        batch: list[tuple[int, str]],
+    ) -> tuple[list[tuple[int, str]], list[dict[str, Any]] | None]:
         posts = [{"id": i, "text": text} for i, (raw_id, text) in enumerate(batch)]
-        id_map = {i: raw_id for i, (raw_id, _) in enumerate(batch)}
         all_text = " ".join(text for _, text in batch)
         candidates = list(coin_manager.attribution_candidates(all_text))
-        results = await client.score_social(posts, candidates)
+        async with sem:
+            if budget_exhausted():
+                return batch, None
+            results = await client.score_social(posts, candidates)
+        return batch, results
+
+    social_results = await asyncio.gather(*(call_social(b) for b in social_batches))
+
+    social_scored = 0
+    for batch, results in social_results:
+        if results is None:
+            continue
+        id_map = {i: raw_id for i, (raw_id, _) in enumerate(batch)}
         for entry in results:
             raw_id = id_map.get(entry["id"])
             if raw_id is None:
@@ -301,6 +324,10 @@ async def score_with_llm(
                     }
                 )
         social_scored += len(batch)
+
+    print(f"[pipeline] LLM calls used: {client.call_count}/{client.max_calls}")
+    if budget_exhausted():
+        print("[pipeline] Budget reached; unscored items stay queued for the next hourly run.")
 
     inserted = insert_scores(conn, scores)
     return {"news_scored": news_scored, "social_scored": social_scored, "inserted": inserted}
