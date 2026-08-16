@@ -37,6 +37,11 @@ FLAG_NORMAL = "normal"
 FLAG_LOW = "low"        # fewer than 3 new mentions in the slot
 FLAG_CARRIED = "carried"  # no new mentions in the slot; value carried forward
 
+# Discount applied when blending market-wide (scope='market') news into each
+# coin's news sentiment. Macro/policy news (Fed, regulation, ETFs) moves all
+# coins, but should not drown out coin-specific evidence.
+MARKET_BLEND = 0.5
+
 
 def _slot_floor(dt: datetime) -> datetime:
     minute = (dt.minute // SLOT_MINUTES) * SLOT_MINUTES
@@ -85,6 +90,9 @@ def aggregate_slot(
     - Slots with zero new mentions carry the previous value forward with
       ``confidence_flag='carried'`` and ``sent_z=None`` so the dashboard can
       mark them explicitly.
+    - Market-wide news (scope='market') is blended into every coin's news
+      channel at MARKET_BLEND weight, so crypto-wide policy/macro events
+      move all coins without drowning out coin-specific evidence.
     """
     if ts is None:
         ts = _slot_floor(datetime.now(timezone.utc))
@@ -127,6 +135,27 @@ def aggregate_slot(
     recent_keys = {(row[0], row[1]) for row in cursor.fetchall()}
     all_keys = set(coin_groups.keys()) | recent_keys
 
+    # Market news index (computed first: coin news sentiment blends it in).
+    # Carry the previous value when the window is empty.
+    market_sent = 0.0
+    market_weight_sum = 0.0
+    for _, family, _, direction, confidence, is_shill, source, published_at in market_rows:
+        d = _decay_hours(published_at, ts, NEWS_HALF_LIFE_HOURS)
+        w = _source_weight(source, bool(is_shill))
+        c = float(confidence or 0)
+        v = float(direction or 0)
+        market_sent += v * c * w * d
+        market_weight_sum += c * w * d
+    if market_weight_sum > 0:
+        market_sent = market_sent / market_weight_sum
+    else:
+        cursor = conn.execute(
+            "SELECT market_news FROM overall_hourly WHERE ts < ? ORDER BY ts DESC LIMIT 1",
+            (ts_iso,),
+        )
+        prev_overall = cursor.fetchone()
+        market_sent = float(prev_overall[0]) if prev_overall else 0.0
+
     index_rows: list[tuple[str, str, str, str, float, float | None, int, str]] = []
     coin_sents: dict[str, dict[str, float]] = {}  # coin -> {news, social}
 
@@ -147,6 +176,16 @@ def aggregate_slot(
             pub_dt = _parse_iso(published_at)
             if ts <= pub_dt < slot_end:
                 slot_mentions += 1
+        # Blend market-wide news into the coin's news channel at a discounted
+        # weight, so crypto-wide policy/macro events nudge every coin.
+        if family == "news":
+            for _, _, _, direction, confidence, is_shill, source, published_at in market_rows:
+                d = _decay_hours(published_at, ts, half_life)
+                w = _source_weight(source, bool(is_shill)) * MARKET_BLEND
+                c = float(confidence or 0)
+                v = float(direction or 0)
+                weighted_sum += v * c * w * d
+                weight_sum += c * w * d
         computed_sent = weighted_sum / weight_sum if weight_sum > 0 else None
 
         # Previous value for carry-forward.
@@ -171,26 +210,6 @@ def aggregate_slot(
 
         index_rows.append((ts_iso, family, "coin", coin, sent, sent_z, slot_mentions, flag))
         coin_sents.setdefault(coin, {})[family] = sent
-
-    # Market news index; carry the previous value when the window is empty.
-    market_sent = 0.0
-    market_weight_sum = 0.0
-    for _, family, _, direction, confidence, is_shill, source, published_at in market_rows:
-        d = _decay_hours(published_at, ts, NEWS_HALF_LIFE_HOURS)
-        w = _source_weight(source, bool(is_shill))
-        c = float(confidence or 0)
-        v = float(direction or 0)
-        market_sent += v * c * w * d
-        market_weight_sum += c * w * d
-    if market_weight_sum > 0:
-        market_sent = market_sent / market_weight_sum
-    else:
-        cursor = conn.execute(
-            "SELECT market_news FROM overall_hourly WHERE ts < ? ORDER BY ts DESC LIMIT 1",
-            (ts_iso,),
-        )
-        prev_overall = cursor.fetchone()
-        market_sent = float(prev_overall[0]) if prev_overall else 0.0
 
     # Overall indices.
     overall_news, overall_social, breadth = _compute_overall(

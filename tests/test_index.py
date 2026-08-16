@@ -163,6 +163,33 @@ def test_z_score_excludes_carried_history(conn, manager) -> None:
     assert sent_z is None  # all 100 history rows were carried => excluded
 
 
+def test_market_news_blends_into_coin_sent(conn, manager) -> None:
+    """A market-scope item must move the coin's news sentiment at half weight.
+
+    coin-scope +1.0 (w=1) + market-scope -1.0 (w=0.5), same timestamp:
+    expected = (1*1 + (-1)*0.5) / (1 + 0.5) = 1/3.
+    """
+    t = SLOT + timedelta(minutes=5)
+    add_scored_item(conn, t, coin="BTC", scope="coin", direction=1.0)
+    add_scored_item(conn, t, coin="MARKET", scope="market", direction=-1.0)
+    stats = aggregate_slot(conn, manager, SLOT)
+    sent, _, mentions, _ = get_index_row(conn, SLOT, "news", "BTC")
+    assert sent == pytest.approx(1 / 3, abs=1e-6)
+    assert mentions == 1  # market rows never count as coin mentions
+    assert stats["market_news"] == pytest.approx(-1.0)
+
+
+def test_market_blend_does_not_touch_social(conn, manager) -> None:
+    """Market-scope news must not leak into the social channel."""
+    t = SLOT + timedelta(minutes=5)
+    add_scored_item(conn, t, coin="BTC", family="social", scope="coin",
+                    direction=0.8, source="bluesky")
+    add_scored_item(conn, t, coin="MARKET", scope="market", direction=-1.0)
+    aggregate_slot(conn, manager, SLOT)
+    sent, _, _, _ = get_index_row(conn, SLOT, "social", "BTC")
+    assert sent == pytest.approx(0.8)
+
+
 def test_export_downsampling() -> None:
     now = datetime(2026, 8, 16, 12, 0, tzinfo=UTC)
     records = [

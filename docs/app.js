@@ -7,8 +7,6 @@
     selectedCoin: 'BTC',
   };
 
-  const SLOT_MS = 15 * 60 * 1000;
-
   async function loadJSON(url) {
     const resp = await fetch(url);
     if (!resp.ok) throw new Error(`Failed to load ${url}: ${resp.status}`);
@@ -130,7 +128,7 @@
     });
     select.addEventListener('change', e => {
       state.selectedCoin = e.target.value;
-      loadCoinChart(state.selectedCoin);
+      loadCoinCharts(state.selectedCoin);
     });
     document.getElementById('coin-search').addEventListener('input', e => {
       const q = e.target.value.toUpperCase();
@@ -140,7 +138,78 @@
     });
   }
 
-  async function loadCoinChart(symbol) {
+  function toPoint(r) {
+    return { time: Math.floor(tsOf(r) / 1000), value: r.sent };
+  }
+
+  // Split records into segments by rendering class. Priority:
+  // carried (gray dotted) > z-null (family-colored sparse dots) > normal.
+  function splitSegments(records) {
+    const normal = [], znull = [], carried = [];
+    let prev = null;
+    let prevCls = null;
+    for (const r of records) {
+      const cls = r.confidence_flag === 'carried'
+        ? 'carried'
+        : (r.sent_z === null || r.sent_z === undefined) ? 'znull' : 'normal';
+      const pt = toPoint(r);
+      const target = cls === 'carried' ? carried : cls === 'znull' ? znull : normal;
+      if (prev && cls !== prevCls) target.push(prev); // continuity at the transition
+      target.push(pt);
+      prev = pt;
+      prevCls = cls;
+    }
+    return { normal, znull, carried };
+  }
+
+  // Build one family chart (news or social) into the given container.
+  function buildFamilyChart(containerId, records, color, lineStyle, title) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+    const chart = LightweightCharts.createChart(container, {
+      height: 320,
+      layout: { background: { color: '#ffffff' }, textColor: '#1f2328' },
+      grid: { vertLines: { color: '#eef0f2' }, horzLines: { color: '#eef0f2' } },
+      rightPriceScale: { borderColor: '#d0d7de' },
+      timeScale: { borderColor: '#d0d7de', timeVisible: true, secondsVisible: false },
+    });
+
+    const split = splitSegments(records);
+
+    const mainLine = chart.addLineSeries({ color, lineWidth: 2, lineStyle, title });
+    mainLine.setData(split.normal);
+
+    const zNullLine = chart.addLineSeries({
+      color, lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.SparseDotted,
+      title: `${title}（z 未启用）`,
+    });
+    zNullLine.setData(split.znull);
+
+    const carriedLine = chart.addLineSeries({
+      color: '#9fa5ab', lineWidth: 2,
+      lineStyle: LightweightCharts.LineStyle.SparseDotted,
+      title: '沿用前值（无新数据）',
+    });
+    carriedLine.setData(split.carried);
+
+    const mentionsSeries = chart.addHistogramSeries({
+      color: '#b9bfc7',
+      priceFormat: { type: 'volume' },
+      priceScaleId: 'mentions',
+    });
+    chart.priceScale('mentions').applyOptions({ scaleMargins: { top: 0.75, bottom: 0 } });
+    mentionsSeries.setData(
+      records
+        .map(r => ({ time: Math.floor(tsOf(r) / 1000), value: r.mentions || 0 }))
+        .sort((a, b) => a.time - b.time)
+    );
+
+    chart.timeScale().fitContent();
+    return chart;
+  }
+
+  async function loadCoinCharts(symbol) {
     const data = await loadJSON(`data/coins/${symbol}.json`);
     const news = data.filter(r => r.family === 'news');
     const social = data.filter(r => r.family === 'social');
@@ -156,94 +225,14 @@
     }
     statusEl.textContent = `当前：${statusPart('新闻', latestNews)} / ${statusPart('社媒', latestSocial)}`;
 
-    const container = document.getElementById('main-chart');
-    container.innerHTML = '';
-    const chart = LightweightCharts.createChart(container, {
-      height: 420,
-      layout: { background: { color: '#ffffff' }, textColor: '#1f2328' },
-      grid: { vertLines: { color: '#eef0f2' }, horzLines: { color: '#eef0f2' } },
-      rightPriceScale: { borderColor: '#d0d7de' },
-      timeScale: { borderColor: '#d0d7de', timeVisible: true, secondsVisible: false },
-    });
-
-    function toPoint(r) {
-      return { time: Math.floor(tsOf(r) / 1000), value: r.sent };
-    }
-
-    // Split records into segments by rendering class. Priority:
-    // carried (gray dotted) > z-null (family-colored sparse dots) > normal.
-    function splitSegments(records) {
-      const normal = [], znull = [], carried = [];
-      let prev = null;
-      let prevCls = null;
-      for (const r of records) {
-        const cls = r.confidence_flag === 'carried'
-          ? 'carried'
-          : (r.sent_z === null || r.sent_z === undefined) ? 'znull' : 'normal';
-        const pt = toPoint(r);
-        const target = cls === 'carried' ? carried : cls === 'znull' ? znull : normal;
-        if (prev && cls !== prevCls) target.push(prev); // continuity at the transition
-        target.push(pt);
-        prev = pt;
-        prevCls = cls;
-      }
-      return { normal, znull, carried };
-    }
-
-    const newsSplit = splitSegments(news);
-    const socialSplit = splitSegments(social);
-
-    const newsLine = chart.addLineSeries({
-      color: '#2e7d32', lineWidth: 2, title: '新闻情绪',
-    });
-    const socialLine = chart.addLineSeries({
-      color: '#c62828', lineWidth: 2,
-      lineStyle: LightweightCharts.LineStyle.Dashed, title: '社媒情绪',
-    });
-    newsLine.setData(newsSplit.normal);
-    socialLine.setData(socialSplit.normal);
-
-    const newsZNull = chart.addLineSeries({
-      color: '#2e7d32', lineWidth: 2,
-      lineStyle: LightweightCharts.LineStyle.SparseDotted, title: '新闻（z 未启用）',
-    });
-    const socialZNull = chart.addLineSeries({
-      color: '#c62828', lineWidth: 2,
-      lineStyle: LightweightCharts.LineStyle.SparseDotted, title: '社媒（z 未启用）',
-    });
-    newsZNull.setData(newsSplit.znull);
-    socialZNull.setData(socialSplit.znull);
-
-    const carriedSeries = chart.addLineSeries({
-      color: '#9fa5ab', lineWidth: 2,
-      lineStyle: LightweightCharts.LineStyle.SparseDotted, title: '沿用前值（无新数据）',
-    });
-    // Carried points from both families share one gray series; when both
-    // families are carried at the same ts their values are nearly identical,
-    // so merging keeps the chart readable.
-    const carriedMerged = [...newsSplit.carried, ...socialSplit.carried]
-      .sort((a, b) => a.time - b.time)
-      .filter((p, i, arr) => i === 0 || p.time !== arr[i - 1].time);
-    carriedSeries.setData(carriedMerged);
-
-    const mentionsSeries = chart.addHistogramSeries({
-      color: '#b9bfc7',
-      priceFormat: { type: 'volume' },
-      priceScaleId: 'mentions',
-    });
-    chart.priceScale('mentions').applyOptions({ scaleMargins: { top: 0.75, bottom: 0 } });
-
-    const mentionsMap = new Map();
-    [...news, ...social].forEach(r => {
-      const t = Math.floor(tsOf(r) / 1000);
-      mentionsMap.set(t, (mentionsMap.get(t) || 0) + (r.mentions || 0));
-    });
-    const mentionsData = Array.from(mentionsMap.entries())
-      .map(([time, value]) => ({ time, value }))
-      .sort((a, b) => a.time - b.time);
-    mentionsSeries.setData(mentionsData);
-
-    chart.timeScale().fitContent();
+    buildFamilyChart(
+      'chart-news', news, '#2e7d32',
+      LightweightCharts.LineStyle.Solid, '新闻情绪'
+    );
+    buildFamilyChart(
+      'chart-social', social, '#c62828',
+      LightweightCharts.LineStyle.Solid, '社媒情绪'
+    );
   }
 
   function computeLeaderboard() {
@@ -332,7 +321,7 @@
     renderHeaderMeta();
     renderCards();
     renderCoinSelector();
-    await loadCoinChart(state.selectedCoin);
+    await loadCoinCharts(state.selectedCoin);
     renderLeaderboard();
   }
 

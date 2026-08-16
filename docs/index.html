@@ -62,14 +62,28 @@
         <input type="text" id="coin-search" placeholder="搜索币种…">
         <span id="coin-status" class="coin-status"></span>
       </div>
-      <div class="chart-legend">
-        <span><i class="legend-line solid green"></i>新闻情绪</span>
-        <span><i class="legend-line dashed red"></i>社媒情绪</span>
-        <span><i class="legend-line dotted green"></i><i class="legend-line dotted red"></i>历史未满 30 天（z 分数未启用）</span>
-        <span><i class="legend-line dotted gray"></i>该时段无新数据，沿用前值</span>
-        <span><i class="legend-bar"></i>该 15 分钟新增提及量</span>
+
+      <div class="chart-block">
+        <h3 class="chart-title">新闻情绪 <span class="chart-title-en">News（含市场级政策/宏观新闻 0.5 权重混合）</span></h3>
+        <div class="chart-legend">
+          <span><i class="legend-line solid green"></i>有效数据</span>
+          <span><i class="legend-line dotted green"></i>历史未满 30 天（z 分数未启用）</span>
+          <span><i class="legend-line dotted gray"></i>该时段无新数据，沿用前值</span>
+          <span><i class="legend-bar"></i>该 15 分钟新增提及量</span>
+        </div>
+        <div id="chart-news"></div>
       </div>
-      <div id="main-chart"></div>
+
+      <div class="chart-block">
+        <h3 class="chart-title">社媒情绪 <span class="chart-title-en">Social（已按喊单识别降权）</span></h3>
+        <div class="chart-legend">
+          <span><i class="legend-line solid red"></i>有效数据</span>
+          <span><i class="legend-line dotted red"></i>历史未满 30 天（z 分数未启用）</span>
+          <span><i class="legend-line dotted gray"></i>该时段无新数据，沿用前值</span>
+          <span><i class="legend-bar"></i>该 15 分钟新增提及量</span>
+        </div>
+        <div id="chart-social"></div>
+      </div>
     </section>
 
     <section class="leaderboard">
@@ -108,7 +122,12 @@
       </p>
 
       <h3>单币种情绪 SENT</h3>
-      <p class="formula">SENT = Σ(v · c · w · d) / Σ(c · w · d)</p>
+      <p class="formula">SENT = [ Σ<sub>币种</sub>(v·c·w·d) + 0.5 · Σ<sub>市场级</sub>(v·c·w·d) ] / [ Σ<sub>币种</sub>(c·w·d) + 0.5 · Σ<sub>市场级</sub>(c·w·d) ]</p>
+      <p>
+        其中"市场级"指宏观、监管、ETF 等影响整个加密市场的新闻（scope = market）——它们以 0.5 的折扣权重
+        并入<strong>每个币种的新闻通道</strong>，保证美联储决议、重大监管政策这类事件会同时反映到所有币种上，
+        又不会淹没币种自身的消息。社媒通道不混入市场级新闻。
+      </p>
       <table class="param-table">
         <thead><tr><th>参数</th><th>含义</th><th>取值</th></tr></thead>
         <tbody>
@@ -124,7 +143,7 @@
         <thead><tr><th>指标</th><th>计算逻辑</th></tr></thead>
         <tbody>
           <tr><td>z 分数</td><td>当前 SENT 相对过去 30 天均值的标准化偏离；(SENT − μ₃₀d) / σ₃₀d。历史样本不足 96 个槽位（约 1 天）时不计算，图中以点线表示</td></tr>
-          <tr><td>市场级新闻</td><td>scope = market 的新闻按同一加权衰减公式聚合；窗口为空时沿用上一值</td></tr>
+          <tr><td>市场级新闻</td><td>scope = market 的新闻按同一加权衰减公式聚合；窗口为空时沿用上一值；同时以 0.5 权重并入每个币种的新闻情绪</td></tr>
           <tr><td>全网新闻情绪</td><td>各币种新闻情绪按市值加权后，与市场级新闻按 1 : 0.5 混合并归一化</td></tr>
           <tr><td>全网社媒情绪</td><td>各币种社媒情绪按市值加权</td></tr>
           <tr><td>多空广度</td><td>（新闻+社媒均值 &gt; 0.1 的币种占比）−（&lt; −0.1 的币种占比）</td></tr>

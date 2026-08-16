@@ -217,24 +217,24 @@
       "name": "BFUSD"
     },
     {
-      "symbol": "MORPHO",
-      "name": "Morpho"
-    },
-    {
       "symbol": "DOT",
       "name": "Polkadot"
+    },
+    {
+      "symbol": "MORPHO",
+      "name": "Morpho"
     },
     {
       "symbol": "WLD",
       "name": "Worldcoin"
     },
     {
-      "symbol": "ICP",
-      "name": "Internet Computer"
-    },
-    {
       "symbol": "U",
       "name": "United Stables"
+    },
+    {
+      "symbol": "ICP",
+      "name": "Internet Computer"
     },
     {
       "symbol": "USDGO",
@@ -385,12 +385,12 @@
       "name": "TrueUSD"
     },
     {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)"
-    },
-    {
       "symbol": "ARB",
       "name": "Arbitrum"
+    },
+    {
+      "symbol": "币安人生",
+      "name": "币安人生 (BinanceLife)"
     },
     {
       "symbol": "EURC",
@@ -401,12 +401,12 @@
       "name": "A7A5"
     },
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
-    },
-    {
       "symbol": "CAKE",
       "name": "PancakeSwap"
+    },
+    {
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
     },
     {
       "symbol": "APT",
@@ -477,12 +477,12 @@
       "name": "Humanity"
     },
     {
-      "symbol": "BSV",
-      "name": "Bitcoin SV"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "BSV",
+      "name": "Bitcoin SV"
     },
     {
       "symbol": "APXUSD",
@@ -497,12 +497,12 @@
       "name": "SPX6900"
     },
     {
-      "symbol": "BC",
-      "name": "BCGame Coin"
-    },
-    {
       "symbol": "UB",
       "name": "Unibase"
+    },
+    {
+      "symbol": "BC",
+      "name": "BCGame Coin"
     },
     {
       "symbol": "TIA",
@@ -577,10 +577,6 @@
       "name": "Stacks"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "KITE",
       "name": "Kite"
     },
@@ -591,6 +587,10 @@
     {
       "symbol": "CFX",
       "name": "Conflux"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "FRAX",
@@ -661,12 +661,12 @@
       "name": "JasmyCoin"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
       "symbol": "TIBBIR",
       "name": "Ribbita by Virtuals"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "FGRS",
@@ -757,12 +757,12 @@
       "name": "MX"
     },
     {
-      "symbol": "SAFO",
-      "name": "Spiko Amundi Overnight Swap Fund"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
+    },
+    {
+      "symbol": "SAFO",
+      "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
       "symbol": "EIGEN",
@@ -801,7 +801,7 @@
       "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-16T05:43:07.076189+00:00",
+  "updated_at": "2026-08-16T05:53:50.341719+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 1,
