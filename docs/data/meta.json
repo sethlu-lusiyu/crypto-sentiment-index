@@ -217,32 +217,32 @@
       "name": "BFUSD"
     },
     {
-      "symbol": "MORPHO",
-      "name": "Morpho"
-    },
-    {
       "symbol": "DOT",
       "name": "Polkadot"
     },
     {
-      "symbol": "WLD",
-      "name": "Worldcoin"
+      "symbol": "MORPHO",
+      "name": "Morpho"
     },
     {
       "symbol": "ICP",
       "name": "Internet Computer"
     },
     {
+      "symbol": "WLD",
+      "name": "Worldcoin"
+    },
+    {
       "symbol": "U",
       "name": "United Stables"
     },
     {
-      "symbol": "USDGO",
-      "name": "USDGO"
-    },
-    {
       "symbol": "SKY",
       "name": "Sky"
+    },
+    {
+      "symbol": "USDGO",
+      "name": "USDGO"
     },
     {
       "symbol": "BGB",
@@ -297,12 +297,12 @@
       "name": "Quant"
     },
     {
-      "symbol": "ENA",
-      "name": "Ethena"
-    },
-    {
       "symbol": "BTW",
       "name": "Bitway"
+    },
+    {
+      "symbol": "ENA",
+      "name": "Ethena"
     },
     {
       "symbol": "POL",
@@ -385,12 +385,12 @@
       "name": "TrueUSD"
     },
     {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)"
-    },
-    {
       "symbol": "ARB",
       "name": "Arbitrum"
+    },
+    {
+      "symbol": "币安人生",
+      "name": "币安人生 (BinanceLife)"
     },
     {
       "symbol": "EURC",
@@ -425,10 +425,6 @@
       "name": "Aerodrome Finance"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "VET",
       "name": "VeChain"
     },
@@ -437,12 +433,16 @@
       "name": "Dash"
     },
     {
+      "symbol": "OUSG",
+      "name": "Ondo Short-Term U.S. Government Bond Fund"
+    },
+    {
       "symbol": "PENGU",
       "name": "Pudgy Penguins"
     },
     {
-      "symbol": "OUSG",
-      "name": "Ondo Short-Term U.S. Government Bond Fund"
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "CRV",
@@ -497,40 +497,40 @@
       "name": "SPX6900"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
-    },
-    {
       "symbol": "BC",
       "name": "BCGame Coin"
     },
     {
-      "symbol": "TIA",
-      "name": "Celestia"
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
-      "symbol": "NFT",
-      "name": "AINFT"
+      "symbol": "TIA",
+      "name": "Celestia"
     },
     {
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance"
+      "symbol": "NFT",
+      "name": "AINFT"
     },
     {
       "symbol": "OHM",
       "name": "Olympus"
     },
     {
-      "symbol": "GNO",
-      "name": "Gnosis"
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance"
     },
     {
       "symbol": "ZRO",
       "name": "LayerZero"
+    },
+    {
+      "symbol": "GNO",
+      "name": "Gnosis"
     },
     {
       "symbol": "SEI",
@@ -565,6 +565,10 @@
       "name": "RealLink"
     },
     {
+      "symbol": "AKE",
+      "name": "Akedo"
+    },
+    {
       "symbol": "KAG",
       "name": "Kinesis Silver"
     },
@@ -587,10 +591,6 @@
     {
       "symbol": "CFX",
       "name": "Conflux"
-    },
-    {
-      "symbol": "AKE",
-      "name": "Akedo"
     },
     {
       "symbol": "FRAX",
@@ -629,12 +629,12 @@
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
-      "symbol": "ULTIMA",
-      "name": "Ultima"
-    },
-    {
       "symbol": "FF",
       "name": "Falcon Finance"
+    },
+    {
+      "symbol": "ULTIMA",
+      "name": "Ultima"
     },
     {
       "symbol": "REUSD",
@@ -645,12 +645,12 @@
       "name": "FLOKI"
     },
     {
-      "symbol": "OP",
-      "name": "Optimism"
-    },
-    {
       "symbol": "APEPE",
       "name": "Ape and Pepe"
+    },
+    {
+      "symbol": "OP",
+      "name": "Optimism"
     },
     {
       "symbol": "VBILL",
@@ -661,16 +661,16 @@
       "name": "JasmyCoin"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
-    },
-    {
       "symbol": "SYRUP",
       "name": "Maple Finance"
     },
     {
       "symbol": "FGRS",
       "name": "FGRS (Figure Tokenized Stock)"
+    },
+    {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "USAT",
@@ -697,12 +697,12 @@
       "name": "Ethereum Name Service"
     },
     {
-      "symbol": "2Z",
-      "name": "DoubleZero"
-    },
-    {
       "symbol": "RAY",
       "name": "Raydium"
+    },
+    {
+      "symbol": "2Z",
+      "name": "DoubleZero"
     },
     {
       "symbol": "EURCV",
@@ -765,20 +765,20 @@
       "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
-      "symbol": "EIGEN",
-      "name": "EigenCloud (prev. EigenLayer)"
-    },
-    {
       "symbol": "B",
       "name": "BUILDon"
     },
     {
-      "symbol": "IOTA",
-      "name": "IOTA"
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)"
     },
     {
       "symbol": "WOULD",
       "name": "would"
+    },
+    {
+      "symbol": "IOTA",
+      "name": "IOTA"
     },
     {
       "symbol": "TEL",
@@ -801,7 +801,7 @@
       "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-16T06:16:07.174293+00:00",
+  "updated_at": "2026-08-16T07:05:51.737019+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
