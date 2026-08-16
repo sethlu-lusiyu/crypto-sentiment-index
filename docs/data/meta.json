@@ -393,16 +393,16 @@
       "name": "Arbitrum"
     },
     {
+      "symbol": "VELVET",
+      "name": "Velvet"
+    },
+    {
       "symbol": "EURC",
       "name": "EURC"
     },
     {
       "symbol": "ETHFI",
       "name": "Ether.fi"
-    },
-    {
-      "symbol": "VELVET",
-      "name": "Velvet"
     },
     {
       "symbol": "CAKE",
@@ -433,12 +433,12 @@
       "name": "VeChain"
     },
     {
-      "symbol": "DASH",
-      "name": "Dash"
-    },
-    {
       "symbol": "CRV",
       "name": "Curve DAO"
+    },
+    {
+      "symbol": "DASH",
+      "name": "Dash"
     },
     {
       "symbol": "PENGU",
@@ -497,28 +497,28 @@
       "name": "SPX6900"
     },
     {
-      "symbol": "BC",
-      "name": "BCGame Coin"
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
-    },
-    {
       "symbol": "TIA",
       "name": "Celestia"
     },
     {
-      "symbol": "NFT",
-      "name": "AINFT"
+      "symbol": "BC",
+      "name": "BCGame Coin"
     },
     {
       "symbol": "FET",
       "name": "Artificial Superintelligence Alliance"
+    },
+    {
+      "symbol": "NFT",
+      "name": "AINFT"
     },
     {
       "symbol": "OHM",
@@ -585,10 +585,6 @@
       "name": "Pendle"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "CFX",
       "name": "Conflux"
     },
@@ -597,12 +593,12 @@
       "name": "Legacy Frax Dollar"
     },
     {
-      "symbol": "XTZ",
-      "name": "Tezos"
-    },
-    {
       "symbol": "GRASS",
       "name": "Grass"
+    },
+    {
+      "symbol": "XTZ",
+      "name": "Tezos"
     },
     {
       "symbol": "CRVUSD",
@@ -611,6 +607,10 @@
     {
       "symbol": "AUSD",
       "name": "AUSD"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "DCR",
@@ -633,12 +633,12 @@
       "name": "Falcon Finance"
     },
     {
-      "symbol": "FLOKI",
-      "name": "FLOKI"
-    },
-    {
       "symbol": "REUSD",
       "name": "Re Protocol reUSD"
+    },
+    {
+      "symbol": "FLOKI",
+      "name": "FLOKI"
     },
     {
       "symbol": "OP",
@@ -713,12 +713,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "PC0000033",
-      "name": "Tradable APAC Diversified Finance Provider SSTN"
-    },
-    {
       "symbol": "COMP",
       "name": "Compound"
+    },
+    {
+      "symbol": "PC0000033",
+      "name": "Tradable APAC Diversified Finance Provider SSTN"
     },
     {
       "symbol": "USTBL",
@@ -749,16 +749,20 @@
       "name": "Axie Infinity"
     },
     {
-      "symbol": "GUSD",
-      "name": "GUSD"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
+      "symbol": "GUSD",
+      "name": "GUSD"
+    },
+    {
       "symbol": "MX",
       "name": "MX"
+    },
+    {
+      "symbol": "B",
+      "name": "BUILDon"
     },
     {
       "symbol": "EIGEN",
@@ -769,20 +773,16 @@
       "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
-      "symbol": "B",
-      "name": "BUILDon"
-    },
-    {
       "symbol": "IOTA",
       "name": "IOTA"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
       "symbol": "WOULD",
       "name": "would"
+    },
+    {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
     },
     {
       "symbol": "BEAT",
@@ -801,7 +801,7 @@
       "name": "THORChain"
     }
   ],
-  "updated_at": "2026-08-16T08:52:27.604397+00:00",
+  "updated_at": "2026-08-16T09:16:54.575150+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
