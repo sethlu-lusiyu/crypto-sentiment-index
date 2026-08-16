@@ -361,12 +361,12 @@
       "name": "Venice Token"
     },
     {
-      "symbol": "JUP",
-      "name": "Jupiter"
-    },
-    {
       "symbol": "FIL",
       "name": "Filecoin"
+    },
+    {
+      "symbol": "JUP",
+      "name": "Jupiter"
     },
     {
       "symbol": "USD0",
@@ -397,12 +397,12 @@
       "name": "Velvet"
     },
     {
-      "symbol": "EURC",
-      "name": "EURC"
-    },
-    {
       "symbol": "ETHFI",
       "name": "Ether.fi"
+    },
+    {
+      "symbol": "EURC",
+      "name": "EURC"
     },
     {
       "symbol": "CAKE",
@@ -473,16 +473,16 @@
       "name": "Kinesis Gold"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
     },
     {
       "symbol": "BSV",
       "name": "Bitcoin SV"
+    },
+    {
+      "symbol": "H",
+      "name": "Humanity"
     },
     {
       "symbol": "APXUSD",
@@ -601,6 +601,10 @@
       "name": "Tezos"
     },
     {
+      "symbol": "AKE",
+      "name": "Akedo"
+    },
+    {
       "symbol": "CRVUSD",
       "name": "crvUSD"
     },
@@ -611,10 +615,6 @@
     {
       "symbol": "DCR",
       "name": "Decred"
-    },
-    {
-      "symbol": "AKE",
-      "name": "Akedo"
     },
     {
       "symbol": "XPL",
@@ -653,20 +653,16 @@
       "name": "VanEck Treasury Fund"
     },
     {
-      "symbol": "APEPE",
-      "name": "Ape and Pepe"
-    },
-    {
       "symbol": "ULTIMA",
       "name": "Ultima"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
+      "symbol": "APEPE",
+      "name": "Ape and Pepe"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "FGRS",
@@ -675,6 +671,10 @@
     {
       "symbol": "USAT",
       "name": "USAT"
+    },
+    {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "KOGE",
@@ -713,12 +713,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "COMP",
-      "name": "Compound"
-    },
-    {
       "symbol": "PC0000033",
       "name": "Tradable APAC Diversified Finance Provider SSTN"
+    },
+    {
+      "symbol": "COMP",
+      "name": "Compound"
     },
     {
       "symbol": "USTBL",
@@ -765,20 +765,20 @@
       "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
+      "symbol": "B",
+      "name": "BUILDon"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "B",
-      "name": "BUILDon"
-    },
-    {
       "symbol": "IOTA",
       "name": "IOTA"
+    },
+    {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
     },
     {
       "symbol": "WOULD",
@@ -797,11 +797,11 @@
       "name": "THORChain"
     },
     {
-      "symbol": "BORG",
-      "name": "SwissBorg"
+      "symbol": "THETA",
+      "name": "Theta Network"
     }
   ],
-  "updated_at": "2026-08-16T09:47:48.953664+00:00",
+  "updated_at": "2026-08-16T10:05:35.231506+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
