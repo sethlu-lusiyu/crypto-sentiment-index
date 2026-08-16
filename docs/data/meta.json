@@ -169,12 +169,12 @@
       "name": "PAX Gold"
     },
     {
-      "symbol": "TAO",
-      "name": "Bittensor"
-    },
-    {
       "symbol": "WLFI",
       "name": "World Liberty Financial"
+    },
+    {
+      "symbol": "TAO",
+      "name": "Bittensor"
     },
     {
       "symbol": "RLUSD",
@@ -329,12 +329,12 @@
       "name": "Gate"
     },
     {
-      "symbol": "NEXO",
-      "name": "NEXO"
-    },
-    {
       "symbol": "JAAA",
       "name": "Janus Henderson Anemoy AAA CLO Fund"
+    },
+    {
+      "symbol": "NEXO",
+      "name": "NEXO"
     },
     {
       "symbol": "GHO",
@@ -361,12 +361,12 @@
       "name": "Venice Token"
     },
     {
-      "symbol": "JUP",
-      "name": "Jupiter"
-    },
-    {
       "symbol": "FIL",
       "name": "Filecoin"
+    },
+    {
+      "symbol": "JUP",
+      "name": "Jupiter"
     },
     {
       "symbol": "USD0",
@@ -393,12 +393,12 @@
       "name": "Arbitrum"
     },
     {
-      "symbol": "EURC",
-      "name": "EURC"
-    },
-    {
       "symbol": "ETHFI",
       "name": "Ether.fi"
+    },
+    {
+      "symbol": "EURC",
+      "name": "EURC"
     },
     {
       "symbol": "CAKE",
@@ -473,6 +473,10 @@
       "name": "Kinesis Gold"
     },
     {
+      "symbol": "H",
+      "name": "Humanity"
+    },
+    {
       "symbol": "PYTH",
       "name": "Pyth Network"
     },
@@ -489,16 +493,12 @@
       "name": "Jito"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "SPX",
       "name": "SPX6900"
-    },
-    {
-      "symbol": "UB",
-      "name": "Unibase"
     },
     {
       "symbol": "NIGHT",
@@ -601,10 +601,6 @@
       "name": "Tezos"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "CRVUSD",
       "name": "crvUSD"
     },
@@ -617,6 +613,10 @@
       "name": "Decred"
     },
     {
+      "symbol": "AKE",
+      "name": "Akedo"
+    },
+    {
       "symbol": "XPL",
       "name": "Plasma"
     },
@@ -625,12 +625,12 @@
       "name": "Bonk"
     },
     {
-      "symbol": "PC0000031",
-      "name": "Tradable NA Rent Financing Platform SSTN"
-    },
-    {
       "symbol": "FF",
       "name": "Falcon Finance"
+    },
+    {
+      "symbol": "PC0000031",
+      "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
       "symbol": "REUSD",
@@ -641,10 +641,6 @@
       "name": "FLOKI"
     },
     {
-      "symbol": "JASMY",
-      "name": "JasmyCoin"
-    },
-    {
       "symbol": "OP",
       "name": "Optimism"
     },
@@ -653,12 +649,16 @@
       "name": "Ultima"
     },
     {
-      "symbol": "VBILL",
-      "name": "VanEck Treasury Fund"
+      "symbol": "JASMY",
+      "name": "JasmyCoin"
     },
     {
       "symbol": "APEPE",
       "name": "Ape and Pepe"
+    },
+    {
+      "symbol": "VBILL",
+      "name": "VanEck Treasury Fund"
     },
     {
       "symbol": "SYRUP",
@@ -741,16 +741,16 @@
       "name": "Akash Network"
     },
     {
-      "symbol": "CVX",
-      "name": "Convex Finance"
-    },
-    {
       "symbol": "BTSE",
       "name": "BTSE Token"
     },
     {
       "symbol": "AXS",
       "name": "Axie Infinity"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Convex Finance"
     },
     {
       "symbol": "MX",
@@ -765,6 +765,10 @@
       "name": "BUILDon"
     },
     {
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)"
+    },
+    {
       "symbol": "SAFO",
       "name": "Spiko Amundi Overnight Swap Fund"
     },
@@ -773,16 +777,16 @@
       "name": "Strategy PP Variable xStock"
     },
     {
-      "symbol": "EIGEN",
-      "name": "EigenCloud (prev. EigenLayer)"
-    },
-    {
       "symbol": "IOTA",
       "name": "IOTA"
     },
     {
       "symbol": "WOULD",
       "name": "would"
+    },
+    {
+      "symbol": "BEAT",
+      "name": "Audiera"
     },
     {
       "symbol": "TEL",
@@ -795,13 +799,9 @@
     {
       "symbol": "RUNE",
       "name": "THORChain"
-    },
-    {
-      "symbol": "BEAT",
-      "name": "Audiera"
     }
   ],
-  "updated_at": "2026-08-16T10:55:58.227268+00:00",
+  "updated_at": "2026-08-16T11:31:05.978487+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
