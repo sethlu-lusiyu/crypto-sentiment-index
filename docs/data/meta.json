@@ -165,12 +165,12 @@
       "name": "Uniswap"
     },
     {
-      "symbol": "PAXG",
-      "name": "PAX Gold"
-    },
-    {
       "symbol": "WLFI",
       "name": "World Liberty Financial"
+    },
+    {
+      "symbol": "PAXG",
+      "name": "PAX Gold"
     },
     {
       "symbol": "TAO",
@@ -285,12 +285,12 @@
       "name": "KuCoin"
     },
     {
-      "symbol": "JST",
-      "name": "JUST"
-    },
-    {
       "symbol": "JTRSY",
       "name": "Janus Henderson Anemoy Treasury Fund"
+    },
+    {
+      "symbol": "JST",
+      "name": "JUST"
     },
     {
       "symbol": "BTW",
@@ -381,28 +381,28 @@
       "name": "Flare"
     },
     {
-      "symbol": "TUSD",
-      "name": "TrueUSD"
-    },
-    {
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)"
+    },
+    {
+      "symbol": "TUSD",
+      "name": "TrueUSD"
     },
     {
       "symbol": "ARB",
       "name": "Arbitrum"
     },
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
+      "symbol": "CAKE",
+      "name": "PancakeSwap"
     },
     {
       "symbol": "EURC",
       "name": "EURC"
     },
     {
-      "symbol": "CAKE",
-      "name": "PancakeSwap"
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
     },
     {
       "symbol": "APT",
@@ -413,12 +413,12 @@
       "name": "A7A5"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
-    },
-    {
       "symbol": "VELVET",
       "name": "Velvet"
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
     },
     {
       "symbol": "INJ",
@@ -505,12 +505,12 @@
       "name": "BCGame Coin"
     },
     {
-      "symbol": "TIA",
-      "name": "Celestia"
-    },
-    {
       "symbol": "NIGHT",
       "name": "Midnight"
+    },
+    {
+      "symbol": "TIA",
+      "name": "Celestia"
     },
     {
       "symbol": "NFT",
@@ -525,12 +525,12 @@
       "name": "Olympus"
     },
     {
-      "symbol": "ZRO",
-      "name": "LayerZero"
-    },
-    {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "ZRO",
+      "name": "LayerZero"
     },
     {
       "symbol": "SEI",
@@ -593,12 +593,12 @@
       "name": "Legacy Frax Dollar"
     },
     {
-      "symbol": "GRASS",
-      "name": "Grass"
-    },
-    {
       "symbol": "XTZ",
       "name": "Tezos"
+    },
+    {
+      "symbol": "GRASS",
+      "name": "Grass"
     },
     {
       "symbol": "AKE",
@@ -641,20 +641,20 @@
       "name": "FLOKI"
     },
     {
-      "symbol": "OP",
-      "name": "Optimism"
-    },
-    {
       "symbol": "ULTIMA",
       "name": "Ultima"
     },
     {
-      "symbol": "APEPE",
-      "name": "Ape and Pepe"
+      "symbol": "OP",
+      "name": "Optimism"
     },
     {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
+    },
+    {
+      "symbol": "APEPE",
+      "name": "Ape and Pepe"
     },
     {
       "symbol": "JASMY",
@@ -697,20 +697,16 @@
       "name": "Ethereum Name Service"
     },
     {
-      "symbol": "RAY",
-      "name": "Raydium"
-    },
-    {
       "symbol": "2Z",
       "name": "DoubleZero"
     },
     {
-      "symbol": "TWT",
-      "name": "Trust Wallet"
+      "symbol": "RAY",
+      "name": "Raydium"
     },
     {
-      "symbol": "COMP",
-      "name": "Compound"
+      "symbol": "TWT",
+      "name": "Trust Wallet"
     },
     {
       "symbol": "EURCV",
@@ -719,6 +715,10 @@
     {
       "symbol": "PC0000033",
       "name": "Tradable APAC Diversified Finance Provider SSTN"
+    },
+    {
+      "symbol": "COMP",
+      "name": "Compound"
     },
     {
       "symbol": "STRK",
@@ -753,12 +753,12 @@
       "name": "Convex Finance"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "GUSD",
       "name": "GUSD"
+    },
+    {
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "B",
@@ -769,20 +769,20 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "BEAT",
-      "name": "Audiera"
-    },
-    {
       "symbol": "SAFO",
       "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
       "symbol": "IOTA",
       "name": "IOTA"
+    },
+    {
+      "symbol": "BEAT",
+      "name": "Audiera"
+    },
+    {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
     },
     {
       "symbol": "WOULD",
@@ -801,7 +801,7 @@
       "name": "THORChain"
     }
   ],
-  "updated_at": "2026-08-16T11:52:23.455603+00:00",
+  "updated_at": "2026-08-16T12:15:09.742704+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
