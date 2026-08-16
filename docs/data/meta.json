@@ -125,12 +125,12 @@
       "name": "PayPal USD"
     },
     {
-      "symbol": "SUI",
-      "name": "Sui"
-    },
-    {
       "symbol": "BUIDL",
       "name": "BlackRock USD Institutional Digital Liquidity Fund"
+    },
+    {
+      "symbol": "SUI",
+      "name": "Sui"
     },
     {
       "symbol": "AVAX",
@@ -381,12 +381,12 @@
       "name": "Flare"
     },
     {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)"
-    },
-    {
       "symbol": "TUSD",
       "name": "TrueUSD"
+    },
+    {
+      "symbol": "币安人生",
+      "name": "币安人生 (BinanceLife)"
     },
     {
       "symbol": "ARB",
@@ -429,12 +429,12 @@
       "name": "Aerodrome Finance"
     },
     {
-      "symbol": "VET",
-      "name": "VeChain"
-    },
-    {
       "symbol": "CRV",
       "name": "Curve DAO"
+    },
+    {
+      "symbol": "VET",
+      "name": "VeChain"
     },
     {
       "symbol": "DASH",
@@ -505,12 +505,12 @@
       "name": "Midnight"
     },
     {
-      "symbol": "TIA",
-      "name": "Celestia"
-    },
-    {
       "symbol": "BC",
       "name": "BCGame Coin"
+    },
+    {
+      "symbol": "TIA",
+      "name": "Celestia"
     },
     {
       "symbol": "FET",
@@ -609,12 +609,12 @@
       "name": "AUSD"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "DCR",
       "name": "Decred"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "XPL",
@@ -761,16 +761,20 @@
       "name": "MX"
     },
     {
-      "symbol": "B",
-      "name": "BUILDon"
+      "symbol": "SAFO",
+      "name": "Spiko Amundi Overnight Swap Fund"
+    },
+    {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "SAFO",
-      "name": "Spiko Amundi Overnight Swap Fund"
+      "symbol": "B",
+      "name": "BUILDon"
     },
     {
       "symbol": "IOTA",
@@ -781,27 +785,23 @@
       "name": "would"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
-      "symbol": "BEAT",
-      "name": "Audiera"
+      "symbol": "TEL",
+      "name": "Telcoin"
     },
     {
       "symbol": "FARTCOIN",
       "name": "Fartcoin"
     },
     {
-      "symbol": "TEL",
-      "name": "Telcoin"
-    },
-    {
       "symbol": "RUNE",
       "name": "THORChain"
+    },
+    {
+      "symbol": "BORG",
+      "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-16T09:16:54.575150+00:00",
+  "updated_at": "2026-08-16T09:47:48.953664+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
