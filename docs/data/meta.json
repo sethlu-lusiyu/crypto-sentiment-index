@@ -125,12 +125,12 @@
       "name": "PayPal USD"
     },
     {
-      "symbol": "AVAX",
-      "name": "Avalanche"
-    },
-    {
       "symbol": "SUI",
       "name": "Sui"
+    },
+    {
+      "symbol": "AVAX",
+      "name": "Avalanche"
     },
     {
       "symbol": "BUIDL",
@@ -165,12 +165,12 @@
       "name": "Uniswap"
     },
     {
-      "symbol": "WLFI",
-      "name": "World Liberty Financial"
-    },
-    {
       "symbol": "PAXG",
       "name": "PAX Gold"
+    },
+    {
+      "symbol": "WLFI",
+      "name": "World Liberty Financial"
     },
     {
       "symbol": "TAO",
@@ -181,12 +181,12 @@
       "name": "Ripple USD"
     },
     {
-      "symbol": "ONDO",
-      "name": "Ondo"
-    },
-    {
       "symbol": "ASTER",
       "name": "Aster"
+    },
+    {
+      "symbol": "ONDO",
+      "name": "Ondo"
     },
     {
       "symbol": "HTX",
@@ -213,20 +213,20 @@
       "name": "Falcon USD"
     },
     {
-      "symbol": "BFUSD",
-      "name": "BFUSD"
-    },
-    {
       "symbol": "MORPHO",
       "name": "Morpho"
     },
     {
-      "symbol": "DOT",
-      "name": "Polkadot"
+      "symbol": "BFUSD",
+      "name": "BFUSD"
     },
     {
       "symbol": "WLD",
       "name": "Worldcoin"
+    },
+    {
+      "symbol": "DOT",
+      "name": "Polkadot"
     },
     {
       "symbol": "ICP",
@@ -267,10 +267,6 @@
     {
       "symbol": "BCAP",
       "name": "Blockchain Capital"
-    },
-    {
-      "symbol": "VVV",
-      "name": "Venice Token"
     },
     {
       "symbol": "USTB",
@@ -325,12 +321,12 @@
       "name": "Kaspa"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
-    },
-    {
       "symbol": "GT",
       "name": "Gate"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "NEXO",
@@ -381,12 +377,12 @@
       "name": "Flare"
     },
     {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)"
-    },
-    {
       "symbol": "ETHFI",
       "name": "Ether.fi"
+    },
+    {
+      "symbol": "币安人生",
+      "name": "币安人生 (BinanceLife)"
     },
     {
       "symbol": "ARB",
@@ -397,12 +393,12 @@
       "name": "TrueUSD"
     },
     {
-      "symbol": "CAKE",
-      "name": "PancakeSwap"
-    },
-    {
       "symbol": "EURC",
       "name": "EURC"
+    },
+    {
+      "symbol": "CAKE",
+      "name": "PancakeSwap"
     },
     {
       "symbol": "A7A5",
@@ -413,12 +409,12 @@
       "name": "Aptos"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
-    },
-    {
       "symbol": "VELVET",
       "name": "Velvet"
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
     },
     {
       "symbol": "INJ",
@@ -437,12 +433,12 @@
       "name": "Curve DAO"
     },
     {
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins"
-    },
-    {
       "symbol": "VET",
       "name": "VeChain"
+    },
+    {
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins"
     },
     {
       "symbol": "OUSG",
@@ -481,12 +477,12 @@
       "name": "Bitcoin SV"
     },
     {
-      "symbol": "APXUSD",
-      "name": "apxUSD"
-    },
-    {
       "symbol": "JTO",
       "name": "Jito"
+    },
+    {
+      "symbol": "APXUSD",
+      "name": "apxUSD"
     },
     {
       "symbol": "SPX",
@@ -529,12 +525,12 @@
       "name": "LayerZero"
     },
     {
-      "symbol": "SEI",
-      "name": "Sei"
-    },
-    {
       "symbol": "H",
       "name": "Humanity"
+    },
+    {
+      "symbol": "SEI",
+      "name": "Sei"
     },
     {
       "symbol": "LUNC",
@@ -577,10 +573,6 @@
       "name": "Stacks"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "KITE",
       "name": "Kite"
     },
@@ -589,12 +581,16 @@
       "name": "Pendle"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux"
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "GRASS",
       "name": "Grass"
+    },
+    {
+      "symbol": "CFX",
+      "name": "Conflux"
     },
     {
       "symbol": "FRAX",
@@ -633,16 +629,16 @@
       "name": "Falcon Finance"
     },
     {
-      "symbol": "ULTIMA",
-      "name": "Ultima"
+      "symbol": "FLOKI",
+      "name": "FLOKI"
     },
     {
       "symbol": "REUSD",
       "name": "Re Protocol reUSD"
     },
     {
-      "symbol": "FLOKI",
-      "name": "FLOKI"
+      "symbol": "ULTIMA",
+      "name": "Ultima"
     },
     {
       "symbol": "OP",
@@ -657,12 +653,12 @@
       "name": "VanEck Treasury Fund"
     },
     {
-      "symbol": "JASMY",
-      "name": "JasmyCoin"
-    },
-    {
       "symbol": "SYRUP",
       "name": "Maple Finance"
+    },
+    {
+      "symbol": "JASMY",
+      "name": "JasmyCoin"
     },
     {
       "symbol": "FGRS",
@@ -677,24 +673,24 @@
       "name": "KOGE"
     },
     {
-      "symbol": "COCO",
-      "name": "coco"
-    },
-    {
       "symbol": "APYUSD",
       "name": "apyUSD"
+    },
+    {
+      "symbol": "COCO",
+      "name": "coco"
     },
     {
       "symbol": "USDAI",
       "name": "USDai"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
-    },
-    {
       "symbol": "2Z",
       "name": "DoubleZero"
+    },
+    {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "ENS",
@@ -717,12 +713,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "PC0000033",
-      "name": "Tradable APAC Diversified Finance Provider SSTN"
-    },
-    {
       "symbol": "COMP",
       "name": "Compound"
+    },
+    {
+      "symbol": "PC0000033",
+      "name": "Tradable APAC Diversified Finance Provider SSTN"
     },
     {
       "symbol": "USTBL",
@@ -733,20 +729,16 @@
       "name": "Zebec Network"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
       "symbol": "AKT",
       "name": "Akash Network"
     },
     {
-      "symbol": "BTSE",
-      "name": "BTSE Token"
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
-      "symbol": "B",
-      "name": "BUILDon"
+      "symbol": "BTSE",
+      "name": "BTSE Token"
     },
     {
       "symbol": "AXS",
@@ -755,6 +747,10 @@
     {
       "symbol": "CVX",
       "name": "Convex Finance"
+    },
+    {
+      "symbol": "B",
+      "name": "BUILDon"
     },
     {
       "symbol": "EIGEN",
@@ -781,16 +777,12 @@
       "name": "Strategy PP Variable xStock"
     },
     {
-      "symbol": "WOULD",
-      "name": "would"
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "TEL",
       "name": "Telcoin"
-    },
-    {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
     },
     {
       "symbol": "RUNE",
@@ -799,9 +791,17 @@
     {
       "symbol": "BORG",
       "name": "SwissBorg"
+    },
+    {
+      "symbol": "THETA",
+      "name": "Theta Network"
+    },
+    {
+      "symbol": "WIF",
+      "name": "dogwifhat"
     }
   ],
-  "updated_at": "2026-08-16T15:56:26.883686+00:00",
+  "updated_at": "2026-08-16T16:38:57.265142+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
