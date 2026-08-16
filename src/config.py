@@ -14,11 +14,29 @@ def _env(name: str, default: str) -> str:
     return os.environ.get(name, default)
 
 
+def _env_int(name: str, default: int) -> int:
+    """Int env var that tolerates empty strings.
+
+    GitHub Actions injects `SECRET: ${{ secrets.X }}` as an empty string when
+    the secret is undefined — int("") would crash at import time.
+    """
+    value = os.environ.get(name, "").strip()
+    if not value:
+        return default
+    try:
+        return int(value)
+    except ValueError:
+        return default
+
+
 LLM_BASE_URL = _env("LLM_BASE_URL", "https://api.moonshot.cn/v1")
 LLM_API_KEY = _env("LLM_API_KEY", "")
 LLM_MODEL = _env("LLM_MODEL", "kimi-k2")
 LLM_MODEL_2 = _env("LLM_MODEL_2", LLM_MODEL)
-LLM_MAX_CALLS_PER_RUN = int(_env("LLM_MAX_CALLS_PER_RUN", "200"))
+LLM_MAX_CALLS_PER_RUN = _env_int("LLM_MAX_CALLS_PER_RUN", 200)
+# Concurrent in-flight LLM requests. DeepSeek/Kimi tolerate this easily;
+# it cuts a full hourly scoring pass from ~15 min (serial) to ~2 min.
+LLM_CONCURRENCY = _env_int("LLM_CONCURRENCY", 10)
 
 CRYPTOPANIC_TOKEN = _env("CRYPTOPANIC_TOKEN", "")
 REDDIT_CLIENT_ID = _env("REDDIT_CLIENT_ID", "")
