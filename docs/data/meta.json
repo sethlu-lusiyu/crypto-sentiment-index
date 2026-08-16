@@ -217,24 +217,24 @@
       "name": "BFUSD"
     },
     {
-      "symbol": "DOT",
-      "name": "Polkadot"
-    },
-    {
       "symbol": "MORPHO",
       "name": "Morpho"
+    },
+    {
+      "symbol": "DOT",
+      "name": "Polkadot"
     },
     {
       "symbol": "WLD",
       "name": "Worldcoin"
     },
     {
-      "symbol": "U",
-      "name": "United Stables"
-    },
-    {
       "symbol": "ICP",
       "name": "Internet Computer"
+    },
+    {
+      "symbol": "U",
+      "name": "United Stables"
     },
     {
       "symbol": "USDGO",
@@ -269,12 +269,12 @@
       "name": "Blockchain Capital"
     },
     {
-      "symbol": "USTB",
-      "name": "Invesco Short Duration US Government Securities Fund"
-    },
-    {
       "symbol": "PI",
       "name": "Pi Network"
+    },
+    {
+      "symbol": "USTB",
+      "name": "Invesco Short Duration US Government Securities Fund"
     },
     {
       "symbol": "EUTBL",
@@ -301,12 +301,12 @@
       "name": "Ethena"
     },
     {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)"
-    },
-    {
       "symbol": "BTW",
       "name": "Bitway"
+    },
+    {
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)"
     },
     {
       "symbol": "ATOM",
@@ -317,12 +317,12 @@
       "name": "​​Stable"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
-    },
-    {
       "symbol": "GT",
       "name": "Gate"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "KAS",
@@ -385,12 +385,12 @@
       "name": "TrueUSD"
     },
     {
-      "symbol": "ARB",
-      "name": "Arbitrum"
-    },
-    {
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)"
+    },
+    {
+      "symbol": "ARB",
+      "name": "Arbitrum"
     },
     {
       "symbol": "EURC",
@@ -401,12 +401,12 @@
       "name": "A7A5"
     },
     {
-      "symbol": "CAKE",
-      "name": "PancakeSwap"
-    },
-    {
       "symbol": "ETHFI",
       "name": "Ether.fi"
+    },
+    {
+      "symbol": "CAKE",
+      "name": "PancakeSwap"
     },
     {
       "symbol": "APT",
@@ -425,16 +425,16 @@
       "name": "Aerodrome Finance"
     },
     {
+      "symbol": "VELVET",
+      "name": "Velvet"
+    },
+    {
       "symbol": "VET",
       "name": "VeChain"
     },
     {
       "symbol": "DASH",
       "name": "Dash"
-    },
-    {
-      "symbol": "VELVET",
-      "name": "Velvet"
     },
     {
       "symbol": "PENGU",
@@ -477,12 +477,12 @@
       "name": "Humanity"
     },
     {
-      "symbol": "PYTH",
-      "name": "Pyth Network"
-    },
-    {
       "symbol": "BSV",
       "name": "Bitcoin SV"
+    },
+    {
+      "symbol": "PYTH",
+      "name": "Pyth Network"
     },
     {
       "symbol": "APXUSD",
@@ -553,12 +553,12 @@
       "name": "BitTorrent"
     },
     {
-      "symbol": "LDO",
-      "name": "Lido DAO"
-    },
-    {
       "symbol": "MON",
       "name": "Monad"
+    },
+    {
+      "symbol": "LDO",
+      "name": "Lido DAO"
     },
     {
       "symbol": "REAL",
@@ -629,12 +629,12 @@
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
-      "symbol": "FF",
-      "name": "Falcon Finance"
-    },
-    {
       "symbol": "ULTIMA",
       "name": "Ultima"
+    },
+    {
+      "symbol": "FF",
+      "name": "Falcon Finance"
     },
     {
       "symbol": "REUSD",
@@ -769,12 +769,12 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "IOTA",
-      "name": "IOTA"
-    },
-    {
       "symbol": "B",
       "name": "BUILDon"
+    },
+    {
+      "symbol": "IOTA",
+      "name": "IOTA"
     },
     {
       "symbol": "WOULD",
@@ -801,10 +801,10 @@
       "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-16T05:53:50.341719+00:00",
+  "updated_at": "2026-08-16T06:16:07.174293+00:00",
   "slot_minutes": 15,
   "quality_summary": {
-    "sample_n": 1,
+    "sample_n": 7,
     "agreement_rate": 1.0
   }
 }

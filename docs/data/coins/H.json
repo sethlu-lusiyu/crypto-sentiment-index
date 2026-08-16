@@ -1,24 +1,16 @@
 [
   {
-    "ts": "2026-08-16T05:00:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 1,
-    "confidence_flag": "low"
-  },
-  {
     "ts": "2026-08-16T06:00:00+00:00",
     "family": "news",
-    "sent": 0.5,
+    "sent": 0.02550844705519557,
     "sent_z": null,
     "mentions": 0,
-    "confidence_flag": "carried"
+    "confidence_flag": "low"
   },
   {
     "ts": "2026-08-16T06:15:00+00:00",
     "family": "news",
-    "sent": 0.5,
+    "sent": 0.02550844705519557,
     "sent_z": null,
     "mentions": 0,
     "confidence_flag": "carried"
