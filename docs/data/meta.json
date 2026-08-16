@@ -125,16 +125,16 @@
       "name": "PayPal USD"
     },
     {
+      "symbol": "AVAX",
+      "name": "Avalanche"
+    },
+    {
       "symbol": "SUI",
       "name": "Sui"
     },
     {
       "symbol": "BUIDL",
       "name": "BlackRock USD Institutional Digital Liquidity Fund"
-    },
-    {
-      "symbol": "AVAX",
-      "name": "Avalanche"
     },
     {
       "symbol": "XAUT",
@@ -285,16 +285,16 @@
       "name": "KuCoin"
     },
     {
+      "symbol": "BTW",
+      "name": "Bitway"
+    },
+    {
       "symbol": "JST",
       "name": "JUST"
     },
     {
       "symbol": "JTRSY",
       "name": "Janus Henderson Anemoy Treasury Fund"
-    },
-    {
-      "symbol": "BTW",
-      "name": "Bitway"
     },
     {
       "symbol": "QNT",
@@ -361,12 +361,12 @@
       "name": "Venice Token"
     },
     {
-      "symbol": "FIL",
-      "name": "Filecoin"
-    },
-    {
       "symbol": "JUP",
       "name": "Jupiter"
+    },
+    {
+      "symbol": "FIL",
+      "name": "Filecoin"
     },
     {
       "symbol": "USD0",
@@ -397,12 +397,12 @@
       "name": "Ether.fi"
     },
     {
-      "symbol": "CAKE",
-      "name": "PancakeSwap"
-    },
-    {
       "symbol": "EURC",
       "name": "EURC"
+    },
+    {
+      "symbol": "CAKE",
+      "name": "PancakeSwap"
     },
     {
       "symbol": "APT",
@@ -429,16 +429,16 @@
       "name": "Aerodrome Finance"
     },
     {
-      "symbol": "CRV",
-      "name": "Curve DAO"
-    },
-    {
       "symbol": "DASH",
       "name": "Dash"
     },
     {
       "symbol": "VET",
       "name": "VeChain"
+    },
+    {
+      "symbol": "CRV",
+      "name": "Curve DAO"
     },
     {
       "symbol": "PENGU",
@@ -477,12 +477,12 @@
       "name": "Pyth Network"
     },
     {
-      "symbol": "BSV",
-      "name": "Bitcoin SV"
-    },
-    {
       "symbol": "APXUSD",
       "name": "apxUSD"
+    },
+    {
+      "symbol": "BSV",
+      "name": "Bitcoin SV"
     },
     {
       "symbol": "JTO",
@@ -497,16 +497,16 @@
       "name": "SPX6900"
     },
     {
-      "symbol": "NIGHT",
-      "name": "Midnight"
+      "symbol": "TIA",
+      "name": "Celestia"
     },
     {
       "symbol": "BC",
       "name": "BCGame Coin"
     },
     {
-      "symbol": "TIA",
-      "name": "Celestia"
+      "symbol": "NIGHT",
+      "name": "Midnight"
     },
     {
       "symbol": "NFT",
@@ -565,16 +565,16 @@
       "name": "Kinesis Silver"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
-    },
-    {
       "symbol": "PIEVERSE",
       "name": "Pieverse"
     },
     {
       "symbol": "STX",
       "name": "Stacks"
+    },
+    {
+      "symbol": "H",
+      "name": "Humanity"
     },
     {
       "symbol": "KITE",
@@ -585,12 +585,12 @@
       "name": "Pendle"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux"
-    },
-    {
       "symbol": "AKE",
       "name": "Akedo"
+    },
+    {
+      "symbol": "CFX",
+      "name": "Conflux"
     },
     {
       "symbol": "FRAX",
@@ -625,12 +625,12 @@
       "name": "Bonk"
     },
     {
-      "symbol": "FF",
-      "name": "Falcon Finance"
-    },
-    {
       "symbol": "PC0000031",
       "name": "Tradable NA Rent Financing Platform SSTN"
+    },
+    {
+      "symbol": "FF",
+      "name": "Falcon Finance"
     },
     {
       "symbol": "ULTIMA",
@@ -733,12 +733,12 @@
       "name": "Akash Network"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
       "symbol": "ZBCN",
       "name": "Zebec Network"
+    },
+    {
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
       "symbol": "BTSE",
@@ -757,12 +757,12 @@
       "name": "BUILDon"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
+    },
+    {
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "GUSD",
@@ -773,12 +773,12 @@
       "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
-      "symbol": "IOTA",
-      "name": "IOTA"
-    },
-    {
       "symbol": "STRCX",
       "name": "Strategy PP Variable xStock"
+    },
+    {
+      "symbol": "IOTA",
+      "name": "IOTA"
     },
     {
       "symbol": "WOULD",
@@ -789,19 +789,19 @@
       "name": "Telcoin"
     },
     {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
-    },
-    {
       "symbol": "RUNE",
       "name": "THORChain"
+    },
+    {
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "THETA",
       "name": "Theta Network"
     }
   ],
-  "updated_at": "2026-08-16T14:05:58.818411+00:00",
+  "updated_at": "2026-08-16T14:36:45.900595+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
