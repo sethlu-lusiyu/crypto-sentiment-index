@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Sentiment Index</title>
+  <script src="https://unpkg.com/lightweight-charts@4.2.1/dist/lightweight-charts.standalone.production.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Crypto Sentiment Index</h1>
+      <div id="updated-at">Loading...</div>
+    </header>
+
+    <section class="cards" id="cards">
+      <div class="card" id="card-overall-news">
+        <div class="card-title">OVERALL NEWS</div>
+        <div class="card-value" id="value-overall-news">-</div>
+        <div class="card-change" id="change-overall-news">-</div>
+        <div class="sparkline" id="spark-overall-news"></div>
+      </div>
+      <div class="card" id="card-overall-social">
+        <div class="card-title">OVERALL SOCIAL</div>
+        <div class="card-value" id="value-overall-social">-</div>
+        <div class="card-change" id="change-overall-social">-</div>
+        <div class="sparkline" id="spark-overall-social"></div>
+      </div>
+      <div class="card" id="card-market-news">
+        <div class="card-title">MARKET NEWS</div>
+        <div class="card-value" id="value-market-news">-</div>
+        <div class="card-change" id="change-market-news">-</div>
+        <div class="sparkline" id="spark-market-news"></div>
+      </div>
+      <div class="card" id="card-breadth">
+        <div class="card-title">BREADTH</div>
+        <div class="card-value" id="value-breadth">-</div>
+        <div class="card-change" id="change-breadth">-</div>
+        <div class="sparkline" id="spark-breadth"></div>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <div class="coin-controls">
+        <label for="coin-select">Coin</label>
+        <select id="coin-select"></select>
+        <input type="text" id="coin-search" placeholder="Search coin...">
+      </div>
+      <div id="main-chart"></div>
+    </section>
+
+    <section class="leaderboard">
+      <div class="leaderboard-col">
+        <h2>Top 10 (24h avg)</h2>
+        <table id="top-table">
+          <thead><tr><th>Coin</th><th>News</th><th>Social</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="leaderboard-col">
+        <h2>Bottom 10 (24h avg)</h2>
+        <table id="bottom-table">
+          <thead><tr><th>Coin</th><th>News</th><th>Social</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <p>Data sources: RSS news, Google News, Bluesky, StockTwits. Sentiment is derived from text only; not financial advice.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

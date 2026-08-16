@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.idea/
+
+# Raw SQLite is restored via actions/cache, never committed (too large).
+# Only exported JSON/CSV are committed.
+data/sentiment.db
+data/sentiment.db-wal
+data/sentiment.db-shm
+data/aliases.json
