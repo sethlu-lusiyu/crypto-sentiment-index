@@ -317,16 +317,16 @@
       "name": "​​Stable"
     },
     {
+      "symbol": "KAS",
+      "name": "Kaspa"
+    },
+    {
       "symbol": "ALGO",
       "name": "Algorand"
     },
     {
       "symbol": "GT",
       "name": "Gate"
-    },
-    {
-      "symbol": "KAS",
-      "name": "Kaspa"
     },
     {
       "symbol": "NEXO",
@@ -393,16 +393,12 @@
       "name": "Arbitrum"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
+      "symbol": "EURC",
+      "name": "EURC"
     },
     {
       "symbol": "ETHFI",
       "name": "Ether.fi"
-    },
-    {
-      "symbol": "EURC",
-      "name": "EURC"
     },
     {
       "symbol": "CAKE",
@@ -419,6 +415,10 @@
     {
       "symbol": "HASH",
       "name": "Provenance Blockchain"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "INJ",
@@ -481,16 +481,16 @@
       "name": "Bitcoin SV"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
-    },
-    {
       "symbol": "APXUSD",
       "name": "apxUSD"
     },
     {
       "symbol": "JTO",
       "name": "Jito"
+    },
+    {
+      "symbol": "H",
+      "name": "Humanity"
     },
     {
       "symbol": "SPX",
@@ -513,24 +513,24 @@
       "name": "Celestia"
     },
     {
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance"
-    },
-    {
       "symbol": "NFT",
       "name": "AINFT"
+    },
+    {
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance"
     },
     {
       "symbol": "OHM",
       "name": "Olympus"
     },
     {
-      "symbol": "ZRO",
-      "name": "LayerZero"
-    },
-    {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "ZRO",
+      "name": "LayerZero"
     },
     {
       "symbol": "SEI",
@@ -601,16 +601,16 @@
       "name": "Tezos"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "CRVUSD",
       "name": "crvUSD"
     },
     {
       "symbol": "AUSD",
       "name": "AUSD"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "DCR",
@@ -641,12 +641,12 @@
       "name": "FLOKI"
     },
     {
-      "symbol": "OP",
-      "name": "Optimism"
-    },
-    {
       "symbol": "JASMY",
       "name": "JasmyCoin"
+    },
+    {
+      "symbol": "OP",
+      "name": "Optimism"
     },
     {
       "symbol": "VBILL",
@@ -745,28 +745,28 @@
       "name": "BTSE Token"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
-      "symbol": "GUSD",
-      "name": "GUSD"
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "MX",
       "name": "MX"
     },
     {
-      "symbol": "SAFO",
-      "name": "Spiko Amundi Overnight Swap Fund"
+      "symbol": "GUSD",
+      "name": "GUSD"
     },
     {
       "symbol": "B",
       "name": "BUILDon"
+    },
+    {
+      "symbol": "SAFO",
+      "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
       "symbol": "EIGEN",
@@ -797,11 +797,11 @@
       "name": "THORChain"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
+      "symbol": "BORG",
+      "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-16T10:05:35.231506+00:00",
+  "updated_at": "2026-08-16T10:35:18.699140+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
