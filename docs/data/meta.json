@@ -125,12 +125,12 @@
       "name": "PayPal USD"
     },
     {
-      "symbol": "BUIDL",
-      "name": "BlackRock USD Institutional Digital Liquidity Fund"
-    },
-    {
       "symbol": "SUI",
       "name": "Sui"
+    },
+    {
+      "symbol": "BUIDL",
+      "name": "BlackRock USD Institutional Digital Liquidity Fund"
     },
     {
       "symbol": "AVAX",
@@ -381,16 +381,16 @@
       "name": "Flare"
     },
     {
+      "symbol": "币安人生",
+      "name": "币安人生 (BinanceLife)"
+    },
+    {
       "symbol": "TUSD",
       "name": "TrueUSD"
     },
     {
       "symbol": "ARB",
       "name": "Arbitrum"
-    },
-    {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)"
     },
     {
       "symbol": "EURC",
@@ -401,16 +401,16 @@
       "name": "Ether.fi"
     },
     {
+      "symbol": "VELVET",
+      "name": "Velvet"
+    },
+    {
       "symbol": "CAKE",
       "name": "PancakeSwap"
     },
     {
       "symbol": "APT",
       "name": "Aptos"
-    },
-    {
-      "symbol": "VELVET",
-      "name": "Velvet"
     },
     {
       "symbol": "A7A5",
@@ -437,16 +437,16 @@
       "name": "Dash"
     },
     {
+      "symbol": "CRV",
+      "name": "Curve DAO"
+    },
+    {
       "symbol": "PENGU",
       "name": "Pudgy Penguins"
     },
     {
       "symbol": "OUSG",
       "name": "Ondo Short-Term U.S. Government Bond Fund"
-    },
-    {
-      "symbol": "CRV",
-      "name": "Curve DAO"
     },
     {
       "symbol": "VIRTUAL",
@@ -501,12 +501,12 @@
       "name": "BCGame Coin"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
-    },
-    {
       "symbol": "NIGHT",
       "name": "Midnight"
+    },
+    {
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "TIA",
@@ -525,12 +525,12 @@
       "name": "Olympus"
     },
     {
-      "symbol": "GNO",
-      "name": "Gnosis"
-    },
-    {
       "symbol": "ZRO",
       "name": "LayerZero"
+    },
+    {
+      "symbol": "GNO",
+      "name": "Gnosis"
     },
     {
       "symbol": "SEI",
@@ -553,12 +553,12 @@
       "name": "BitTorrent"
     },
     {
-      "symbol": "MON",
-      "name": "Monad"
-    },
-    {
       "symbol": "LDO",
       "name": "Lido DAO"
+    },
+    {
+      "symbol": "MON",
+      "name": "Monad"
     },
     {
       "symbol": "REAL",
@@ -581,12 +581,12 @@
       "name": "Kite"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "PENDLE",
       "name": "Pendle"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "CFX",
@@ -633,16 +633,12 @@
       "name": "Falcon Finance"
     },
     {
-      "symbol": "ULTIMA",
-      "name": "Ultima"
+      "symbol": "FLOKI",
+      "name": "FLOKI"
     },
     {
       "symbol": "REUSD",
       "name": "Re Protocol reUSD"
-    },
-    {
-      "symbol": "FLOKI",
-      "name": "FLOKI"
     },
     {
       "symbol": "OP",
@@ -653,12 +649,16 @@
       "name": "JasmyCoin"
     },
     {
+      "symbol": "VBILL",
+      "name": "VanEck Treasury Fund"
+    },
+    {
       "symbol": "APEPE",
       "name": "Ape and Pepe"
     },
     {
-      "symbol": "VBILL",
-      "name": "VanEck Treasury Fund"
+      "symbol": "ULTIMA",
+      "name": "Ultima"
     },
     {
       "symbol": "SYRUP",
@@ -713,12 +713,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "COMP",
-      "name": "Compound"
-    },
-    {
       "symbol": "PC0000033",
       "name": "Tradable APAC Diversified Finance Provider SSTN"
+    },
+    {
+      "symbol": "COMP",
+      "name": "Compound"
     },
     {
       "symbol": "USTBL",
@@ -753,24 +753,20 @@
       "name": "GUSD"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
-      "symbol": "SAFO",
-      "name": "Spiko Amundi Overnight Swap Fund"
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
+      "symbol": "SAFO",
+      "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
       "symbol": "B",
@@ -781,27 +777,31 @@
       "name": "IOTA"
     },
     {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
+    },
+    {
       "symbol": "WOULD",
       "name": "would"
     },
     {
-      "symbol": "TEL",
-      "name": "Telcoin"
+      "symbol": "BEAT",
+      "name": "Audiera"
     },
     {
       "symbol": "FARTCOIN",
       "name": "Fartcoin"
     },
     {
-      "symbol": "RUNE",
-      "name": "THORChain"
+      "symbol": "TEL",
+      "name": "Telcoin"
     },
     {
-      "symbol": "BEAT",
-      "name": "Audiera"
+      "symbol": "RUNE",
+      "name": "THORChain"
     }
   ],
-  "updated_at": "2026-08-16T08:12:12.432174+00:00",
+  "updated_at": "2026-08-16T08:52:27.604397+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
