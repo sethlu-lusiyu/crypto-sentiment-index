@@ -125,12 +125,12 @@
       "name": "PayPal USD"
     },
     {
-      "symbol": "SUI",
-      "name": "Sui"
-    },
-    {
       "symbol": "BUIDL",
       "name": "BlackRock USD Institutional Digital Liquidity Fund"
+    },
+    {
+      "symbol": "SUI",
+      "name": "Sui"
     },
     {
       "symbol": "AVAX",
@@ -217,12 +217,12 @@
       "name": "BFUSD"
     },
     {
-      "symbol": "WLD",
-      "name": "Worldcoin"
-    },
-    {
       "symbol": "MORPHO",
       "name": "Morpho"
+    },
+    {
+      "symbol": "WLD",
+      "name": "Worldcoin"
     },
     {
       "symbol": "DOT",
@@ -357,6 +357,10 @@
       "name": "Lighter"
     },
     {
+      "symbol": "VVV",
+      "name": "Venice Token"
+    },
+    {
       "symbol": "JUP",
       "name": "Jupiter"
     },
@@ -377,12 +381,12 @@
       "name": "Flare"
     },
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
-    },
-    {
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)"
+    },
+    {
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
     },
     {
       "symbol": "TUSD",
@@ -481,12 +485,12 @@
       "name": "apxUSD"
     },
     {
-      "symbol": "JTO",
-      "name": "Jito"
-    },
-    {
       "symbol": "SPX",
       "name": "SPX6900"
+    },
+    {
+      "symbol": "JTO",
+      "name": "Jito"
     },
     {
       "symbol": "TIA",
@@ -541,12 +545,12 @@
       "name": "OnRe Tokenized Reinsurance"
     },
     {
-      "symbol": "LDO",
-      "name": "Lido DAO"
-    },
-    {
       "symbol": "BTT",
       "name": "BitTorrent"
+    },
+    {
+      "symbol": "LDO",
+      "name": "Lido DAO"
     },
     {
       "symbol": "H",
@@ -589,12 +593,12 @@
       "name": "Conflux"
     },
     {
-      "symbol": "GRASS",
-      "name": "Grass"
-    },
-    {
       "symbol": "FRAX",
       "name": "Legacy Frax Dollar"
+    },
+    {
+      "symbol": "GRASS",
+      "name": "Grass"
     },
     {
       "symbol": "XTZ",
@@ -633,12 +637,12 @@
       "name": "Re Protocol reUSD"
     },
     {
-      "symbol": "FLOKI",
-      "name": "FLOKI"
-    },
-    {
       "symbol": "ULTIMA",
       "name": "Ultima"
+    },
+    {
+      "symbol": "FLOKI",
+      "name": "FLOKI"
     },
     {
       "symbol": "OP",
@@ -677,12 +681,12 @@
       "name": "apyUSD"
     },
     {
-      "symbol": "USDAI",
-      "name": "USDai"
-    },
-    {
       "symbol": "COCO",
       "name": "coco"
+    },
+    {
+      "symbol": "USDAI",
+      "name": "USDai"
     },
     {
       "symbol": "TIBBIR",
@@ -757,12 +761,12 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "GUSD",
       "name": "GUSD"
+    },
+    {
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "SAFO",
@@ -795,13 +799,9 @@
     {
       "symbol": "THETA",
       "name": "Theta Network"
-    },
-    {
-      "symbol": "SHFL",
-      "name": "Shuffle"
     }
   ],
-  "updated_at": "2026-08-16T17:33:50.653643+00:00",
+  "updated_at": "2026-08-16T17:52:12.306909+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
