@@ -225,12 +225,12 @@
       "name": "Polkadot"
     },
     {
-      "symbol": "WLD",
-      "name": "Worldcoin"
-    },
-    {
       "symbol": "SKY",
       "name": "Sky"
+    },
+    {
+      "symbol": "WLD",
+      "name": "Worldcoin"
     },
     {
       "symbol": "ICP",
@@ -265,10 +265,6 @@
       "name": "Ethereum Classic"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
-    },
-    {
       "symbol": "BCAP",
       "name": "Blockchain Capital"
     },
@@ -279,6 +275,10 @@
     {
       "symbol": "USTB",
       "name": "Invesco Short Duration US Government Securities Fund"
+    },
+    {
+      "symbol": "BTW",
+      "name": "Bitway"
     },
     {
       "symbol": "EUTBL",
@@ -325,12 +325,12 @@
       "name": "Algorand"
     },
     {
-      "symbol": "KAS",
-      "name": "Kaspa"
-    },
-    {
       "symbol": "NEXO",
       "name": "NEXO"
+    },
+    {
+      "symbol": "KAS",
+      "name": "Kaspa"
     },
     {
       "symbol": "JAAA",
@@ -417,12 +417,12 @@
       "name": "Injective"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
-    },
-    {
       "symbol": "AERO",
       "name": "Aerodrome Finance"
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
     },
     {
       "symbol": "DASH",
@@ -493,12 +493,12 @@
       "name": "SPX6900"
     },
     {
-      "symbol": "TIA",
-      "name": "Celestia"
-    },
-    {
       "symbol": "UB",
       "name": "Unibase"
+    },
+    {
+      "symbol": "TIA",
+      "name": "Celestia"
     },
     {
       "symbol": "NIGHT",
@@ -561,12 +561,12 @@
       "name": "Monad"
     },
     {
-      "symbol": "KAG",
-      "name": "Kinesis Silver"
-    },
-    {
       "symbol": "PIEVERSE",
       "name": "Pieverse"
+    },
+    {
+      "symbol": "KAG",
+      "name": "Kinesis Silver"
     },
     {
       "symbol": "H",
@@ -585,12 +585,12 @@
       "name": "Stacks"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux"
-    },
-    {
       "symbol": "KITE",
       "name": "Kite"
+    },
+    {
+      "symbol": "CFX",
+      "name": "Conflux"
     },
     {
       "symbol": "XTZ",
@@ -609,12 +609,12 @@
       "name": "Grass"
     },
     {
-      "symbol": "DCR",
-      "name": "Decred"
-    },
-    {
       "symbol": "AUSD",
       "name": "AUSD"
+    },
+    {
+      "symbol": "DCR",
+      "name": "Decred"
     },
     {
       "symbol": "XPL",
@@ -665,12 +665,12 @@
       "name": "Optimism"
     },
     {
-      "symbol": "USAT",
-      "name": "USAT"
-    },
-    {
       "symbol": "JASMY",
       "name": "JasmyCoin"
+    },
+    {
+      "symbol": "USAT",
+      "name": "USAT"
     },
     {
       "symbol": "COMP",
@@ -717,12 +717,12 @@
       "name": "Spiko US T-Bills Money Market Fund"
     },
     {
-      "symbol": "STRK",
-      "name": "Starknet"
-    },
-    {
       "symbol": "EURCV",
       "name": "EUR CoinVertible"
+    },
+    {
+      "symbol": "STRK",
+      "name": "Starknet"
     },
     {
       "symbol": "TWT",
@@ -745,6 +745,10 @@
       "name": "Akash Network"
     },
     {
+      "symbol": "CVX",
+      "name": "Convex Finance"
+    },
+    {
       "symbol": "MX",
       "name": "MX"
     },
@@ -757,24 +761,20 @@
       "name": "GUSD"
     },
     {
-      "symbol": "CVX",
-      "name": "Convex Finance"
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
       "symbol": "IOTA",
       "name": "IOTA"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
-    },
-    {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
     },
     {
       "symbol": "SAFO",
@@ -801,7 +801,7 @@
       "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-17T19:37:33.402886+00:00",
+  "updated_at": "2026-08-17T19:58:02.870070+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
