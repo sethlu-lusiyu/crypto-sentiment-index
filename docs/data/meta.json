@@ -121,12 +121,12 @@
       "name": "Hedera"
     },
     {
-      "symbol": "BUIDL",
-      "name": "BlackRock USD Institutional Digital Liquidity Fund"
-    },
-    {
       "symbol": "PYUSD",
       "name": "PayPal USD"
+    },
+    {
+      "symbol": "BUIDL",
+      "name": "BlackRock USD Institutional Digital Liquidity Fund"
     },
     {
       "symbol": "SUI",
@@ -393,6 +393,10 @@
       "name": "TrueUSD"
     },
     {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
+    },
+    {
       "symbol": "EURC",
       "name": "EURC"
     },
@@ -405,16 +409,12 @@
       "name": "币安人生 (BinanceLife)"
     },
     {
-      "symbol": "APT",
-      "name": "Aptos"
-    },
-    {
       "symbol": "A7A5",
       "name": "A7A5"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
+      "symbol": "APT",
+      "name": "Aptos"
     },
     {
       "symbol": "INJ",
@@ -509,12 +509,12 @@
       "name": "AINFT"
     },
     {
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance"
-    },
-    {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance"
     },
     {
       "symbol": "OHM",
@@ -549,12 +549,12 @@
       "name": "Lido DAO"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "REAL",
       "name": "RealLink"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "MON",
@@ -597,24 +597,24 @@
       "name": "crvUSD"
     },
     {
-      "symbol": "AUSD",
-      "name": "AUSD"
-    },
-    {
       "symbol": "DCR",
       "name": "Decred"
+    },
+    {
+      "symbol": "AUSD",
+      "name": "AUSD"
     },
     {
       "symbol": "GRASS",
       "name": "Grass"
     },
     {
-      "symbol": "QFI",
-      "name": "Quantix Finance"
-    },
-    {
       "symbol": "XPL",
       "name": "Plasma"
+    },
+    {
+      "symbol": "QFI",
+      "name": "Quantix Finance"
     },
     {
       "symbol": "BONK",
@@ -649,16 +649,16 @@
       "name": "Ape and Pepe"
     },
     {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
+    },
+    {
       "symbol": "ULTIMA",
       "name": "Ultima"
     },
     {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
-    },
-    {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
     },
     {
       "symbol": "OP",
@@ -721,12 +721,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "STRK",
-      "name": "Starknet"
-    },
-    {
       "symbol": "TWT",
       "name": "Trust Wallet"
+    },
+    {
+      "symbol": "STRK",
+      "name": "Starknet"
     },
     {
       "symbol": "ZBCN",
@@ -757,12 +757,12 @@
       "name": "GUSD"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
       "symbol": "B",
       "name": "BUILDon"
+    },
+    {
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
       "symbol": "AXS",
@@ -793,15 +793,15 @@
       "name": "Telcoin"
     },
     {
-      "symbol": "WIF",
-      "name": "dogwifhat"
+      "symbol": "THETA",
+      "name": "Theta Network"
     },
     {
-      "symbol": "BORG",
-      "name": "SwissBorg"
+      "symbol": "WIF",
+      "name": "dogwifhat"
     }
   ],
-  "updated_at": "2026-08-17T22:37:34.945523+00:00",
+  "updated_at": "2026-08-17T22:58:26.421022+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
