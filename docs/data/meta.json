@@ -209,12 +209,12 @@
       "name": "Morpho"
     },
     {
-      "symbol": "USDF",
-      "name": "Falcon USD"
-    },
-    {
       "symbol": "AAVE",
       "name": "Aave"
+    },
+    {
+      "symbol": "USDF",
+      "name": "Falcon USD"
     },
     {
       "symbol": "BFUSD",
@@ -281,20 +281,24 @@
       "name": "Spiko EU T-Bills Money Market Fund"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
+      "symbol": "JST",
+      "name": "JUST"
     },
     {
       "symbol": "KCS",
       "name": "KuCoin"
     },
     {
-      "symbol": "JST",
-      "name": "JUST"
-    },
-    {
       "symbol": "JTRSY",
       "name": "Janus Henderson Anemoy Treasury Fund"
+    },
+    {
+      "symbol": "BTW",
+      "name": "Bitway"
+    },
+    {
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)"
     },
     {
       "symbol": "ENA",
@@ -303,10 +307,6 @@
     {
       "symbol": "QNT",
       "name": "Quant"
-    },
-    {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)"
     },
     {
       "symbol": "ATOM",
@@ -321,12 +321,12 @@
       "name": "Gate"
     },
     {
-      "symbol": "KAS",
-      "name": "Kaspa"
-    },
-    {
       "symbol": "ALGO",
       "name": "Algorand"
+    },
+    {
+      "symbol": "KAS",
+      "name": "Kaspa"
     },
     {
       "symbol": "NEXO",
@@ -397,12 +397,12 @@
       "name": "TrueUSD"
     },
     {
-      "symbol": "EURC",
-      "name": "EURC"
-    },
-    {
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)"
+    },
+    {
+      "symbol": "EURC",
+      "name": "EURC"
     },
     {
       "symbol": "A7A5",
@@ -465,24 +465,24 @@
       "name": "Sun Token"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "KAU",
       "name": "Kinesis Gold"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "SOFID",
       "name": "SoFiUSD"
     },
     {
-      "symbol": "JTO",
-      "name": "Jito"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "JTO",
+      "name": "Jito"
     },
     {
       "symbol": "BSV",
@@ -573,12 +573,16 @@
       "name": "Stacks"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux"
-    },
-    {
       "symbol": "KITE",
       "name": "Kite"
+    },
+    {
+      "symbol": "H",
+      "name": "Humanity"
+    },
+    {
+      "symbol": "CFX",
+      "name": "Conflux"
     },
     {
       "symbol": "PENDLE",
@@ -593,10 +597,6 @@
       "name": "Tezos"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
-    },
-    {
       "symbol": "CRVUSD",
       "name": "crvUSD"
     },
@@ -609,10 +609,6 @@
       "name": "Decred"
     },
     {
-      "symbol": "QFI",
-      "name": "Quantix Finance"
-    },
-    {
       "symbol": "XPL",
       "name": "Plasma"
     },
@@ -623,6 +619,10 @@
     {
       "symbol": "GRASS",
       "name": "Grass"
+    },
+    {
+      "symbol": "QFI",
+      "name": "Quantix Finance"
     },
     {
       "symbol": "FGRS",
@@ -649,10 +649,6 @@
       "name": "Ape and Pepe"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
       "symbol": "ULTIMA",
       "name": "Ultima"
     },
@@ -663,6 +659,10 @@
     {
       "symbol": "OP",
       "name": "Optimism"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "USAT",
@@ -701,12 +701,12 @@
       "name": "coco"
     },
     {
-      "symbol": "ENS",
-      "name": "Ethereum Name Service"
-    },
-    {
       "symbol": "COMP",
       "name": "Compound"
+    },
+    {
+      "symbol": "ENS",
+      "name": "Ethereum Name Service"
     },
     {
       "symbol": "EURCV",
@@ -737,16 +737,16 @@
       "name": "BTSE Token"
     },
     {
+      "symbol": "AKT",
+      "name": "Akash Network"
+    },
+    {
       "symbol": "B",
       "name": "BUILDon"
     },
     {
       "symbol": "STRCX",
       "name": "Strategy PP Variable xStock"
-    },
-    {
-      "symbol": "AKT",
-      "name": "Akash Network"
     },
     {
       "symbol": "CVX",
@@ -765,12 +765,12 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "AXS",
       "name": "Axie Infinity"
+    },
+    {
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "SAFO",
@@ -793,15 +793,15 @@
       "name": "THORChain"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
-    },
-    {
       "symbol": "BORG",
       "name": "SwissBorg"
+    },
+    {
+      "symbol": "ZANO",
+      "name": "Zano"
     }
   ],
-  "updated_at": "2026-08-17T10:44:34.585714+00:00",
+  "updated_at": "2026-08-17T11:12:18.405074+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
