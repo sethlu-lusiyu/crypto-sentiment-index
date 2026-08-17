@@ -69,12 +69,12 @@
       "name": "Chainlink"
     },
     {
-      "symbol": "ADA",
-      "name": "Cardano"
-    },
-    {
       "symbol": "WBT",
       "name": "WhiteBIT Coin"
+    },
+    {
+      "symbol": "ADA",
+      "name": "Cardano"
     },
     {
       "symbol": "XLM",
@@ -121,12 +121,12 @@
       "name": "Hedera"
     },
     {
-      "symbol": "PYUSD",
-      "name": "PayPal USD"
-    },
-    {
       "symbol": "BUIDL",
       "name": "BlackRock USD Institutional Digital Liquidity Fund"
+    },
+    {
+      "symbol": "PYUSD",
+      "name": "PayPal USD"
     },
     {
       "symbol": "SUI",
@@ -233,12 +233,12 @@
       "name": "Internet Computer"
     },
     {
-      "symbol": "SKY",
-      "name": "Sky"
-    },
-    {
       "symbol": "U",
       "name": "United Stables"
+    },
+    {
+      "symbol": "SKY",
+      "name": "Sky"
     },
     {
       "symbol": "USDGO",
@@ -277,12 +277,12 @@
       "name": "Pi Network"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
-    },
-    {
       "symbol": "EUTBL",
       "name": "Spiko EU T-Bills Money Market Fund"
+    },
+    {
+      "symbol": "BTW",
+      "name": "Bitway"
     },
     {
       "symbol": "KCS",
@@ -405,16 +405,16 @@
       "name": "币安人生 (BinanceLife)"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
-    },
-    {
       "symbol": "A7A5",
       "name": "A7A5"
     },
     {
       "symbol": "APT",
       "name": "Aptos"
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
     },
     {
       "symbol": "INJ",
@@ -429,12 +429,12 @@
       "name": "Dash"
     },
     {
-      "symbol": "VIRTUAL",
-      "name": "Virtuals Protocol"
-    },
-    {
       "symbol": "VET",
       "name": "VeChain"
+    },
+    {
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol"
     },
     {
       "symbol": "CRV",
@@ -473,28 +473,24 @@
       "name": "SoFiUSD"
     },
     {
-      "symbol": "BSV",
-      "name": "Bitcoin SV"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
-    },
-    {
-      "symbol": "JTO",
-      "name": "Jito"
     },
     {
       "symbol": "APXUSD",
       "name": "apxUSD"
     },
     {
-      "symbol": "SPX",
-      "name": "SPX6900"
+      "symbol": "BSV",
+      "name": "Bitcoin SV"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
+      "symbol": "JTO",
+      "name": "Jito"
+    },
+    {
+      "symbol": "SPX",
+      "name": "SPX6900"
     },
     {
       "symbol": "UB",
@@ -519,6 +515,10 @@
     {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "ZRO",
@@ -565,16 +565,12 @@
       "name": "FGRS (Figure Tokenized Stock)"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
-    },
-    {
       "symbol": "PIEVERSE",
       "name": "Pieverse"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
+      "symbol": "H",
+      "name": "Humanity"
     },
     {
       "symbol": "PENDLE",
@@ -587,6 +583,10 @@
     {
       "symbol": "CFX",
       "name": "Conflux"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "KITE",
@@ -613,44 +613,40 @@
       "name": "Decred"
     },
     {
-      "symbol": "QFI",
-      "name": "Quantix Finance"
-    },
-    {
       "symbol": "XPL",
       "name": "Plasma"
-    },
-    {
-      "symbol": "BONK",
-      "name": "Bonk"
     },
     {
       "symbol": "GRASS",
       "name": "Grass"
     },
     {
+      "symbol": "BONK",
+      "name": "Bonk"
+    },
+    {
+      "symbol": "QFI",
+      "name": "Quantix Finance"
+    },
+    {
       "symbol": "PC0000031",
       "name": "Tradable NA Rent Financing Platform SSTN"
-    },
-    {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
-      "symbol": "REUSD",
-      "name": "Re Protocol reUSD"
     },
     {
       "symbol": "FF",
       "name": "Falcon Finance"
     },
     {
-      "symbol": "APEPE",
-      "name": "Ape and Pepe"
+      "symbol": "REUSD",
+      "name": "Re Protocol reUSD"
     },
     {
       "symbol": "FLOKI",
       "name": "FLOKI"
+    },
+    {
+      "symbol": "APEPE",
+      "name": "Ape and Pepe"
     },
     {
       "symbol": "ULTIMA",
@@ -659,6 +655,10 @@
     {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "OP",
@@ -685,12 +685,12 @@
       "name": "apyUSD"
     },
     {
-      "symbol": "2Z",
-      "name": "DoubleZero"
-    },
-    {
       "symbol": "USDAI",
       "name": "USDai"
+    },
+    {
+      "symbol": "2Z",
+      "name": "DoubleZero"
     },
     {
       "symbol": "RAY",
@@ -737,44 +737,44 @@
       "name": "BTSE Token"
     },
     {
-      "symbol": "B",
-      "name": "BUILDon"
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
     },
     {
       "symbol": "AKT",
       "name": "Akash Network"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
       "symbol": "KAIA",
       "name": "Kaia"
+    },
+    {
+      "symbol": "B",
+      "name": "BUILDon"
     },
     {
       "symbol": "IOTA",
       "name": "IOTA"
     },
     {
-      "symbol": "GUSD",
-      "name": "GUSD"
-    },
-    {
       "symbol": "MX",
       "name": "MX"
+    },
+    {
+      "symbol": "GUSD",
+      "name": "GUSD"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "CVX",
-      "name": "Convex Finance"
-    },
-    {
       "symbol": "AXS",
       "name": "Axie Infinity"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Convex Finance"
     },
     {
       "symbol": "SAFO",
@@ -797,11 +797,11 @@
       "name": "SwissBorg"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
+      "symbol": "WIF",
+      "name": "dogwifhat"
     }
   ],
-  "updated_at": "2026-08-17T15:12:33.413167+00:00",
+  "updated_at": "2026-08-17T15:46:19.559021+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
