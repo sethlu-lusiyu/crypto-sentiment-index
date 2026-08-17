@@ -281,28 +281,28 @@
       "name": "Spiko EU T-Bills Money Market Fund"
     },
     {
-      "symbol": "JST",
-      "name": "JUST"
+      "symbol": "BTW",
+      "name": "Bitway"
     },
     {
       "symbol": "KCS",
       "name": "KuCoin"
     },
     {
+      "symbol": "JST",
+      "name": "JUST"
+    },
+    {
       "symbol": "JTRSY",
       "name": "Janus Henderson Anemoy Treasury Fund"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
+      "symbol": "ENA",
+      "name": "Ethena"
     },
     {
       "symbol": "POL",
       "name": "POL (ex-MATIC)"
-    },
-    {
-      "symbol": "ENA",
-      "name": "Ethena"
     },
     {
       "symbol": "QNT",
@@ -321,16 +321,16 @@
       "name": "Gate"
     },
     {
+      "symbol": "NEXO",
+      "name": "NEXO"
+    },
+    {
       "symbol": "ALGO",
       "name": "Algorand"
     },
     {
       "symbol": "KAS",
       "name": "Kaspa"
-    },
-    {
-      "symbol": "NEXO",
-      "name": "NEXO"
     },
     {
       "symbol": "JAAA",
@@ -569,20 +569,20 @@
       "name": "Akedo"
     },
     {
-      "symbol": "STX",
-      "name": "Stacks"
-    },
-    {
-      "symbol": "KITE",
-      "name": "Kite"
-    },
-    {
       "symbol": "H",
       "name": "Humanity"
     },
     {
+      "symbol": "STX",
+      "name": "Stacks"
+    },
+    {
       "symbol": "CFX",
       "name": "Conflux"
+    },
+    {
+      "symbol": "KITE",
+      "name": "Kite"
     },
     {
       "symbol": "PENDLE",
@@ -613,20 +613,16 @@
       "name": "Plasma"
     },
     {
-      "symbol": "BONK",
-      "name": "Bonk"
-    },
-    {
       "symbol": "GRASS",
       "name": "Grass"
     },
     {
-      "symbol": "QFI",
-      "name": "Quantix Finance"
+      "symbol": "BONK",
+      "name": "Bonk"
     },
     {
-      "symbol": "FGRS",
-      "name": "FGRS (Figure Tokenized Stock)"
+      "symbol": "QFI",
+      "name": "Quantix Finance"
     },
     {
       "symbol": "PC0000031",
@@ -653,6 +649,10 @@
       "name": "Ultima"
     },
     {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
+    },
+    {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
     },
@@ -661,16 +661,16 @@
       "name": "Optimism"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
-      "symbol": "USAT",
-      "name": "USAT"
+      "symbol": "FGRS",
+      "name": "FGRS (Figure Tokenized Stock)"
     },
     {
       "symbol": "JASMY",
       "name": "JasmyCoin"
+    },
+    {
+      "symbol": "USAT",
+      "name": "USAT"
     },
     {
       "symbol": "TIBBIR",
@@ -737,6 +737,14 @@
       "name": "BTSE Token"
     },
     {
+      "symbol": "KAIA",
+      "name": "Kaia"
+    },
+    {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
+    },
+    {
       "symbol": "AKT",
       "name": "Akash Network"
     },
@@ -745,16 +753,8 @@
       "name": "BUILDon"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
-    },
-    {
-      "symbol": "KAIA",
-      "name": "Kaia"
     },
     {
       "symbol": "GUSD",
@@ -765,12 +765,12 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
-    },
-    {
       "symbol": "MX",
       "name": "MX"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "SAFO",
@@ -781,12 +781,12 @@
       "name": "IOTA"
     },
     {
-      "symbol": "TEL",
-      "name": "Telcoin"
-    },
-    {
       "symbol": "FARTCOIN",
       "name": "Fartcoin"
+    },
+    {
+      "symbol": "TEL",
+      "name": "Telcoin"
     },
     {
       "symbol": "RUNE",
@@ -797,11 +797,11 @@
       "name": "SwissBorg"
     },
     {
-      "symbol": "ZANO",
-      "name": "Zano"
+      "symbol": "THETA",
+      "name": "Theta Network"
     }
   ],
-  "updated_at": "2026-08-17T11:12:18.405074+00:00",
+  "updated_at": "2026-08-17T11:46:50.687997+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
