@@ -193,12 +193,12 @@
       "name": "HTX DAO"
     },
     {
-      "symbol": "M",
-      "name": "MemeCore"
-    },
-    {
       "symbol": "USDD",
       "name": "USDD"
+    },
+    {
+      "symbol": "M",
+      "name": "MemeCore"
     },
     {
       "symbol": "MNT",
@@ -225,20 +225,20 @@
       "name": "Polkadot"
     },
     {
-      "symbol": "SKY",
-      "name": "Sky"
-    },
-    {
       "symbol": "WLD",
       "name": "Worldcoin"
     },
     {
-      "symbol": "ICP",
-      "name": "Internet Computer"
+      "symbol": "SKY",
+      "name": "Sky"
     },
     {
       "symbol": "U",
       "name": "United Stables"
+    },
+    {
+      "symbol": "ICP",
+      "name": "Internet Computer"
     },
     {
       "symbol": "USDGO",
@@ -417,12 +417,12 @@
       "name": "Injective"
     },
     {
-      "symbol": "AERO",
-      "name": "Aerodrome Finance"
-    },
-    {
       "symbol": "HASH",
       "name": "Provenance Blockchain"
+    },
+    {
+      "symbol": "AERO",
+      "name": "Aerodrome Finance"
     },
     {
       "symbol": "DASH",
@@ -477,12 +477,12 @@
       "name": "Pyth Network"
     },
     {
-      "symbol": "APXUSD",
-      "name": "apxUSD"
-    },
-    {
       "symbol": "BSV",
       "name": "Bitcoin SV"
+    },
+    {
+      "symbol": "APXUSD",
+      "name": "apxUSD"
     },
     {
       "symbol": "JTO",
@@ -513,12 +513,12 @@
       "name": "Gnosis"
     },
     {
-      "symbol": "OHM",
-      "name": "Olympus"
-    },
-    {
       "symbol": "FET",
       "name": "Artificial Superintelligence Alliance"
+    },
+    {
+      "symbol": "OHM",
+      "name": "Olympus"
     },
     {
       "symbol": "ZRO",
@@ -573,10 +573,6 @@
       "name": "Humanity"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "PENDLE",
       "name": "Pendle"
     },
@@ -605,16 +601,16 @@
       "name": "crvUSD"
     },
     {
-      "symbol": "GRASS",
-      "name": "Grass"
+      "symbol": "DCR",
+      "name": "Decred"
     },
     {
       "symbol": "AUSD",
       "name": "AUSD"
     },
     {
-      "symbol": "DCR",
-      "name": "Decred"
+      "symbol": "GRASS",
+      "name": "Grass"
     },
     {
       "symbol": "XPL",
@@ -633,16 +629,16 @@
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
+      "symbol": "AKE",
+      "name": "Akedo"
+    },
+    {
       "symbol": "REUSD",
       "name": "Re Protocol reUSD"
     },
     {
       "symbol": "FF",
       "name": "Falcon Finance"
-    },
-    {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
     },
     {
       "symbol": "FLOKI",
@@ -659,6 +655,10 @@
     {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "OP",
@@ -717,12 +717,12 @@
       "name": "Spiko US T-Bills Money Market Fund"
     },
     {
-      "symbol": "EURCV",
-      "name": "EUR CoinVertible"
-    },
-    {
       "symbol": "STRK",
       "name": "Starknet"
+    },
+    {
+      "symbol": "EURCV",
+      "name": "EUR CoinVertible"
     },
     {
       "symbol": "TWT",
@@ -745,36 +745,36 @@
       "name": "Akash Network"
     },
     {
-      "symbol": "CVX",
-      "name": "Convex Finance"
-    },
-    {
       "symbol": "MX",
       "name": "MX"
-    },
-    {
-      "symbol": "B",
-      "name": "BUILDon"
-    },
-    {
-      "symbol": "GUSD",
-      "name": "GUSD"
     },
     {
       "symbol": "KAIA",
       "name": "Kaia"
     },
     {
+      "symbol": "CVX",
+      "name": "Convex Finance"
+    },
+    {
+      "symbol": "GUSD",
+      "name": "GUSD"
+    },
+    {
       "symbol": "IOTA",
       "name": "IOTA"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
+      "symbol": "B",
+      "name": "BUILDon"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "SAFO",
@@ -801,7 +801,7 @@
       "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-17T19:58:02.870070+00:00",
+  "updated_at": "2026-08-17T20:39:36.385463+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
