@@ -193,12 +193,12 @@
       "name": "HTX DAO"
     },
     {
-      "symbol": "USDD",
-      "name": "USDD"
-    },
-    {
       "symbol": "M",
       "name": "MemeCore"
+    },
+    {
+      "symbol": "USDD",
+      "name": "USDD"
     },
     {
       "symbol": "MNT",
@@ -321,16 +321,16 @@
       "name": "Gate"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
-    },
-    {
       "symbol": "KAS",
       "name": "Kaspa"
     },
     {
       "symbol": "NEXO",
       "name": "NEXO"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "JAAA",
@@ -541,16 +541,16 @@
       "name": "BitTorrent"
     },
     {
+      "symbol": "MON",
+      "name": "Monad"
+    },
+    {
       "symbol": "PIEVERSE",
       "name": "Pieverse"
     },
     {
       "symbol": "LDO",
       "name": "Lido DAO"
-    },
-    {
-      "symbol": "MON",
-      "name": "Monad"
     },
     {
       "symbol": "REAL",
@@ -609,32 +609,32 @@
       "name": "Grass"
     },
     {
-      "symbol": "QFI",
-      "name": "Quantix Finance"
-    },
-    {
       "symbol": "XPL",
       "name": "Plasma"
+    },
+    {
+      "symbol": "QFI",
+      "name": "Quantix Finance"
     },
     {
       "symbol": "BONK",
       "name": "Bonk"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "PC0000031",
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
-      "symbol": "REUSD",
-      "name": "Re Protocol reUSD"
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "FF",
       "name": "Falcon Finance"
+    },
+    {
+      "symbol": "REUSD",
+      "name": "Re Protocol reUSD"
     },
     {
       "symbol": "FGRS",
@@ -649,12 +649,12 @@
       "name": "Ape and Pepe"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "ULTIMA",
@@ -697,12 +697,12 @@
       "name": "DoubleZero"
     },
     {
-      "symbol": "COCO",
-      "name": "coco"
-    },
-    {
       "symbol": "RAY",
       "name": "Raydium"
+    },
+    {
+      "symbol": "COCO",
+      "name": "coco"
     },
     {
       "symbol": "ENS",
@@ -737,12 +737,12 @@
       "name": "BTSE Token"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
-    },
-    {
       "symbol": "STRCX",
       "name": "Strategy PP Variable xStock"
+    },
+    {
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "KAIA",
@@ -761,12 +761,12 @@
       "name": "GUSD"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
-    },
-    {
       "symbol": "B",
       "name": "BUILDon"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "EIGEN",
@@ -801,7 +801,7 @@
       "name": "Theta Network"
     }
   ],
-  "updated_at": "2026-08-17T23:33:59.618454+00:00",
+  "updated_at": "2026-08-17T23:54:53.837601+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
