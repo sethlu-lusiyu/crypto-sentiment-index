@@ -269,12 +269,12 @@
       "name": "Blockchain Capital"
     },
     {
-      "symbol": "ETC",
-      "name": "Ethereum Classic"
-    },
-    {
       "symbol": "PI",
       "name": "Pi Network"
+    },
+    {
+      "symbol": "ETC",
+      "name": "Ethereum Classic"
     },
     {
       "symbol": "USTB",
@@ -345,12 +345,12 @@
       "name": "YLDS"
     },
     {
-      "symbol": "RENDER",
-      "name": "Render"
-    },
-    {
       "symbol": "VVV",
       "name": "Venice Token"
+    },
+    {
+      "symbol": "RENDER",
+      "name": "Render"
     },
     {
       "symbol": "BDX",
@@ -473,16 +473,16 @@
       "name": "SoFiUSD"
     },
     {
-      "symbol": "PYTH",
-      "name": "Pyth Network"
+      "symbol": "APXUSD",
+      "name": "apxUSD"
     },
     {
       "symbol": "UB",
       "name": "Unibase"
     },
     {
-      "symbol": "APXUSD",
-      "name": "apxUSD"
+      "symbol": "PYTH",
+      "name": "Pyth Network"
     },
     {
       "symbol": "SPX",
@@ -501,6 +501,10 @@
       "name": "Jito"
     },
     {
+      "symbol": "VELVET",
+      "name": "Velvet"
+    },
+    {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
@@ -511,10 +515,6 @@
     {
       "symbol": "NFT",
       "name": "AINFT"
-    },
-    {
-      "symbol": "VELVET",
-      "name": "Velvet"
     },
     {
       "symbol": "ZRO",
@@ -533,12 +533,12 @@
       "name": "OnRe Tokenized Reinsurance"
     },
     {
-      "symbol": "SEI",
-      "name": "Sei"
-    },
-    {
       "symbol": "LUNC",
       "name": "Terra Luna Classic"
+    },
+    {
+      "symbol": "SEI",
+      "name": "Sei"
     },
     {
       "symbol": "BTT",
@@ -557,12 +557,12 @@
       "name": "Monad"
     },
     {
-      "symbol": "KAG",
-      "name": "Kinesis Silver"
-    },
-    {
       "symbol": "PIEVERSE",
       "name": "Pieverse"
+    },
+    {
+      "symbol": "KAG",
+      "name": "Kinesis Silver"
     },
     {
       "symbol": "PENDLE",
@@ -593,16 +593,16 @@
       "name": "crvUSD"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
-    },
-    {
       "symbol": "TIBBIR",
       "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "AUSD",
       "name": "AUSD"
+    },
+    {
+      "symbol": "H",
+      "name": "Humanity"
     },
     {
       "symbol": "AKE",
@@ -637,12 +637,12 @@
       "name": "Ape and Pepe"
     },
     {
-      "symbol": "FF",
-      "name": "Falcon Finance"
-    },
-    {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
+    },
+    {
+      "symbol": "FF",
+      "name": "Falcon Finance"
     },
     {
       "symbol": "ULTIMA",
@@ -673,12 +673,12 @@
       "name": "KOGE"
     },
     {
-      "symbol": "USDAI",
-      "name": "USDai"
-    },
-    {
       "symbol": "APYUSD",
       "name": "apyUSD"
+    },
+    {
+      "symbol": "USDAI",
+      "name": "USDai"
     },
     {
       "symbol": "JASMY",
@@ -741,12 +741,12 @@
       "name": "IOTA"
     },
     {
-      "symbol": "GUSD",
-      "name": "GUSD"
-    },
-    {
       "symbol": "MX",
       "name": "MX"
+    },
+    {
+      "symbol": "GUSD",
+      "name": "GUSD"
     },
     {
       "symbol": "EIGEN",
@@ -769,24 +769,24 @@
       "name": "The Graph"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
       "symbol": "AKT",
       "name": "Akash Network"
+    },
+    {
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
-      "symbol": "TEL",
-      "name": "Telcoin"
-    },
-    {
       "symbol": "THETA",
       "name": "Theta Network"
+    },
+    {
+      "symbol": "TEL",
+      "name": "Telcoin"
     },
     {
       "symbol": "FARTCOIN",
@@ -801,7 +801,7 @@
       "name": "THORChain"
     }
   ],
-  "updated_at": "2026-08-18T19:22:19.115867+00:00",
+  "updated_at": "2026-08-18T19:47:25.280531+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
