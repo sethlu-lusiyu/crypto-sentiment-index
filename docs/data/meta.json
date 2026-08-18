@@ -385,12 +385,12 @@
       "name": "Arbitrum"
     },
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
-    },
-    {
       "symbol": "TUSD",
       "name": "TrueUSD"
+    },
+    {
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
     },
     {
       "symbol": "CAKE",
@@ -473,12 +473,12 @@
       "name": "SoFiUSD"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "APXUSD",
@@ -501,10 +501,6 @@
       "name": "Jito"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
@@ -515,6 +511,10 @@
     {
       "symbol": "NFT",
       "name": "AINFT"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "ZRO",
@@ -581,12 +581,12 @@
       "name": "Kite"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux"
-    },
-    {
       "symbol": "FRAX",
       "name": "Legacy Frax Dollar"
+    },
+    {
+      "symbol": "CFX",
+      "name": "Conflux"
     },
     {
       "symbol": "CRVUSD",
@@ -597,12 +597,12 @@
       "name": "Humanity"
     },
     {
-      "symbol": "AUSD",
-      "name": "AUSD"
-    },
-    {
       "symbol": "TIBBIR",
       "name": "Ribbita by Virtuals"
+    },
+    {
+      "symbol": "AUSD",
+      "name": "AUSD"
     },
     {
       "symbol": "AKE",
@@ -637,16 +637,16 @@
       "name": "Ape and Pepe"
     },
     {
-      "symbol": "ULTIMA",
-      "name": "Ultima"
-    },
-    {
       "symbol": "FF",
       "name": "Falcon Finance"
     },
     {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
+    },
+    {
+      "symbol": "ULTIMA",
+      "name": "Ultima"
     },
     {
       "symbol": "FLOKI",
@@ -661,12 +661,12 @@
       "name": "Optimism"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
       "symbol": "USAT",
       "name": "USAT"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "KOGE",
@@ -677,12 +677,12 @@
       "name": "USDai"
     },
     {
-      "symbol": "JASMY",
-      "name": "JasmyCoin"
-    },
-    {
       "symbol": "APYUSD",
       "name": "apyUSD"
+    },
+    {
+      "symbol": "JASMY",
+      "name": "JasmyCoin"
     },
     {
       "symbol": "COMP",
@@ -701,12 +701,12 @@
       "name": "coco"
     },
     {
-      "symbol": "2Z",
-      "name": "DoubleZero"
-    },
-    {
       "symbol": "PC0000033",
       "name": "Tradable APAC Diversified Finance Provider SSTN"
+    },
+    {
+      "symbol": "2Z",
+      "name": "DoubleZero"
     },
     {
       "symbol": "ENS",
@@ -737,6 +737,10 @@
       "name": "Strategy PP Variable xStock"
     },
     {
+      "symbol": "IOTA",
+      "name": "IOTA"
+    },
+    {
       "symbol": "GUSD",
       "name": "GUSD"
     },
@@ -747,10 +751,6 @@
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
-    },
-    {
-      "symbol": "IOTA",
-      "name": "IOTA"
     },
     {
       "symbol": "AXS",
@@ -781,12 +781,12 @@
       "name": "Convex Finance"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
-    },
-    {
       "symbol": "TEL",
       "name": "Telcoin"
+    },
+    {
+      "symbol": "THETA",
+      "name": "Theta Network"
     },
     {
       "symbol": "FARTCOIN",
@@ -801,7 +801,7 @@
       "name": "THORChain"
     }
   ],
-  "updated_at": "2026-08-18T18:53:29.196766+00:00",
+  "updated_at": "2026-08-18T19:22:19.115867+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
