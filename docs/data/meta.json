@@ -345,12 +345,12 @@
       "name": "YLDS"
     },
     {
-      "symbol": "RENDER",
-      "name": "Render"
-    },
-    {
       "symbol": "VVV",
       "name": "Venice Token"
+    },
+    {
+      "symbol": "RENDER",
+      "name": "Render"
     },
     {
       "symbol": "BDX",
@@ -385,12 +385,12 @@
       "name": "Arbitrum"
     },
     {
-      "symbol": "TUSD",
-      "name": "TrueUSD"
-    },
-    {
       "symbol": "ETHFI",
       "name": "Ether.fi"
+    },
+    {
+      "symbol": "TUSD",
+      "name": "TrueUSD"
     },
     {
       "symbol": "HASH",
@@ -429,16 +429,16 @@
       "name": "Dash"
     },
     {
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol"
+    },
+    {
       "symbol": "CRV",
       "name": "Curve DAO"
     },
     {
       "symbol": "VET",
       "name": "VeChain"
-    },
-    {
-      "symbol": "VIRTUAL",
-      "name": "Virtuals Protocol"
     },
     {
       "symbol": "PENGU",
@@ -513,16 +513,16 @@
       "name": "Gnosis"
     },
     {
-      "symbol": "ZRO",
-      "name": "LayerZero"
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance"
     },
     {
       "symbol": "OHM",
       "name": "Olympus"
     },
     {
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance"
+      "symbol": "ZRO",
+      "name": "LayerZero"
     },
     {
       "symbol": "ONYC",
@@ -581,12 +581,16 @@
       "name": "Conflux"
     },
     {
-      "symbol": "KITE",
-      "name": "Kite"
-    },
-    {
       "symbol": "FRAX",
       "name": "Legacy Frax Dollar"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
+    },
+    {
+      "symbol": "KITE",
+      "name": "Kite"
     },
     {
       "symbol": "CRVUSD",
@@ -613,10 +617,6 @@
       "name": "Quantix Finance"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "DCR",
       "name": "Decred"
     },
@@ -641,16 +641,16 @@
       "name": "Ape and Pepe"
     },
     {
+      "symbol": "ULTIMA",
+      "name": "Ultima"
+    },
+    {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
     },
     {
       "symbol": "FLOKI",
       "name": "FLOKI"
-    },
-    {
-      "symbol": "ULTIMA",
-      "name": "Ultima"
     },
     {
       "symbol": "OP",
@@ -709,32 +709,32 @@
       "name": "Spiko US T-Bills Money Market Fund"
     },
     {
-      "symbol": "EURCV",
-      "name": "EUR CoinVertible"
-    },
-    {
       "symbol": "ENS",
       "name": "Ethereum Name Service"
     },
     {
-      "symbol": "TWT",
-      "name": "Trust Wallet"
+      "symbol": "EURCV",
+      "name": "EUR CoinVertible"
     },
     {
       "symbol": "STRK",
       "name": "Starknet"
     },
     {
+      "symbol": "TWT",
+      "name": "Trust Wallet"
+    },
+    {
       "symbol": "ZBCN",
       "name": "Zebec Network"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
       "symbol": "B",
       "name": "BUILDon"
+    },
+    {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
     },
     {
       "symbol": "BTSE",
@@ -753,20 +753,20 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
-    },
-    {
       "symbol": "IOTA",
       "name": "IOTA"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "SAFO",
       "name": "Spiko Amundi Overnight Swap Fund"
+    },
+    {
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "GRT",
@@ -777,12 +777,16 @@
       "name": "Convex Finance"
     },
     {
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
+    },
+    {
       "symbol": "KAIA",
       "name": "Kaia"
     },
     {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
+      "symbol": "THETA",
+      "name": "Theta Network"
     },
     {
       "symbol": "RUNE",
@@ -793,15 +797,11 @@
       "name": "Telcoin"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
-    },
-    {
       "symbol": "BORG",
       "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-18T08:51:00.736324+00:00",
+  "updated_at": "2026-08-18T09:20:09.702155+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
