@@ -253,6 +253,10 @@
       "name": "Spiko Amundi Overnight Swap Fund (EUR)"
     },
     {
+      "symbol": "BTW",
+      "name": "Bitway"
+    },
+    {
       "symbol": "PUMP",
       "name": "Pump.fun"
     },
@@ -261,20 +265,16 @@
       "name": "Pepe"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
-    },
-    {
       "symbol": "BCAP",
       "name": "Blockchain Capital"
     },
     {
-      "symbol": "PI",
-      "name": "Pi Network"
-    },
-    {
       "symbol": "ETC",
       "name": "Ethereum Classic"
+    },
+    {
+      "symbol": "PI",
+      "name": "Pi Network"
     },
     {
       "symbol": "USTB",
@@ -345,12 +345,12 @@
       "name": "YLDS"
     },
     {
-      "symbol": "VVV",
-      "name": "Venice Token"
-    },
-    {
       "symbol": "RENDER",
       "name": "Render"
+    },
+    {
+      "symbol": "VVV",
+      "name": "Venice Token"
     },
     {
       "symbol": "BDX",
@@ -385,28 +385,28 @@
       "name": "Arbitrum"
     },
     {
-      "symbol": "TUSD",
-      "name": "TrueUSD"
-    },
-    {
       "symbol": "ETHFI",
       "name": "Ether.fi"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
+      "symbol": "TUSD",
+      "name": "TrueUSD"
     },
     {
       "symbol": "CAKE",
       "name": "PancakeSwap"
     },
     {
-      "symbol": "EURC",
-      "name": "EURC"
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
     },
     {
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)"
+    },
+    {
+      "symbol": "EURC",
+      "name": "EURC"
     },
     {
       "symbol": "A7A5",
@@ -501,16 +501,16 @@
       "name": "Jito"
     },
     {
+      "symbol": "VELVET",
+      "name": "Velvet"
+    },
+    {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
       "symbol": "GNO",
       "name": "Gnosis"
-    },
-    {
-      "symbol": "VELVET",
-      "name": "Velvet"
     },
     {
       "symbol": "NFT",
@@ -533,12 +533,12 @@
       "name": "OnRe Tokenized Reinsurance"
     },
     {
-      "symbol": "LUNC",
-      "name": "Terra Luna Classic"
-    },
-    {
       "symbol": "SEI",
       "name": "Sei"
+    },
+    {
+      "symbol": "LUNC",
+      "name": "Terra Luna Classic"
     },
     {
       "symbol": "BTT",
@@ -549,12 +549,12 @@
       "name": "Lido DAO"
     },
     {
-      "symbol": "MON",
-      "name": "Monad"
-    },
-    {
       "symbol": "REAL",
       "name": "RealLink"
+    },
+    {
+      "symbol": "MON",
+      "name": "Monad"
     },
     {
       "symbol": "KAG",
@@ -601,6 +601,10 @@
       "name": "AUSD"
     },
     {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
+    },
+    {
       "symbol": "AKE",
       "name": "Akedo"
     },
@@ -611,10 +615,6 @@
     {
       "symbol": "BONK",
       "name": "Bonk"
-    },
-    {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "XPL",
@@ -737,12 +737,12 @@
       "name": "Strategy PP Variable xStock"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "GUSD",
       "name": "GUSD"
+    },
+    {
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "EIGEN",
@@ -757,51 +757,51 @@
       "name": "Axie Infinity"
     },
     {
-      "symbol": "BTSE",
-      "name": "BTSE Token"
-    },
-    {
       "symbol": "SAFO",
       "name": "Spiko Amundi Overnight Swap Fund"
+    },
+    {
+      "symbol": "BTSE",
+      "name": "BTSE Token"
     },
     {
       "symbol": "GRT",
       "name": "The Graph"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
-    },
-    {
       "symbol": "KAIA",
       "name": "Kaia"
     },
     {
-      "symbol": "TEL",
-      "name": "Telcoin"
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
-    },
-    {
       "symbol": "THETA",
       "name": "Theta Network"
+    },
+    {
+      "symbol": "TEL",
+      "name": "Telcoin"
+    },
+    {
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "BORG",
       "name": "SwissBorg"
     },
     {
-      "symbol": "WIF",
-      "name": "dogwifhat"
+      "symbol": "RUNE",
+      "name": "THORChain"
     }
   ],
-  "updated_at": "2026-08-18T18:01:40.249168+00:00",
+  "updated_at": "2026-08-18T18:53:29.196766+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
