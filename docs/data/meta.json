@@ -133,12 +133,12 @@
       "name": "Avalanche"
     },
     {
-      "symbol": "SUI",
-      "name": "Sui"
-    },
-    {
       "symbol": "XAUT",
       "name": "Tether Gold"
+    },
+    {
+      "symbol": "SUI",
+      "name": "Sui"
     },
     {
       "symbol": "SHIB",
@@ -201,12 +201,12 @@
       "name": "MemeCore"
     },
     {
-      "symbol": "MORPHO",
-      "name": "Morpho"
-    },
-    {
       "symbol": "MNT",
       "name": "Mantle"
+    },
+    {
+      "symbol": "MORPHO",
+      "name": "Morpho"
     },
     {
       "symbol": "AAVE",
@@ -293,12 +293,12 @@
       "name": "JUST"
     },
     {
-      "symbol": "JTRSY",
-      "name": "Janus Henderson Anemoy Treasury Fund"
-    },
-    {
       "symbol": "POL",
       "name": "POL (ex-MATIC)"
+    },
+    {
+      "symbol": "JTRSY",
+      "name": "Janus Henderson Anemoy Treasury Fund"
     },
     {
       "symbol": "ENA",
@@ -481,20 +481,16 @@
       "name": "Pyth Network"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
-    },
-    {
       "symbol": "SPX",
       "name": "SPX6900"
     },
     {
-      "symbol": "BSV",
-      "name": "Bitcoin SV"
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
+      "symbol": "BSV",
+      "name": "Bitcoin SV"
     },
     {
       "symbol": "TIA",
@@ -503,6 +499,10 @@
     {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "JTO",
@@ -573,20 +573,20 @@
       "name": "Stacks"
     },
     {
-      "symbol": "H",
-      "name": "Humanity"
-    },
-    {
       "symbol": "CFX",
       "name": "Conflux"
     },
     {
-      "symbol": "KITE",
-      "name": "Kite"
+      "symbol": "H",
+      "name": "Humanity"
     },
     {
       "symbol": "XTZ",
       "name": "Tezos"
+    },
+    {
+      "symbol": "KITE",
+      "name": "Kite"
     },
     {
       "symbol": "FRAX",
@@ -597,12 +597,12 @@
       "name": "crvUSD"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "GRASS",
       "name": "Grass"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "AUSD",
@@ -613,6 +613,10 @@
       "name": "Plasma"
     },
     {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
+    },
+    {
       "symbol": "BONK",
       "name": "Bonk"
     },
@@ -621,20 +625,12 @@
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
-    },
-    {
       "symbol": "QFI",
       "name": "Quantix Finance"
     },
     {
       "symbol": "REUSD",
       "name": "Re Protocol reUSD"
-    },
-    {
-      "symbol": "DCR",
-      "name": "Decred"
     },
     {
       "symbol": "APEPE",
@@ -655,6 +651,10 @@
     {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
+    },
+    {
+      "symbol": "DCR",
+      "name": "Decred"
     },
     {
       "symbol": "SYRUP",
@@ -749,12 +749,12 @@
       "name": "GUSD"
     },
     {
-      "symbol": "BTSE",
-      "name": "BTSE Token"
-    },
-    {
       "symbol": "IOTA",
       "name": "IOTA"
+    },
+    {
+      "symbol": "BTSE",
+      "name": "BTSE Token"
     },
     {
       "symbol": "AXS",
@@ -801,7 +801,7 @@
       "name": "dogwifhat"
     }
   ],
-  "updated_at": "2026-08-18T15:52:46.995811+00:00",
+  "updated_at": "2026-08-18T16:17:43.486682+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
