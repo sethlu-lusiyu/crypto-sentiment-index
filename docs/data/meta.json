@@ -133,12 +133,12 @@
       "name": "Avalanche"
     },
     {
-      "symbol": "SUI",
-      "name": "Sui"
-    },
-    {
       "symbol": "XAUT",
       "name": "Tether Gold"
+    },
+    {
+      "symbol": "SUI",
+      "name": "Sui"
     },
     {
       "symbol": "SHIB",
@@ -429,16 +429,16 @@
       "name": "Dash"
     },
     {
-      "symbol": "VIRTUAL",
-      "name": "Virtuals Protocol"
+      "symbol": "VET",
+      "name": "VeChain"
     },
     {
       "symbol": "PENGU",
       "name": "Pudgy Penguins"
     },
     {
-      "symbol": "VET",
-      "name": "VeChain"
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol"
     },
     {
       "symbol": "OUSG",
@@ -485,12 +485,12 @@
       "name": "Unibase"
     },
     {
-      "symbol": "GNO",
-      "name": "Gnosis"
-    },
-    {
       "symbol": "SPX",
       "name": "SPX6900"
+    },
+    {
+      "symbol": "GNO",
+      "name": "Gnosis"
     },
     {
       "symbol": "BSV",
@@ -501,12 +501,12 @@
       "name": "Celestia"
     },
     {
-      "symbol": "JTO",
-      "name": "Jito"
-    },
-    {
       "symbol": "NIGHT",
       "name": "Midnight"
+    },
+    {
+      "symbol": "JTO",
+      "name": "Jito"
     },
     {
       "symbol": "VELVET",
@@ -601,6 +601,14 @@
       "name": "AUSD"
     },
     {
+      "symbol": "DCR",
+      "name": "Decred"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
+    },
+    {
       "symbol": "BONK",
       "name": "Bonk"
     },
@@ -609,16 +617,8 @@
       "name": "Ribbita by Virtuals"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "GRASS",
       "name": "Grass"
-    },
-    {
-      "symbol": "DCR",
-      "name": "Decred"
     },
     {
       "symbol": "PC0000031",
@@ -693,12 +693,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "COCO",
-      "name": "coco"
-    },
-    {
       "symbol": "RAY",
       "name": "Raydium"
+    },
+    {
+      "symbol": "COCO",
+      "name": "coco"
     },
     {
       "symbol": "2Z",
@@ -757,12 +757,12 @@
       "name": "BTSE Token"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
-    },
-    {
       "symbol": "SAFO",
       "name": "Spiko Amundi Overnight Swap Fund"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "GRT",
@@ -777,31 +777,31 @@
       "name": "Kaia"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "THETA",
       "name": "Theta Network"
     },
     {
-      "symbol": "BORG",
-      "name": "SwissBorg"
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "SHFL",
       "name": "Shuffle"
+    },
+    {
+      "symbol": "BORG",
+      "name": "SwissBorg"
     }
   ],
-  "updated_at": "2026-08-18T21:35:29.963580+00:00",
+  "updated_at": "2026-08-18T21:55:29.549645+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
