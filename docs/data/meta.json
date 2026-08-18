@@ -253,12 +253,12 @@
       "name": "Spiko Amundi Overnight Swap Fund (EUR)"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
-    },
-    {
       "symbol": "PUMP",
       "name": "Pump.fun"
+    },
+    {
+      "symbol": "BTW",
+      "name": "Bitway"
     },
     {
       "symbol": "PEPE",
@@ -329,12 +329,12 @@
       "name": "Janus Henderson Anemoy AAA CLO Fund"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
-    },
-    {
       "symbol": "KAS",
       "name": "Kaspa"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "GHO",
@@ -345,12 +345,12 @@
       "name": "YLDS"
     },
     {
-      "symbol": "RENDER",
-      "name": "Render"
-    },
-    {
       "symbol": "VVV",
       "name": "Venice Token"
+    },
+    {
+      "symbol": "RENDER",
+      "name": "Render"
     },
     {
       "symbol": "BDX",
@@ -397,12 +397,12 @@
       "name": "PancakeSwap"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
-    },
-    {
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)"
+    },
+    {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
     },
     {
       "symbol": "EURC",
@@ -433,12 +433,12 @@
       "name": "Virtuals Protocol"
     },
     {
-      "symbol": "VET",
-      "name": "VeChain"
-    },
-    {
       "symbol": "PENGU",
       "name": "Pudgy Penguins"
+    },
+    {
+      "symbol": "VET",
+      "name": "VeChain"
     },
     {
       "symbol": "OUSG",
@@ -485,6 +485,10 @@
       "name": "Unibase"
     },
     {
+      "symbol": "GNO",
+      "name": "Gnosis"
+    },
+    {
       "symbol": "SPX",
       "name": "SPX6900"
     },
@@ -501,16 +505,12 @@
       "name": "Jito"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
-      "symbol": "GNO",
-      "name": "Gnosis"
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "NFT",
@@ -577,20 +577,20 @@
       "name": "Kite"
     },
     {
-      "symbol": "FRAX",
-      "name": "Legacy Frax Dollar"
-    },
-    {
       "symbol": "XTZ",
       "name": "Tezos"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux"
+      "symbol": "FRAX",
+      "name": "Legacy Frax Dollar"
     },
     {
       "symbol": "CRVUSD",
       "name": "crvUSD"
+    },
+    {
+      "symbol": "CFX",
+      "name": "Conflux"
     },
     {
       "symbol": "H",
@@ -601,20 +601,24 @@
       "name": "AUSD"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
+      "symbol": "BONK",
+      "name": "Bonk"
     },
     {
       "symbol": "TIBBIR",
       "name": "Ribbita by Virtuals"
     },
     {
-      "symbol": "BONK",
-      "name": "Bonk"
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "GRASS",
       "name": "Grass"
+    },
+    {
+      "symbol": "DCR",
+      "name": "Decred"
     },
     {
       "symbol": "PC0000031",
@@ -657,10 +661,6 @@
       "name": "Optimism"
     },
     {
-      "symbol": "DCR",
-      "name": "Decred"
-    },
-    {
       "symbol": "USAT",
       "name": "USAT"
     },
@@ -677,12 +677,12 @@
       "name": "USDai"
     },
     {
-      "symbol": "APYUSD",
-      "name": "apyUSD"
-    },
-    {
       "symbol": "COMP",
       "name": "Compound"
+    },
+    {
+      "symbol": "APYUSD",
+      "name": "apyUSD"
     },
     {
       "symbol": "JASMY",
@@ -769,10 +769,6 @@
       "name": "The Graph"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
-    },
-    {
       "symbol": "TEL",
       "name": "Telcoin"
     },
@@ -781,16 +777,20 @@
       "name": "Kaia"
     },
     {
+      "symbol": "AKT",
+      "name": "Akash Network"
+    },
+    {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
-    },
-    {
       "symbol": "FARTCOIN",
       "name": "Fartcoin"
+    },
+    {
+      "symbol": "THETA",
+      "name": "Theta Network"
     },
     {
       "symbol": "BORG",
@@ -801,7 +801,7 @@
       "name": "Shuffle"
     }
   ],
-  "updated_at": "2026-08-18T20:58:05.308607+00:00",
+  "updated_at": "2026-08-18T21:35:29.963580+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
