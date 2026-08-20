@@ -205,16 +205,16 @@
       "name": "USDD"
     },
     {
-      "symbol": "MORPHO",
-      "name": "Morpho"
+      "symbol": "PUMP",
+      "name": "Pump.fun"
     },
     {
       "symbol": "AAVE",
       "name": "Aave"
     },
     {
-      "symbol": "PUMP",
-      "name": "Pump.fun"
+      "symbol": "MORPHO",
+      "name": "Morpho"
     },
     {
       "symbol": "SKY",
@@ -229,16 +229,16 @@
       "name": "Pepe"
     },
     {
+      "symbol": "WLD",
+      "name": "Worldcoin"
+    },
+    {
       "symbol": "USDF",
       "name": "Falcon USD"
     },
     {
       "symbol": "ICP",
       "name": "Internet Computer"
-    },
-    {
-      "symbol": "WLD",
-      "name": "Worldcoin"
     },
     {
       "symbol": "BFUSD",
@@ -305,20 +305,20 @@
       "name": "POL (ex-MATIC)"
     },
     {
-      "symbol": "USTB",
-      "name": "Invesco Short Duration US Government Securities Fund"
-    },
-    {
       "symbol": "STABLE",
       "name": "​​Stable"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
+      "symbol": "USTB",
+      "name": "Invesco Short Duration US Government Securities Fund"
     },
     {
       "symbol": "ATOM",
       "name": "Cosmos Hub"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "NEXO",
@@ -397,12 +397,12 @@
       "name": "USX"
     },
     {
-      "symbol": "TUSD",
-      "name": "TrueUSD"
-    },
-    {
       "symbol": "APT",
       "name": "Aptos"
+    },
+    {
+      "symbol": "TUSD",
+      "name": "TrueUSD"
     },
     {
       "symbol": "INJ",
@@ -469,12 +469,12 @@
       "name": "First Digital USD"
     },
     {
-      "symbol": "KAU",
-      "name": "Kinesis Gold"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "KAU",
+      "name": "Kinesis Gold"
     },
     {
       "symbol": "SUN",
@@ -485,20 +485,24 @@
       "name": "Celestia"
     },
     {
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance"
+      "symbol": "GNO",
+      "name": "Gnosis"
     },
     {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
-      "symbol": "GNO",
-      "name": "Gnosis"
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance"
     },
     {
       "symbol": "BSV",
       "name": "Bitcoin SV"
+    },
+    {
+      "symbol": "MON",
+      "name": "Monad"
     },
     {
       "symbol": "SOFID",
@@ -507,10 +511,6 @@
     {
       "symbol": "ZRO",
       "name": "LayerZero"
-    },
-    {
-      "symbol": "MON",
-      "name": "Monad"
     },
     {
       "symbol": "APXUSD",
@@ -541,12 +541,12 @@
       "name": "Lido DAO"
     },
     {
-      "symbol": "BTT",
-      "name": "BitTorrent"
-    },
-    {
       "symbol": "OHM",
       "name": "Olympus"
+    },
+    {
+      "symbol": "BTT",
+      "name": "BitTorrent"
     },
     {
       "symbol": "NFT",
@@ -577,36 +577,36 @@
       "name": "Tezos"
     },
     {
-      "symbol": "KITE",
-      "name": "Kite"
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "XPL",
       "name": "Plasma"
     },
     {
-      "symbol": "KAG",
-      "name": "Kinesis Silver"
+      "symbol": "KITE",
+      "name": "Kite"
     },
     {
       "symbol": "CFX",
       "name": "Conflux"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
+      "symbol": "KAG",
+      "name": "Kinesis Silver"
     },
     {
       "symbol": "BONK",
       "name": "Bonk"
     },
     {
-      "symbol": "CRVUSD",
-      "name": "crvUSD"
-    },
-    {
       "symbol": "FLOKI",
       "name": "FLOKI"
+    },
+    {
+      "symbol": "CRVUSD",
+      "name": "crvUSD"
     },
     {
       "symbol": "OP",
@@ -617,16 +617,16 @@
       "name": "Legacy Frax Dollar"
     },
     {
+      "symbol": "APEPE",
+      "name": "Ape and Pepe"
+    },
+    {
       "symbol": "DCR",
       "name": "Decred"
     },
     {
       "symbol": "AUSD",
       "name": "AUSD"
-    },
-    {
-      "symbol": "APEPE",
-      "name": "Ape and Pepe"
     },
     {
       "symbol": "GRASS",
@@ -653,24 +653,24 @@
       "name": "Ultima"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "JASMY",
       "name": "JasmyCoin"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "VBILL",
       "name": "VanEck Treasury Fund"
     },
     {
-      "symbol": "COMP",
-      "name": "Compound"
-    },
-    {
       "symbol": "ENS",
       "name": "Ethereum Name Service"
+    },
+    {
+      "symbol": "COMP",
+      "name": "Compound"
     },
     {
       "symbol": "2Z",
@@ -681,16 +681,16 @@
       "name": "Raydium"
     },
     {
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
+    },
+    {
       "symbol": "USAT",
       "name": "USAT"
     },
     {
       "symbol": "APYUSD",
       "name": "apyUSD"
-    },
-    {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
     },
     {
       "symbol": "TEL",
@@ -713,16 +713,16 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
+      "symbol": "KAIA",
+      "name": "Kaia"
+    },
+    {
       "symbol": "TWT",
       "name": "Trust Wallet"
     },
     {
       "symbol": "EURCV",
       "name": "EUR CoinVertible"
-    },
-    {
-      "symbol": "KAIA",
-      "name": "Kaia"
     },
     {
       "symbol": "KOGE",
@@ -757,20 +757,20 @@
       "name": "Tradable APAC Diversified Finance Provider SSTN"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
-    },
-    {
       "symbol": "H",
       "name": "Humanity"
     },
     {
-      "symbol": "USTBL",
-      "name": "Spiko US T-Bills Money Market Fund"
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "CVX",
       "name": "Convex Finance"
+    },
+    {
+      "symbol": "USTBL",
+      "name": "Spiko US T-Bills Money Market Fund"
     },
     {
       "symbol": "B",
@@ -793,15 +793,15 @@
       "name": "Strategy PP Variable xStock"
     },
     {
-      "symbol": "SAFO",
-      "name": "Spiko Amundi Overnight Swap Fund"
-    },
-    {
       "symbol": "BORG",
       "name": "SwissBorg"
+    },
+    {
+      "symbol": "SAFO",
+      "name": "Spiko Amundi Overnight Swap Fund"
     }
   ],
-  "updated_at": "2026-08-20T23:14:35.454087+00:00",
+  "updated_at": "2026-08-20T23:46:45.859829+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 20,
