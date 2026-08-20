@@ -229,16 +229,16 @@
       "name": "BFUSD"
     },
     {
-      "symbol": "PUMP",
-      "name": "Pump.fun"
-    },
-    {
       "symbol": "WLD",
       "name": "Worldcoin"
     },
     {
       "symbol": "ICP",
       "name": "Internet Computer"
+    },
+    {
+      "symbol": "PUMP",
+      "name": "Pump.fun"
     },
     {
       "symbol": "U",
@@ -313,20 +313,20 @@
       "name": "Cosmos Hub"
     },
     {
-      "symbol": "NEXO",
-      "name": "NEXO"
-    },
-    {
       "symbol": "ALGO",
       "name": "Algorand"
     },
     {
-      "symbol": "GT",
-      "name": "Gate"
+      "symbol": "NEXO",
+      "name": "NEXO"
     },
     {
       "symbol": "STABLE",
       "name": "​​Stable"
+    },
+    {
+      "symbol": "GT",
+      "name": "Gate"
     },
     {
       "symbol": "KAS",
@@ -345,12 +345,12 @@
       "name": "GHO"
     },
     {
-      "symbol": "VVV",
-      "name": "Venice Token"
-    },
-    {
       "symbol": "LIT",
       "name": "Lighter"
+    },
+    {
+      "symbol": "VVV",
+      "name": "Venice Token"
     },
     {
       "symbol": "YLDS",
@@ -413,12 +413,12 @@
       "name": "A7A5"
     },
     {
-      "symbol": "EURC",
-      "name": "EURC"
-    },
-    {
       "symbol": "INJ",
       "name": "Injective"
+    },
+    {
+      "symbol": "EURC",
+      "name": "EURC"
     },
     {
       "symbol": "AERO",
@@ -437,16 +437,16 @@
       "name": "Official Trump"
     },
     {
+      "symbol": "CRV",
+      "name": "Curve DAO"
+    },
+    {
       "symbol": "DASH",
       "name": "Dash"
     },
     {
       "symbol": "PENGU",
       "name": "Pudgy Penguins"
-    },
-    {
-      "symbol": "CRV",
-      "name": "Curve DAO"
     },
     {
       "symbol": "VIRTUAL",
@@ -469,12 +469,12 @@
       "name": "Kinesis Gold"
     },
     {
-      "symbol": "SPX",
-      "name": "SPX6900"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "SPX",
+      "name": "SPX6900"
     },
     {
       "symbol": "SUN",
@@ -485,20 +485,20 @@
       "name": "Gnosis"
     },
     {
-      "symbol": "BSV",
-      "name": "Bitcoin SV"
-    },
-    {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
-      "symbol": "APXUSD",
-      "name": "apxUSD"
+      "symbol": "BSV",
+      "name": "Bitcoin SV"
     },
     {
       "symbol": "SOFID",
       "name": "SoFiUSD"
+    },
+    {
+      "symbol": "APXUSD",
+      "name": "apxUSD"
     },
     {
       "symbol": "TIA",
@@ -513,10 +513,6 @@
       "name": "Unibase"
     },
     {
-      "symbol": "VELVET",
-      "name": "Velvet"
-    },
-    {
       "symbol": "JTO",
       "name": "Jito"
     },
@@ -525,12 +521,8 @@
       "name": "Artificial Superintelligence Alliance"
     },
     {
-      "symbol": "NFT",
-      "name": "AINFT"
-    },
-    {
-      "symbol": "OHM",
-      "name": "Olympus"
+      "symbol": "VELVET",
+      "name": "Velvet"
     },
     {
       "symbol": "MON",
@@ -539,6 +531,14 @@
     {
       "symbol": "LDO",
       "name": "Lido DAO"
+    },
+    {
+      "symbol": "OHM",
+      "name": "Olympus"
+    },
+    {
+      "symbol": "NFT",
+      "name": "AINFT"
     },
     {
       "symbol": "LUNC",
@@ -585,12 +585,12 @@
       "name": "Kite"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
-    },
-    {
       "symbol": "CFX",
       "name": "Conflux"
+    },
+    {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "XPL",
@@ -613,12 +613,12 @@
       "name": "AUSD"
     },
     {
-      "symbol": "DCR",
-      "name": "Decred"
-    },
-    {
       "symbol": "FLOKI",
       "name": "FLOKI"
+    },
+    {
+      "symbol": "DCR",
+      "name": "Decred"
     },
     {
       "symbol": "PC0000031",
@@ -629,24 +629,20 @@
       "name": "Optimism"
     },
     {
-      "symbol": "FF",
-      "name": "Falcon Finance"
+      "symbol": "APEPE",
+      "name": "Ape and Pepe"
     },
     {
       "symbol": "REUSD",
       "name": "Re Protocol reUSD"
     },
     {
-      "symbol": "APEPE",
-      "name": "Ape and Pepe"
+      "symbol": "FF",
+      "name": "Falcon Finance"
     },
     {
       "symbol": "QFI",
       "name": "Quantix Finance"
-    },
-    {
-      "symbol": "AKE",
-      "name": "Akedo"
     },
     {
       "symbol": "ULTIMA",
@@ -657,16 +653,20 @@
       "name": "VanEck Treasury Fund"
     },
     {
+      "symbol": "AKE",
+      "name": "Akedo"
+    },
+    {
+      "symbol": "COMP",
+      "name": "Compound"
+    },
+    {
       "symbol": "SYRUP",
       "name": "Maple Finance"
     },
     {
       "symbol": "GRASS",
       "name": "Grass"
-    },
-    {
-      "symbol": "COMP",
-      "name": "Compound"
     },
     {
       "symbol": "USAT",
@@ -773,12 +773,12 @@
       "name": "Akash Network"
     },
     {
-      "symbol": "GUSD",
-      "name": "GUSD"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
+    },
+    {
+      "symbol": "GUSD",
+      "name": "GUSD"
     },
     {
       "symbol": "THETA",
@@ -801,7 +801,7 @@
       "name": "dogwifhat"
     }
   ],
-  "updated_at": "2026-08-20T03:35:52.216673+00:00",
+  "updated_at": "2026-08-20T04:20:49.721437+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 7,
