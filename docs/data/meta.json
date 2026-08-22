@@ -225,12 +225,12 @@
       "name": "Sky"
     },
     {
-      "symbol": "MORPHO",
-      "name": "Morpho"
-    },
-    {
       "symbol": "USDD",
       "name": "USDD"
+    },
+    {
+      "symbol": "MORPHO",
+      "name": "Morpho"
     },
     {
       "symbol": "WLD",
@@ -369,44 +369,44 @@
       "name": "Beldex"
     },
     {
-      "symbol": "FLR",
-      "name": "Flare"
-    },
-    {
       "symbol": "FIL",
       "name": "Filecoin"
+    },
+    {
+      "symbol": "FLR",
+      "name": "Flare"
     },
     {
       "symbol": "ETHFI",
       "name": "Ether.fi"
     },
     {
-      "symbol": "XDC",
-      "name": "XDC Network"
-    },
-    {
       "symbol": "TRUMP",
       "name": "Official Trump"
     },
     {
-      "symbol": "CAKE",
-      "name": "PancakeSwap"
+      "symbol": "XDC",
+      "name": "XDC Network"
     },
     {
       "symbol": "USD0",
       "name": "Usual USD"
     },
     {
+      "symbol": "CAKE",
+      "name": "PancakeSwap"
+    },
+    {
       "symbol": "APT",
       "name": "Aptos"
     },
     {
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins"
-    },
-    {
       "symbol": "DASH",
       "name": "Dash"
+    },
+    {
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins"
     },
     {
       "symbol": "CRV",
@@ -453,20 +453,20 @@
       "name": "LayerZero"
     },
     {
-      "symbol": "SPX",
-      "name": "SPX6900"
-    },
-    {
       "symbol": "STX",
       "name": "Stacks"
     },
     {
-      "symbol": "USX",
-      "name": "USX"
+      "symbol": "SPX",
+      "name": "SPX6900"
     },
     {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "USX",
+      "name": "USX"
     },
     {
       "symbol": "OUSG",
@@ -493,16 +493,16 @@
       "name": "Sun Token"
     },
     {
-      "symbol": "MON",
-      "name": "Monad"
-    },
-    {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
       "symbol": "BSV",
       "name": "Bitcoin SV"
+    },
+    {
+      "symbol": "MON",
+      "name": "Monad"
     },
     {
       "symbol": "GNO",
@@ -601,12 +601,12 @@
       "name": "Conflux"
     },
     {
-      "symbol": "XPL",
-      "name": "Plasma"
-    },
-    {
       "symbol": "OP",
       "name": "Optimism"
+    },
+    {
+      "symbol": "XPL",
+      "name": "Plasma"
     },
     {
       "symbol": "DCR",
@@ -649,8 +649,8 @@
       "name": "IOTA"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
       "symbol": "PC0000031",
@@ -665,24 +665,24 @@
       "name": "Raydium"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
-      "symbol": "CVX",
-      "name": "Convex Finance"
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "2Z",
       "name": "DoubleZero"
     },
     {
-      "symbol": "GRASS",
-      "name": "Grass"
-    },
-    {
       "symbol": "COMP",
       "name": "Compound"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Convex Finance"
+    },
+    {
+      "symbol": "GRASS",
+      "name": "Grass"
     },
     {
       "symbol": "WIF",
@@ -693,12 +693,12 @@
       "name": "Starknet"
     },
     {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
-    },
-    {
       "symbol": "THETA",
       "name": "Theta Network"
+    },
+    {
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
     },
     {
       "symbol": "APYUSD",
@@ -709,28 +709,28 @@
       "name": "Kinesis Silver"
     },
     {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)"
     },
     {
       "symbol": "USAT",
       "name": "USAT"
     },
     {
-      "symbol": "EIGEN",
-      "name": "EigenCloud (prev. EigenLayer)"
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "TEL",
       "name": "Telcoin"
     },
     {
-      "symbol": "KOGE",
-      "name": "KOGE"
-    },
-    {
       "symbol": "GRT",
       "name": "The Graph"
+    },
+    {
+      "symbol": "KOGE",
+      "name": "KOGE"
     },
     {
       "symbol": "TWT",
@@ -773,12 +773,12 @@
       "name": "Spiko US T-Bills Money Market Fund"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "STRCX",
       "name": "Strategy PP Variable xStock"
+    },
+    {
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "CHZ",
@@ -801,7 +801,7 @@
       "name": "Decentraland"
     }
   ],
-  "updated_at": "2026-08-22T22:36:17.898218+00:00",
+  "updated_at": "2026-08-22T22:57:36.142608+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 20,
