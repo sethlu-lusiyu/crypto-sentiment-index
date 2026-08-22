@@ -61,12 +61,12 @@
       "name": "Chainlink"
     },
     {
-      "symbol": "LEO",
-      "name": "LEO Token"
-    },
-    {
       "symbol": "ADA",
       "name": "Cardano"
+    },
+    {
+      "symbol": "LEO",
+      "name": "LEO Token"
     },
     {
       "symbol": "WBT",
@@ -209,24 +209,24 @@
       "name": "Mantle"
     },
     {
-      "symbol": "DOT",
-      "name": "Polkadot"
-    },
-    {
       "symbol": "HTX",
       "name": "HTX DAO"
+    },
+    {
+      "symbol": "DOT",
+      "name": "Polkadot"
     },
     {
       "symbol": "SKY",
       "name": "Sky"
     },
     {
-      "symbol": "USDD",
-      "name": "USDD"
-    },
-    {
       "symbol": "ENA",
       "name": "Ethena"
+    },
+    {
+      "symbol": "USDD",
+      "name": "USDD"
     },
     {
       "symbol": "MORPHO",
@@ -317,12 +317,12 @@
       "name": "Gate"
     },
     {
-      "symbol": "VVV",
-      "name": "Venice Token"
-    },
-    {
       "symbol": "NEXO",
       "name": "NEXO"
+    },
+    {
+      "symbol": "VVV",
+      "name": "Venice Token"
     },
     {
       "symbol": "LIT",
@@ -437,12 +437,12 @@
       "name": "Provenance Blockchain"
     },
     {
-      "symbol": "AERO",
-      "name": "Aerodrome Finance"
-    },
-    {
       "symbol": "VIRTUAL",
       "name": "Virtuals Protocol"
+    },
+    {
+      "symbol": "AERO",
+      "name": "Aerodrome Finance"
     },
     {
       "symbol": "EURC",
@@ -453,12 +453,12 @@
       "name": "SPX6900"
     },
     {
-      "symbol": "PYTH",
-      "name": "Pyth Network"
-    },
-    {
       "symbol": "STX",
       "name": "Stacks"
+    },
+    {
+      "symbol": "PYTH",
+      "name": "Pyth Network"
     },
     {
       "symbol": "USX",
@@ -545,12 +545,12 @@
       "name": "Pendle"
     },
     {
-      "symbol": "BONK",
-      "name": "Bonk"
-    },
-    {
       "symbol": "BTT",
       "name": "BitTorrent"
+    },
+    {
+      "symbol": "BONK",
+      "name": "Bonk"
     },
     {
       "symbol": "USDTB",
@@ -589,16 +589,16 @@
       "name": "Ape and Pepe"
     },
     {
+      "symbol": "XTZ",
+      "name": "Tezos"
+    },
+    {
       "symbol": "CFX",
       "name": "Conflux"
     },
     {
       "symbol": "PIEVERSE",
       "name": "Pieverse"
-    },
-    {
-      "symbol": "XTZ",
-      "name": "Tezos"
     },
     {
       "symbol": "OP",
@@ -617,12 +617,12 @@
       "name": "Decred"
     },
     {
-      "symbol": "ENS",
-      "name": "Ethereum Name Service"
-    },
-    {
       "symbol": "FF",
       "name": "Falcon Finance"
+    },
+    {
+      "symbol": "ENS",
+      "name": "Ethereum Name Service"
     },
     {
       "symbol": "SYRUP",
@@ -653,12 +653,12 @@
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
-      "symbol": "WIF",
-      "name": "dogwifhat"
-    },
-    {
       "symbol": "ULTIMA",
       "name": "Ultima"
+    },
+    {
+      "symbol": "WIF",
+      "name": "dogwifhat"
     },
     {
       "symbol": "RAY",
@@ -669,16 +669,16 @@
       "name": "Grass"
     },
     {
-      "symbol": "2Z",
-      "name": "DoubleZero"
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "COMP",
       "name": "Compound"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
+      "symbol": "2Z",
+      "name": "DoubleZero"
     },
     {
       "symbol": "CVX",
@@ -697,16 +697,16 @@
       "name": "Starknet"
     },
     {
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
+    },
+    {
       "symbol": "THETA",
       "name": "Theta Network"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
-    },
-    {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
     },
     {
       "symbol": "APYUSD",
@@ -753,12 +753,12 @@
       "name": "coco"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
-    },
-    {
       "symbol": "BORG",
       "name": "SwissBorg"
+    },
+    {
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "PC0000033",
@@ -801,7 +801,7 @@
       "name": "Decentraland"
     }
   ],
-  "updated_at": "2026-08-22T19:44:01.259708+00:00",
+  "updated_at": "2026-08-22T20:04:08.362289+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 20,
