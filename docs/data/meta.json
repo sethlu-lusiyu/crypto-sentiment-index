@@ -117,12 +117,12 @@
       "name": "Hedera"
     },
     {
-      "symbol": "USDG",
-      "name": "Global Dollar"
-    },
-    {
       "symbol": "SHIB",
       "name": "Shiba Inu"
+    },
+    {
+      "symbol": "USDG",
+      "name": "Global Dollar"
     },
     {
       "symbol": "AVAX",
@@ -145,16 +145,16 @@
       "name": "Tether Gold"
     },
     {
-      "symbol": "M",
-      "name": "MemeCore"
+      "symbol": "UNI",
+      "name": "Uniswap"
     },
     {
       "symbol": "BUIDL",
       "name": "BlackRock USD Institutional Digital Liquidity Fund"
     },
     {
-      "symbol": "UNI",
-      "name": "Uniswap"
+      "symbol": "M",
+      "name": "MemeCore"
     },
     {
       "symbol": "NEAR",
@@ -185,12 +185,12 @@
       "name": "World Liberty Financial"
     },
     {
-      "symbol": "ONDO",
-      "name": "Ondo"
-    },
-    {
       "symbol": "AAVE",
       "name": "Aave"
+    },
+    {
+      "symbol": "ONDO",
+      "name": "Ondo"
     },
     {
       "symbol": "ASTER",
@@ -225,12 +225,12 @@
       "name": "Ethena"
     },
     {
-      "symbol": "USDD",
-      "name": "USDD"
-    },
-    {
       "symbol": "WLD",
       "name": "Worldcoin"
+    },
+    {
+      "symbol": "USDD",
+      "name": "USDD"
     },
     {
       "symbol": "MORPHO",
@@ -297,20 +297,16 @@
       "name": "Spiko EU T-Bills Money Market Fund"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
-    },
-    {
       "symbol": "JTRSY",
       "name": "Janus Henderson Anemoy Treasury Fund"
     },
     {
-      "symbol": "JST",
-      "name": "JUST"
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
-      "symbol": "STABLE",
-      "name": "​​Stable"
+      "symbol": "JST",
+      "name": "JUST"
     },
     {
       "symbol": "KAS",
@@ -321,12 +317,16 @@
       "name": "Cosmos Hub"
     },
     {
-      "symbol": "NEXO",
-      "name": "NEXO"
+      "symbol": "STABLE",
+      "name": "​​Stable"
     },
     {
       "symbol": "GT",
       "name": "Gate"
+    },
+    {
+      "symbol": "NEXO",
+      "name": "NEXO"
     },
     {
       "symbol": "USTB",
@@ -341,12 +341,16 @@
       "name": "Lighter"
     },
     {
+      "symbol": "VVV",
+      "name": "Venice Token"
+    },
+    {
       "symbol": "TRUMP",
       "name": "Official Trump"
     },
     {
-      "symbol": "VVV",
-      "name": "Venice Token"
+      "symbol": "JUP",
+      "name": "Jupiter"
     },
     {
       "symbol": "JAAA",
@@ -355,10 +359,6 @@
     {
       "symbol": "GHO",
       "name": "GHO"
-    },
-    {
-      "symbol": "JUP",
-      "name": "Jupiter"
     },
     {
       "symbol": "YLDS",
@@ -433,20 +433,20 @@
       "name": "Aerodrome Finance"
     },
     {
-      "symbol": "A7A5",
-      "name": "A7A5"
-    },
-    {
       "symbol": "VIRTUAL",
       "name": "Virtuals Protocol"
     },
     {
-      "symbol": "EURC",
-      "name": "EURC"
+      "symbol": "A7A5",
+      "name": "A7A5"
     },
     {
       "symbol": "HASH",
       "name": "Provenance Blockchain"
+    },
+    {
+      "symbol": "EURC",
+      "name": "EURC"
     },
     {
       "symbol": "SPX",
@@ -481,16 +481,16 @@
       "name": "Kinesis Gold"
     },
     {
+      "symbol": "ZRO",
+      "name": "LayerZero"
+    },
+    {
       "symbol": "NIGHT",
       "name": "Midnight"
     },
     {
       "symbol": "FDUSD",
       "name": "First Digital USD"
-    },
-    {
-      "symbol": "ZRO",
-      "name": "LayerZero"
     },
     {
       "symbol": "BSV",
@@ -501,24 +501,28 @@
       "name": "Sun Token"
     },
     {
+      "symbol": "MON",
+      "name": "Monad"
+    },
+    {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "JTO",
+      "name": "Jito"
     },
     {
       "symbol": "SEI",
       "name": "Sei"
     },
     {
-      "symbol": "MON",
-      "name": "Monad"
-    },
-    {
       "symbol": "LUNC",
       "name": "Terra Luna Classic"
     },
     {
-      "symbol": "JTO",
-      "name": "Jito"
+      "symbol": "LDO",
+      "name": "Lido DAO"
     },
     {
       "symbol": "APXUSD",
@@ -527,10 +531,6 @@
     {
       "symbol": "SOFID",
       "name": "SoFiUSD"
-    },
-    {
-      "symbol": "LDO",
-      "name": "Lido DAO"
     },
     {
       "symbol": "VELVET",
@@ -545,28 +545,32 @@
       "name": "BitTorrent"
     },
     {
-      "symbol": "USDTB",
-      "name": "USDtb"
+      "symbol": "BONK",
+      "name": "Bonk"
     },
     {
       "symbol": "PENDLE",
       "name": "Pendle"
     },
     {
-      "symbol": "BONK",
-      "name": "Bonk"
-    },
-    {
-      "symbol": "PIEVERSE",
-      "name": "Pieverse"
+      "symbol": "USDTB",
+      "name": "USDtb"
     },
     {
       "symbol": "CRVUSD",
       "name": "crvUSD"
     },
     {
+      "symbol": "PIEVERSE",
+      "name": "Pieverse"
+    },
+    {
       "symbol": "OHM",
       "name": "Olympus"
+    },
+    {
+      "symbol": "FLOKI",
+      "name": "FLOKI"
     },
     {
       "symbol": "REAL",
@@ -575,10 +579,6 @@
     {
       "symbol": "NFT",
       "name": "AINFT"
-    },
-    {
-      "symbol": "FLOKI",
-      "name": "FLOKI"
     },
     {
       "symbol": "ONYC",
@@ -593,20 +593,20 @@
       "name": "Tezos"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux"
-    },
-    {
       "symbol": "APEPE",
       "name": "Ape and Pepe"
     },
     {
-      "symbol": "OP",
-      "name": "Optimism"
+      "symbol": "CFX",
+      "name": "Conflux"
     },
     {
       "symbol": "XPL",
       "name": "Plasma"
+    },
+    {
+      "symbol": "OP",
+      "name": "Optimism"
     },
     {
       "symbol": "DCR",
@@ -645,6 +645,10 @@
       "name": "IOTA"
     },
     {
+      "symbol": "KAIA",
+      "name": "Kaia"
+    },
+    {
       "symbol": "AUSD",
       "name": "AUSD"
     },
@@ -653,64 +657,60 @@
       "name": "Kinesis Silver"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
       "symbol": "2Z",
       "name": "DoubleZero"
-    },
-    {
-      "symbol": "WIF",
-      "name": "dogwifhat"
     },
     {
       "symbol": "GRASS",
       "name": "Grass"
     },
     {
-      "symbol": "COMP",
-      "name": "Compound"
-    },
-    {
-      "symbol": "PC0000031",
-      "name": "Tradable NA Rent Financing Platform SSTN"
-    },
-    {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
-    },
-    {
-      "symbol": "ULTIMA",
-      "name": "Ultima"
+      "symbol": "WIF",
+      "name": "dogwifhat"
     },
     {
       "symbol": "RAY",
       "name": "Raydium"
     },
     {
+      "symbol": "PC0000031",
+      "name": "Tradable NA Rent Financing Platform SSTN"
+    },
+    {
+      "symbol": "COMP",
+      "name": "Compound"
+    },
+    {
+      "symbol": "ULTIMA",
+      "name": "Ultima"
+    },
+    {
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
+    },
+    {
       "symbol": "STRK",
       "name": "Starknet"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "THETA",
       "name": "Theta Network"
     },
     {
-      "symbol": "TEL",
-      "name": "Telcoin"
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
+      "symbol": "TEL",
+      "name": "Telcoin"
     },
     {
       "symbol": "GRT",
@@ -745,12 +745,12 @@
       "name": "USDai"
     },
     {
-      "symbol": "EURCV",
-      "name": "EUR CoinVertible"
-    },
-    {
       "symbol": "AKT",
       "name": "Akash Network"
+    },
+    {
+      "symbol": "EURCV",
+      "name": "EUR CoinVertible"
     },
     {
       "symbol": "COCO",
@@ -789,19 +789,19 @@
       "name": "NEO"
     },
     {
-      "symbol": "MX",
-      "name": "MX"
-    },
-    {
       "symbol": "MANA",
       "name": "Decentraland"
+    },
+    {
+      "symbol": "MX",
+      "name": "MX"
     },
     {
       "symbol": "GUSD",
       "name": "GUSD"
     }
   ],
-  "updated_at": "2026-08-22T06:57:42.285619+00:00",
+  "updated_at": "2026-08-22T07:42:22.106213+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 20,
