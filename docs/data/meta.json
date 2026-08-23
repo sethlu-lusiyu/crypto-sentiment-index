@@ -69,12 +69,12 @@
       "name": "WhiteBIT Coin"
     },
     {
-      "symbol": "XMR",
-      "name": "Monero"
-    },
-    {
       "symbol": "ADA",
       "name": "Cardano"
+    },
+    {
+      "symbol": "XMR",
+      "name": "Monero"
     },
     {
       "symbol": "XLM",
@@ -85,20 +85,20 @@
       "name": "Bitcoin Cash"
     },
     {
-      "symbol": "DAI",
-      "name": "Dai"
-    },
-    {
       "symbol": "CC",
       "name": "Canton"
     },
     {
-      "symbol": "USDE",
-      "name": "Ethena USDe"
+      "symbol": "DAI",
+      "name": "Dai"
     },
     {
       "symbol": "GRAM",
       "name": "Gram (prev. Toncoin)"
+    },
+    {
+      "symbol": "USDE",
+      "name": "Ethena USDe"
     },
     {
       "symbol": "LTC",
@@ -145,12 +145,12 @@
       "name": "Cronos"
     },
     {
-      "symbol": "BUIDL",
-      "name": "BlackRock USD Institutional Digital Liquidity Fund"
-    },
-    {
       "symbol": "UNI",
       "name": "Uniswap"
+    },
+    {
+      "symbol": "BUIDL",
+      "name": "BlackRock USD Institutional Digital Liquidity Fund"
     },
     {
       "symbol": "M",
@@ -165,12 +165,12 @@
       "name": "OKB"
     },
     {
-      "symbol": "USDY",
-      "name": "Ondo US Dollar Yield"
-    },
-    {
       "symbol": "TAO",
       "name": "Bittensor"
+    },
+    {
+      "symbol": "USDY",
+      "name": "Ondo US Dollar Yield"
     },
     {
       "symbol": "RLUSD",
@@ -201,12 +201,12 @@
       "name": "Ondo"
     },
     {
-      "symbol": "PEPE",
-      "name": "Pepe"
-    },
-    {
       "symbol": "ENA",
       "name": "Ethena"
+    },
+    {
+      "symbol": "PEPE",
+      "name": "Pepe"
     },
     {
       "symbol": "MNT",
@@ -245,12 +245,12 @@
       "name": "Internet Computer"
     },
     {
-      "symbol": "BFUSD",
-      "name": "BFUSD"
-    },
-    {
       "symbol": "BGB",
       "name": "Bitget Token"
+    },
+    {
+      "symbol": "BFUSD",
+      "name": "BFUSD"
     },
     {
       "symbol": "U",
@@ -305,10 +305,6 @@
       "name": "JUST"
     },
     {
-      "symbol": "LIT",
-      "name": "Lighter"
-    },
-    {
       "symbol": "ALGO",
       "name": "Algorand"
     },
@@ -319,6 +315,10 @@
     {
       "symbol": "NEXO",
       "name": "NEXO"
+    },
+    {
+      "symbol": "LIT",
+      "name": "Lighter"
     },
     {
       "symbol": "GT",
@@ -369,20 +369,20 @@
       "name": "Beldex"
     },
     {
-      "symbol": "TRUMP",
-      "name": "Official Trump"
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
     },
     {
       "symbol": "FIL",
       "name": "Filecoin"
     },
     {
-      "symbol": "FLR",
-      "name": "Flare"
+      "symbol": "TRUMP",
+      "name": "Official Trump"
     },
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
+      "symbol": "FLR",
+      "name": "Flare"
     },
     {
       "symbol": "XDC",
@@ -417,12 +417,12 @@
       "name": "币安人生 (BinanceLife)"
     },
     {
-      "symbol": "TUSD",
-      "name": "TrueUSD"
-    },
-    {
       "symbol": "INJ",
       "name": "Injective"
+    },
+    {
+      "symbol": "TUSD",
+      "name": "TrueUSD"
     },
     {
       "symbol": "VET",
@@ -477,12 +477,12 @@
       "name": "Artificial Superintelligence Alliance"
     },
     {
-      "symbol": "KAU",
-      "name": "Kinesis Gold"
-    },
-    {
       "symbol": "TIA",
       "name": "Celestia"
+    },
+    {
+      "symbol": "KAU",
+      "name": "Kinesis Gold"
     },
     {
       "symbol": "FDUSD",
@@ -541,16 +541,20 @@
       "name": "Jito"
     },
     {
-      "symbol": "BTT",
-      "name": "BitTorrent"
-    },
-    {
       "symbol": "PENDLE",
       "name": "Pendle"
     },
     {
+      "symbol": "BTT",
+      "name": "BitTorrent"
+    },
+    {
       "symbol": "USDTB",
       "name": "USDtb"
+    },
+    {
+      "symbol": "BONK",
+      "name": "Bonk"
     },
     {
       "symbol": "OHM",
@@ -565,10 +569,6 @@
       "name": "AINFT"
     },
     {
-      "symbol": "BONK",
-      "name": "Bonk"
-    },
-    {
       "symbol": "ONYC",
       "name": "OnRe Tokenized Reinsurance"
     },
@@ -581,32 +581,32 @@
       "name": "Pieverse"
     },
     {
-      "symbol": "FF",
-      "name": "Falcon Finance"
-    },
-    {
       "symbol": "APEPE",
       "name": "Ape and Pepe"
+    },
+    {
+      "symbol": "FF",
+      "name": "Falcon Finance"
     },
     {
       "symbol": "KITE",
       "name": "Kite"
     },
     {
-      "symbol": "FLOKI",
-      "name": "FLOKI"
-    },
-    {
       "symbol": "XPL",
       "name": "Plasma"
     },
     {
-      "symbol": "XTZ",
-      "name": "Tezos"
+      "symbol": "FLOKI",
+      "name": "FLOKI"
     },
     {
       "symbol": "OP",
       "name": "Optimism"
+    },
+    {
+      "symbol": "XTZ",
+      "name": "Tezos"
     },
     {
       "symbol": "CFX",
@@ -661,16 +661,16 @@
       "name": "Compound"
     },
     {
+      "symbol": "AKE",
+      "name": "Akedo"
+    },
+    {
       "symbol": "KAIA",
       "name": "Kaia"
     },
     {
       "symbol": "RAY",
       "name": "Raydium"
-    },
-    {
-      "symbol": "AKE",
-      "name": "Akedo"
     },
     {
       "symbol": "GRASS",
@@ -697,12 +697,12 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
-    },
-    {
       "symbol": "STRK",
       "name": "Starknet"
+    },
+    {
+      "symbol": "THETA",
+      "name": "Theta Network"
     },
     {
       "symbol": "APYUSD",
@@ -721,12 +721,12 @@
       "name": "KOGE"
     },
     {
-      "symbol": "TWT",
-      "name": "Trust Wallet"
-    },
-    {
       "symbol": "GRT",
       "name": "The Graph"
+    },
+    {
+      "symbol": "TWT",
+      "name": "Trust Wallet"
     },
     {
       "symbol": "FARTCOIN",
@@ -749,16 +749,16 @@
       "name": "Axie Infinity"
     },
     {
+      "symbol": "TRAC",
+      "name": "OriginTrail"
+    },
+    {
       "symbol": "COCO",
       "name": "coco"
     },
     {
       "symbol": "PC0000033",
       "name": "Tradable APAC Diversified Finance Provider SSTN"
-    },
-    {
-      "symbol": "TRAC",
-      "name": "OriginTrail"
     },
     {
       "symbol": "BORG",
@@ -801,7 +801,7 @@
       "name": "NEO"
     }
   ],
-  "updated_at": "2026-08-23T09:40:37.238778+00:00",
+  "updated_at": "2026-08-23T10:06:37.506761+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 0,
