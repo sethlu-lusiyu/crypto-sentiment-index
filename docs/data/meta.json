@@ -41,12 +41,12 @@
       "name": "Hyperliquid"
     },
     {
-      "symbol": "ZEC",
-      "name": "Zcash"
-    },
-    {
       "symbol": "DOGE",
       "name": "Dogecoin"
+    },
+    {
+      "symbol": "ZEC",
+      "name": "Zcash"
     },
     {
       "symbol": "RAIN",
@@ -133,12 +133,12 @@
       "name": "Circle USYC"
     },
     {
-      "symbol": "CRO",
-      "name": "Cronos"
-    },
-    {
       "symbol": "PYUSD",
       "name": "PayPal USD"
+    },
+    {
+      "symbol": "CRO",
+      "name": "Cronos"
     },
     {
       "symbol": "UNI",
@@ -161,12 +161,12 @@
       "name": "MemeCore"
     },
     {
-      "symbol": "OKB",
-      "name": "OKB"
-    },
-    {
       "symbol": "TAO",
       "name": "Bittensor"
+    },
+    {
+      "symbol": "OKB",
+      "name": "OKB"
     },
     {
       "symbol": "USDY",
@@ -181,12 +181,12 @@
       "name": "Ripple USD"
     },
     {
-      "symbol": "PAXG",
-      "name": "PAX Gold"
-    },
-    {
       "symbol": "PUMP",
       "name": "Pump.fun"
+    },
+    {
+      "symbol": "PAXG",
+      "name": "PAX Gold"
     },
     {
       "symbol": "WLFI",
@@ -265,12 +265,12 @@
       "name": "Spiko Amundi Overnight Swap Fund (EUR)"
     },
     {
-      "symbol": "USDGO",
-      "name": "USDGO"
-    },
-    {
       "symbol": "BTW",
       "name": "Bitway"
+    },
+    {
+      "symbol": "USDGO",
+      "name": "USDGO"
     },
     {
       "symbol": "POL",
@@ -313,6 +313,10 @@
       "name": "Algorand"
     },
     {
+      "symbol": "GT",
+      "name": "Gate"
+    },
+    {
       "symbol": "LIT",
       "name": "Lighter"
     },
@@ -321,16 +325,8 @@
       "name": "NEXO"
     },
     {
-      "symbol": "GT",
-      "name": "Gate"
-    },
-    {
       "symbol": "USTB",
       "name": "Invesco Short Duration US Government Securities Fund"
-    },
-    {
-      "symbol": "VVV",
-      "name": "Venice Token"
     },
     {
       "symbol": "KAS",
@@ -339,6 +335,10 @@
     {
       "symbol": "STABLE",
       "name": "​​Stable"
+    },
+    {
+      "symbol": "VVV",
+      "name": "Venice Token"
     },
     {
       "symbol": "RENDER",
@@ -357,12 +357,12 @@
       "name": "GHO"
     },
     {
-      "symbol": "YLDS",
-      "name": "YLDS"
-    },
-    {
       "symbol": "ARB",
       "name": "Arbitrum"
+    },
+    {
+      "symbol": "YLDS",
+      "name": "YLDS"
     },
     {
       "symbol": "TRUMP",
@@ -373,20 +373,20 @@
       "name": "Beldex"
     },
     {
-      "symbol": "FIL",
-      "name": "Filecoin"
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins"
     },
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
+      "symbol": "FIL",
+      "name": "Filecoin"
     },
     {
       "symbol": "FLR",
       "name": "Flare"
     },
     {
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins"
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
     },
     {
       "symbol": "XDC",
@@ -401,12 +401,12 @@
       "name": "Usual USD"
     },
     {
-      "symbol": "APT",
-      "name": "Aptos"
-    },
-    {
       "symbol": "DASH",
       "name": "Dash"
+    },
+    {
+      "symbol": "APT",
+      "name": "Aptos"
     },
     {
       "symbol": "INJ",
@@ -481,12 +481,12 @@
       "name": "Celestia"
     },
     {
-      "symbol": "MON",
-      "name": "Monad"
-    },
-    {
       "symbol": "KAU",
       "name": "Kinesis Gold"
+    },
+    {
+      "symbol": "MON",
+      "name": "Monad"
     },
     {
       "symbol": "FDUSD",
@@ -521,6 +521,10 @@
       "name": "Sei"
     },
     {
+      "symbol": "UB",
+      "name": "Unibase"
+    },
+    {
       "symbol": "APXUSD",
       "name": "apxUSD"
     },
@@ -531,10 +535,6 @@
     {
       "symbol": "VELVET",
       "name": "Velvet"
-    },
-    {
-      "symbol": "UB",
-      "name": "Unibase"
     },
     {
       "symbol": "JTO",
@@ -557,16 +557,16 @@
       "name": "USDtb"
     },
     {
-      "symbol": "OHM",
-      "name": "Olympus"
+      "symbol": "XPL",
+      "name": "Plasma"
     },
     {
       "symbol": "CRVUSD",
       "name": "crvUSD"
     },
     {
-      "symbol": "XPL",
-      "name": "Plasma"
+      "symbol": "OHM",
+      "name": "Olympus"
     },
     {
       "symbol": "NFT",
@@ -625,12 +625,12 @@
       "name": "Ribbita by Virtuals"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
       "symbol": "GRASS",
       "name": "Grass"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "JASMY",
@@ -665,16 +665,16 @@
       "name": "Kaia"
     },
     {
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)"
+    },
+    {
       "symbol": "PC0000031",
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
       "symbol": "ULTIMA",
       "name": "Ultima"
-    },
-    {
-      "symbol": "EIGEN",
-      "name": "EigenCloud (prev. EigenLayer)"
     },
     {
       "symbol": "STRK",
@@ -713,12 +713,12 @@
       "name": "apyUSD"
     },
     {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
-    },
-    {
       "symbol": "USAT",
       "name": "USAT"
+    },
+    {
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
     },
     {
       "symbol": "FARTCOIN",
@@ -733,12 +733,12 @@
       "name": "Trust Wallet"
     },
     {
-      "symbol": "TEL",
-      "name": "Telcoin"
-    },
-    {
       "symbol": "AXS",
       "name": "Axie Infinity"
+    },
+    {
+      "symbol": "TEL",
+      "name": "Telcoin"
     },
     {
       "symbol": "USDAI",
@@ -749,12 +749,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
-    },
-    {
       "symbol": "COCO",
       "name": "coco"
+    },
+    {
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "BORG",
@@ -789,19 +789,19 @@
       "name": "Strategy PP Variable xStock"
     },
     {
-      "symbol": "XCN",
-      "name": "Onyxcoin"
-    },
-    {
       "symbol": "MX",
       "name": "MX"
     },
     {
-      "symbol": "APE",
-      "name": "ApeCoin"
+      "symbol": "XCN",
+      "name": "Onyxcoin"
+    },
+    {
+      "symbol": "MANA",
+      "name": "Decentraland"
     }
   ],
-  "updated_at": "2026-08-23T20:06:16.248847+00:00",
+  "updated_at": "2026-08-23T20:37:41.898355+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 0,
