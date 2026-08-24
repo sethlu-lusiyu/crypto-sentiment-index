@@ -41,12 +41,12 @@
       "name": "Hyperliquid"
     },
     {
-      "symbol": "ZEC",
-      "name": "Zcash"
-    },
-    {
       "symbol": "DOGE",
       "name": "Dogecoin"
+    },
+    {
+      "symbol": "ZEC",
+      "name": "Zcash"
     },
     {
       "symbol": "RAIN",
@@ -117,12 +117,12 @@
       "name": "Global Dollar"
     },
     {
-      "symbol": "AVAX",
-      "name": "Avalanche"
-    },
-    {
       "symbol": "SUI",
       "name": "Sui"
+    },
+    {
+      "symbol": "AVAX",
+      "name": "Avalanche"
     },
     {
       "symbol": "SHIB",
@@ -225,12 +225,12 @@
       "name": "Polkadot"
     },
     {
-      "symbol": "USDD",
-      "name": "USDD"
-    },
-    {
       "symbol": "ENA",
       "name": "Ethena"
+    },
+    {
+      "symbol": "USDD",
+      "name": "USDD"
     },
     {
       "symbol": "WLD",
@@ -257,16 +257,16 @@
       "name": "United Stables"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)"
     },
     {
       "symbol": "ETC",
       "name": "Ethereum Classic"
     },
     {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)"
+      "symbol": "BTW",
+      "name": "Bitway"
     },
     {
       "symbol": "EURSAFO",
@@ -313,16 +313,16 @@
       "name": "NEXO"
     },
     {
-      "symbol": "JST",
-      "name": "JUST"
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "USTB",
       "name": "Invesco Short Duration US Government Securities Fund"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
+      "symbol": "JST",
+      "name": "JUST"
     },
     {
       "symbol": "ATOM",
@@ -373,12 +373,12 @@
       "name": "Ether.fi"
     },
     {
-      "symbol": "FIL",
-      "name": "Filecoin"
-    },
-    {
       "symbol": "PENGU",
       "name": "Pudgy Penguins"
+    },
+    {
+      "symbol": "FIL",
+      "name": "Filecoin"
     },
     {
       "symbol": "FLR",
@@ -393,12 +393,12 @@
       "name": "Official Trump"
     },
     {
-      "symbol": "INJ",
-      "name": "Injective"
-    },
-    {
       "symbol": "CAKE",
       "name": "PancakeSwap"
+    },
+    {
+      "symbol": "INJ",
+      "name": "Injective"
     },
     {
       "symbol": "USD0",
@@ -413,16 +413,16 @@
       "name": "Dash"
     },
     {
+      "symbol": "CRV",
+      "name": "Curve DAO"
+    },
+    {
       "symbol": "VIRTUAL",
       "name": "Virtuals Protocol"
     },
     {
       "symbol": "APT",
       "name": "Aptos"
-    },
-    {
-      "symbol": "CRV",
-      "name": "Curve DAO"
     },
     {
       "symbol": "币安人生",
@@ -529,12 +529,12 @@
       "name": "Lido DAO"
     },
     {
-      "symbol": "PENDLE",
-      "name": "Pendle"
-    },
-    {
       "symbol": "UB",
       "name": "Unibase"
+    },
+    {
+      "symbol": "PENDLE",
+      "name": "Pendle"
     },
     {
       "symbol": "LUNC",
@@ -557,12 +557,12 @@
       "name": "Pieverse"
     },
     {
-      "symbol": "REAL",
-      "name": "RealLink"
-    },
-    {
       "symbol": "BONK",
       "name": "Bonk"
+    },
+    {
+      "symbol": "REAL",
+      "name": "RealLink"
     },
     {
       "symbol": "FF",
@@ -645,10 +645,6 @@
       "name": "Legacy Frax Dollar"
     },
     {
-      "symbol": "CASHCAT",
-      "name": "Cash Cat"
-    },
-    {
       "symbol": "AUSD",
       "name": "AUSD"
     },
@@ -665,6 +661,14 @@
       "name": "Raydium"
     },
     {
+      "symbol": "CASHCAT",
+      "name": "Cash Cat"
+    },
+    {
+      "symbol": "KAIA",
+      "name": "Kaia"
+    },
+    {
       "symbol": "PC0000031",
       "name": "Tradable NA Rent Financing Platform SSTN"
     },
@@ -677,10 +681,6 @@
       "name": "Ultima"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
       "symbol": "WIF",
       "name": "dogwifhat"
     },
@@ -689,12 +689,12 @@
       "name": "Compound"
     },
     {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
       "symbol": "2Z",
       "name": "DoubleZero"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "GRT",
@@ -705,28 +705,28 @@
       "name": "EigenCloud (prev. EigenLayer)"
     },
     {
-      "symbol": "STRK",
-      "name": "Starknet"
-    },
-    {
       "symbol": "ZBCN",
       "name": "Zebec Network"
     },
     {
-      "symbol": "APYUSD",
-      "name": "apyUSD"
+      "symbol": "STRK",
+      "name": "Starknet"
     },
     {
       "symbol": "TEL",
       "name": "Telcoin"
     },
     {
-      "symbol": "USAT",
-      "name": "USAT"
+      "symbol": "APYUSD",
+      "name": "apyUSD"
     },
     {
       "symbol": "THETA",
       "name": "Theta Network"
+    },
+    {
+      "symbol": "USAT",
+      "name": "USAT"
     },
     {
       "symbol": "FARTCOIN",
@@ -793,15 +793,15 @@
       "name": "Arweave"
     },
     {
-      "symbol": "STRCX",
-      "name": "Strategy PP Variable xStock"
-    },
-    {
       "symbol": "CHZ",
       "name": "Chiliz"
+    },
+    {
+      "symbol": "STRCX",
+      "name": "Strategy PP Variable xStock"
     }
   ],
-  "updated_at": "2026-08-24T23:13:31.958330+00:00",
+  "updated_at": "2026-08-24T23:45:16.430149+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 0,
