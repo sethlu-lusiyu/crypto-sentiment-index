@@ -185,12 +185,12 @@
       "name": "Aave"
     },
     {
-      "symbol": "PUMP",
-      "name": "Pump.fun"
-    },
-    {
       "symbol": "ASTER",
       "name": "Aster"
+    },
+    {
+      "symbol": "PUMP",
+      "name": "Pump.fun"
     },
     {
       "symbol": "WLFI",
@@ -317,12 +317,12 @@
       "name": "Invesco Short Duration US Government Securities Fund"
     },
     {
-      "symbol": "JST",
-      "name": "JUST"
-    },
-    {
       "symbol": "VVV",
       "name": "Venice Token"
+    },
+    {
+      "symbol": "JST",
+      "name": "JUST"
     },
     {
       "symbol": "ALGO",
@@ -369,20 +369,16 @@
       "name": "Arbitrum"
     },
     {
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins"
-    },
-    {
       "symbol": "FIL",
       "name": "Filecoin"
     },
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins"
     },
     {
-      "symbol": "TRUMP",
-      "name": "Official Trump"
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
     },
     {
       "symbol": "FLR",
@@ -391,6 +387,10 @@
     {
       "symbol": "XDC",
       "name": "XDC Network"
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "Official Trump"
     },
     {
       "symbol": "CAKE",
@@ -461,12 +461,12 @@
       "name": "Provenance Blockchain"
     },
     {
-      "symbol": "ZRO",
-      "name": "LayerZero"
-    },
-    {
       "symbol": "PYTH",
       "name": "Pyth Network"
+    },
+    {
+      "symbol": "ZRO",
+      "name": "LayerZero"
     },
     {
       "symbol": "FET",
@@ -513,12 +513,12 @@
       "name": "apxUSD"
     },
     {
-      "symbol": "SOFID",
-      "name": "SoFiUSD"
-    },
-    {
       "symbol": "UB",
       "name": "Unibase"
+    },
+    {
+      "symbol": "SOFID",
+      "name": "SoFiUSD"
     },
     {
       "symbol": "SEI",
@@ -553,12 +553,12 @@
       "name": "BitTorrent"
     },
     {
-      "symbol": "ONYC",
-      "name": "OnRe Tokenized Reinsurance"
-    },
-    {
       "symbol": "KITE",
       "name": "Kite"
+    },
+    {
+      "symbol": "ONYC",
+      "name": "OnRe Tokenized Reinsurance"
     },
     {
       "symbol": "CRVUSD",
@@ -585,6 +585,10 @@
       "name": "Bonk"
     },
     {
+      "symbol": "KAG",
+      "name": "Kinesis Silver"
+    },
+    {
       "symbol": "APEPE",
       "name": "Ape and Pepe"
     },
@@ -593,12 +597,12 @@
       "name": "FLOKI"
     },
     {
-      "symbol": "XPL",
-      "name": "Plasma"
-    },
-    {
       "symbol": "CFX",
       "name": "Conflux"
+    },
+    {
+      "symbol": "XPL",
+      "name": "Plasma"
     },
     {
       "symbol": "XTZ",
@@ -613,12 +617,12 @@
       "name": "Decred"
     },
     {
-      "symbol": "JASMY",
-      "name": "JasmyCoin"
-    },
-    {
       "symbol": "TIBBIR",
       "name": "Ribbita by Virtuals"
+    },
+    {
+      "symbol": "JASMY",
+      "name": "JasmyCoin"
     },
     {
       "symbol": "OP",
@@ -633,6 +637,10 @@
       "name": "Maple Finance"
     },
     {
+      "symbol": "CASHCAT",
+      "name": "Cash Cat"
+    },
+    {
       "symbol": "GRASS",
       "name": "Grass"
     },
@@ -643,6 +651,10 @@
     {
       "symbol": "KOGE",
       "name": "KOGE"
+    },
+    {
+      "symbol": "AKE",
+      "name": "Akedo"
     },
     {
       "symbol": "RAY",
@@ -657,20 +669,12 @@
       "name": "AUSD"
     },
     {
-      "symbol": "CASHCAT",
-      "name": "Cash Cat"
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "PC0000031",
       "name": "Tradable NA Rent Financing Platform SSTN"
-    },
-    {
-      "symbol": "AKE",
-      "name": "Akedo"
-    },
-    {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
     },
     {
       "symbol": "IOTA",
@@ -685,12 +689,12 @@
       "name": "Ultima"
     },
     {
-      "symbol": "2Z",
-      "name": "DoubleZero"
-    },
-    {
       "symbol": "GRT",
       "name": "The Graph"
+    },
+    {
+      "symbol": "2Z",
+      "name": "DoubleZero"
     },
     {
       "symbol": "COMP",
@@ -719,10 +723,6 @@
     {
       "symbol": "EIGEN",
       "name": "EigenCloud (prev. EigenLayer)"
-    },
-    {
-      "symbol": "KAG",
-      "name": "Kinesis Silver"
     },
     {
       "symbol": "TEL",
@@ -785,10 +785,6 @@
       "name": "NEO"
     },
     {
-      "symbol": "META",
-      "name": "MetaDAO"
-    },
-    {
       "symbol": "STRCX",
       "name": "Strategy PP Variable xStock"
     },
@@ -797,11 +793,15 @@
       "name": "OriginTrail"
     },
     {
+      "symbol": "META",
+      "name": "MetaDAO"
+    },
+    {
       "symbol": "GUSD",
       "name": "GUSD"
     }
   ],
-  "updated_at": "2026-08-26T07:19:24.376783+00:00",
+  "updated_at": "2026-08-26T08:08:31.693285+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 0,
