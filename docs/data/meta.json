@@ -133,16 +133,16 @@
       "name": "Circle USYC"
     },
     {
+      "symbol": "CRO",
+      "name": "Cronos"
+    },
+    {
       "symbol": "XAUT",
       "name": "Tether Gold"
     },
     {
       "symbol": "BUIDL",
       "name": "BlackRock USD Institutional Digital Liquidity Fund"
-    },
-    {
-      "symbol": "CRO",
-      "name": "Cronos"
     },
     {
       "symbol": "PYUSD",
@@ -165,12 +165,12 @@
       "name": "OKB"
     },
     {
-      "symbol": "TAO",
-      "name": "Bittensor"
-    },
-    {
       "symbol": "USDY",
       "name": "Ondo US Dollar Yield"
+    },
+    {
+      "symbol": "TAO",
+      "name": "Bittensor"
     },
     {
       "symbol": "RLUSD",
@@ -201,12 +201,12 @@
       "name": "Ondo"
     },
     {
-      "symbol": "MORPHO",
-      "name": "Morpho"
-    },
-    {
       "symbol": "MNT",
       "name": "Mantle"
+    },
+    {
+      "symbol": "MORPHO",
+      "name": "Morpho"
     },
     {
       "symbol": "SKY",
@@ -261,16 +261,16 @@
       "name": "USDGO"
     },
     {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)"
+      "symbol": "EURSAFO",
+      "name": "Spiko Amundi Overnight Swap Fund (EUR)"
     },
     {
       "symbol": "ETC",
       "name": "Ethereum Classic"
     },
     {
-      "symbol": "EURSAFO",
-      "name": "Spiko Amundi Overnight Swap Fund (EUR)"
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)"
     },
     {
       "symbol": "BTW",
@@ -385,20 +385,20 @@
       "name": "Flare"
     },
     {
-      "symbol": "XDC",
-      "name": "XDC Network"
+      "symbol": "TRUMP",
+      "name": "Official Trump"
     },
     {
       "symbol": "USD0",
       "name": "Usual USD"
     },
     {
-      "symbol": "CAKE",
-      "name": "PancakeSwap"
+      "symbol": "XDC",
+      "name": "XDC Network"
     },
     {
-      "symbol": "TRUMP",
-      "name": "Official Trump"
+      "symbol": "CAKE",
+      "name": "PancakeSwap"
     },
     {
       "symbol": "INJ",
@@ -409,24 +409,24 @@
       "name": "Stacks"
     },
     {
-      "symbol": "AERO",
-      "name": "Aerodrome Finance"
+      "symbol": "VET",
+      "name": "VeChain"
     },
     {
       "symbol": "TUSD",
       "name": "TrueUSD"
     },
     {
-      "symbol": "SPX",
-      "name": "SPX6900"
-    },
-    {
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)"
     },
     {
-      "symbol": "VET",
-      "name": "VeChain"
+      "symbol": "AERO",
+      "name": "Aerodrome Finance"
+    },
+    {
+      "symbol": "SPX",
+      "name": "SPX6900"
     },
     {
       "symbol": "USDTB",
@@ -501,24 +501,20 @@
       "name": "Monad"
     },
     {
-      "symbol": "GNO",
-      "name": "Gnosis"
-    },
-    {
       "symbol": "APXUSD",
       "name": "apxUSD"
     },
     {
-      "symbol": "NIGHT",
-      "name": "Midnight"
+      "symbol": "GNO",
+      "name": "Gnosis"
     },
     {
       "symbol": "SOFID",
       "name": "SoFiUSD"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
+      "symbol": "NIGHT",
+      "name": "Midnight"
     },
     {
       "symbol": "SEI",
@@ -527,6 +523,10 @@
     {
       "symbol": "USX",
       "name": "USX"
+    },
+    {
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "FF",
@@ -549,12 +549,12 @@
       "name": "BitTorrent"
     },
     {
-      "symbol": "ONYC",
-      "name": "OnRe Tokenized Reinsurance"
-    },
-    {
       "symbol": "PIEVERSE",
       "name": "Pieverse"
+    },
+    {
+      "symbol": "ONYC",
+      "name": "OnRe Tokenized Reinsurance"
     },
     {
       "symbol": "CRVUSD",
@@ -581,12 +581,12 @@
       "name": "AINFT"
     },
     {
-      "symbol": "BONK",
-      "name": "Bonk"
-    },
-    {
       "symbol": "KAG",
       "name": "Kinesis Silver"
+    },
+    {
+      "symbol": "BONK",
+      "name": "Bonk"
     },
     {
       "symbol": "APEPE",
@@ -605,12 +605,12 @@
       "name": "FLOKI"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
-    },
-    {
       "symbol": "DCR",
       "name": "Decred"
+    },
+    {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "ENS",
@@ -633,12 +633,12 @@
       "name": "Optimism"
     },
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance"
-    },
-    {
       "symbol": "GRASS",
       "name": "Grass"
+    },
+    {
+      "symbol": "SYRUP",
+      "name": "Maple Finance"
     },
     {
       "symbol": "FRAX",
@@ -677,20 +677,16 @@
       "name": "dogwifhat"
     },
     {
-      "symbol": "CASHCAT",
-      "name": "Cash Cat"
-    },
-    {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
-    },
-    {
       "symbol": "ULTIMA",
       "name": "Ultima"
     },
     {
       "symbol": "FARTCOIN",
       "name": "Fartcoin"
+    },
+    {
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
     },
     {
       "symbol": "IOTA",
@@ -703,6 +699,10 @@
     {
       "symbol": "2Z",
       "name": "DoubleZero"
+    },
+    {
+      "symbol": "CASHCAT",
+      "name": "Cash Cat"
     },
     {
       "symbol": "GRT",
@@ -733,20 +733,20 @@
       "name": "Theta Network"
     },
     {
-      "symbol": "STRK",
-      "name": "Starknet"
-    },
-    {
       "symbol": "USDAI",
       "name": "USDai"
     },
     {
-      "symbol": "BORG",
-      "name": "SwissBorg"
+      "symbol": "STRK",
+      "name": "Starknet"
     },
     {
       "symbol": "EURCV",
       "name": "EUR CoinVertible"
+    },
+    {
+      "symbol": "BORG",
+      "name": "SwissBorg"
     },
     {
       "symbol": "COCO",
@@ -773,12 +773,12 @@
       "name": "MX"
     },
     {
-      "symbol": "RUNE",
-      "name": "THORChain"
-    },
-    {
       "symbol": "USTBL",
       "name": "Spiko US T-Bills Money Market Fund"
+    },
+    {
+      "symbol": "RUNE",
+      "name": "THORChain"
     },
     {
       "symbol": "NEO",
@@ -793,15 +793,15 @@
       "name": "GUSD"
     },
     {
-      "symbol": "SAFO",
-      "name": "Spiko Amundi Overnight Swap Fund"
-    },
-    {
       "symbol": "VSN",
       "name": "Vision"
+    },
+    {
+      "symbol": "SAFO",
+      "name": "Spiko Amundi Overnight Swap Fund"
     }
   ],
-  "updated_at": "2026-08-26T16:08:13.567617+00:00",
+  "updated_at": "2026-08-26T17:00:10.518604+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 0,
