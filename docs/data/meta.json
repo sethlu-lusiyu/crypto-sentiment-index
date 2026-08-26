@@ -57,12 +57,12 @@
       "name": "USDS"
     },
     {
-      "symbol": "WBT",
-      "name": "WhiteBIT Coin"
-    },
-    {
       "symbol": "LINK",
       "name": "Chainlink"
+    },
+    {
+      "symbol": "WBT",
+      "name": "WhiteBIT Coin"
     },
     {
       "symbol": "LEO",
@@ -201,12 +201,12 @@
       "name": "Ondo"
     },
     {
-      "symbol": "MNT",
-      "name": "Mantle"
-    },
-    {
       "symbol": "MORPHO",
       "name": "Morpho"
+    },
+    {
+      "symbol": "MNT",
+      "name": "Mantle"
     },
     {
       "symbol": "PEPE",
@@ -253,12 +253,12 @@
       "name": "BFUSD"
     },
     {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)"
-    },
-    {
       "symbol": "U",
       "name": "United Stables"
+    },
+    {
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)"
     },
     {
       "symbol": "USDGO",
@@ -325,12 +325,12 @@
       "name": "Venice Token"
     },
     {
-      "symbol": "JST",
-      "name": "JUST"
-    },
-    {
       "symbol": "ALGO",
       "name": "Algorand"
+    },
+    {
+      "symbol": "JST",
+      "name": "JUST"
     },
     {
       "symbol": "RENDER",
@@ -389,12 +389,12 @@
       "name": "Flare"
     },
     {
-      "symbol": "XDC",
-      "name": "XDC Network"
-    },
-    {
       "symbol": "CAKE",
       "name": "PancakeSwap"
+    },
+    {
+      "symbol": "XDC",
+      "name": "XDC Network"
     },
     {
       "symbol": "USD0",
@@ -413,20 +413,20 @@
       "name": "Aerodrome Finance"
     },
     {
-      "symbol": "VIRTUAL",
-      "name": "Virtuals Protocol"
+      "symbol": "STX",
+      "name": "Stacks"
     },
     {
-      "symbol": "SPX",
-      "name": "SPX6900"
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol"
     },
     {
       "symbol": "DASH",
       "name": "Dash"
     },
     {
-      "symbol": "STX",
-      "name": "Stacks"
+      "symbol": "SPX",
+      "name": "SPX6900"
     },
     {
       "symbol": "CRV",
@@ -441,12 +441,12 @@
       "name": "VeChain"
     },
     {
-      "symbol": "USDTB",
-      "name": "USDtb"
-    },
-    {
       "symbol": "APT",
       "name": "Aptos"
+    },
+    {
+      "symbol": "USDTB",
+      "name": "USDtb"
     },
     {
       "symbol": "A7A5",
@@ -469,12 +469,12 @@
       "name": "LayerZero"
     },
     {
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance"
-    },
-    {
       "symbol": "OUSG",
       "name": "Ondo Short-Term U.S. Government Bond Fund"
+    },
+    {
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance"
     },
     {
       "symbol": "KAU",
@@ -489,12 +489,12 @@
       "name": "Celestia"
     },
     {
-      "symbol": "MON",
-      "name": "Monad"
-    },
-    {
       "symbol": "BSV",
       "name": "Bitcoin SV"
+    },
+    {
+      "symbol": "MON",
+      "name": "Monad"
     },
     {
       "symbol": "NIGHT",
@@ -609,24 +609,24 @@
       "name": "Plasma"
     },
     {
-      "symbol": "TIBBIR",
-      "name": "Ribbita by Virtuals"
-    },
-    {
       "symbol": "ENS",
       "name": "Ethereum Name Service"
+    },
+    {
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals"
     },
     {
       "symbol": "DCR",
       "name": "Decred"
     },
     {
-      "symbol": "JASMY",
-      "name": "JasmyCoin"
-    },
-    {
       "symbol": "OP",
       "name": "Optimism"
+    },
+    {
+      "symbol": "JASMY",
+      "name": "JasmyCoin"
     },
     {
       "symbol": "REUSD",
@@ -637,6 +637,10 @@
       "name": "Maple Finance"
     },
     {
+      "symbol": "CASHCAT",
+      "name": "Cash Cat"
+    },
+    {
       "symbol": "GRASS",
       "name": "Grass"
     },
@@ -645,24 +649,20 @@
       "name": "Legacy Frax Dollar"
     },
     {
-      "symbol": "CASHCAT",
-      "name": "Cash Cat"
-    },
-    {
       "symbol": "KOGE",
       "name": "KOGE"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
+      "symbol": "FARTCOIN",
+      "name": "Fartcoin"
     },
     {
       "symbol": "RAY",
       "name": "Raydium"
     },
     {
-      "symbol": "FARTCOIN",
-      "name": "Fartcoin"
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
       "symbol": "AUSD",
@@ -697,12 +697,12 @@
       "name": "Compound"
     },
     {
-      "symbol": "GRT",
-      "name": "The Graph"
-    },
-    {
       "symbol": "AKE",
       "name": "Akedo"
+    },
+    {
+      "symbol": "GRT",
+      "name": "The Graph"
     },
     {
       "symbol": "TWT",
@@ -733,10 +733,6 @@
       "name": "Starknet"
     },
     {
-      "symbol": "DRV",
-      "name": "Derive"
-    },
-    {
       "symbol": "THETA",
       "name": "Theta Network"
     },
@@ -747,6 +743,10 @@
     {
       "symbol": "BORG",
       "name": "SwissBorg"
+    },
+    {
+      "symbol": "DRV",
+      "name": "Derive"
     },
     {
       "symbol": "EURCV",
@@ -801,7 +801,7 @@
       "name": "Spiko Amundi Overnight Swap Fund"
     }
   ],
-  "updated_at": "2026-08-26T10:52:31.923311+00:00",
+  "updated_at": "2026-08-26T11:19:56.681283+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 0,
