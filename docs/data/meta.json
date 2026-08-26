@@ -209,12 +209,12 @@
       "name": "Morpho"
     },
     {
-      "symbol": "PEPE",
-      "name": "Pepe"
-    },
-    {
       "symbol": "SKY",
       "name": "Sky"
+    },
+    {
+      "symbol": "PEPE",
+      "name": "Pepe"
     },
     {
       "symbol": "HTX",
@@ -237,12 +237,12 @@
       "name": "Ethena"
     },
     {
-      "symbol": "ICP",
-      "name": "Internet Computer"
-    },
-    {
       "symbol": "USDF",
       "name": "Falcon USD"
+    },
+    {
+      "symbol": "ICP",
+      "name": "Internet Computer"
     },
     {
       "symbol": "BGB",
@@ -305,12 +305,12 @@
       "name": "Gate"
     },
     {
-      "symbol": "USTB",
-      "name": "Invesco Short Duration US Government Securities Fund"
-    },
-    {
       "symbol": "NEXO",
       "name": "NEXO"
+    },
+    {
+      "symbol": "USTB",
+      "name": "Invesco Short Duration US Government Securities Fund"
     },
     {
       "symbol": "LIT",
@@ -369,12 +369,12 @@
       "name": "Arbitrum"
     },
     {
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins"
-    },
-    {
       "symbol": "FIL",
       "name": "Filecoin"
+    },
+    {
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins"
     },
     {
       "symbol": "ETHFI",
@@ -425,10 +425,6 @@
       "name": "Virtuals Protocol"
     },
     {
-      "symbol": "VET",
-      "name": "VeChain"
-    },
-    {
       "symbol": "CRV",
       "name": "Curve DAO"
     },
@@ -439,6 +435,10 @@
     {
       "symbol": "TUSD",
       "name": "TrueUSD"
+    },
+    {
+      "symbol": "VET",
+      "name": "VeChain"
     },
     {
       "symbol": "APT",
@@ -521,20 +521,20 @@
       "name": "Sei"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
-    },
-    {
       "symbol": "FF",
       "name": "Falcon Finance"
     },
     {
-      "symbol": "LDO",
-      "name": "Lido DAO"
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "USX",
       "name": "USX"
+    },
+    {
+      "symbol": "LDO",
+      "name": "Lido DAO"
     },
     {
       "symbol": "PENDLE",
@@ -545,52 +545,52 @@
       "name": "Terra Luna Classic"
     },
     {
-      "symbol": "PIEVERSE",
-      "name": "Pieverse"
-    },
-    {
       "symbol": "BTT",
       "name": "BitTorrent"
+    },
+    {
+      "symbol": "PIEVERSE",
+      "name": "Pieverse"
     },
     {
       "symbol": "ONYC",
       "name": "OnRe Tokenized Reinsurance"
     },
     {
-      "symbol": "KITE",
-      "name": "Kite"
-    },
-    {
       "symbol": "CRVUSD",
       "name": "crvUSD"
+    },
+    {
+      "symbol": "KITE",
+      "name": "Kite"
     },
     {
       "symbol": "OHM",
       "name": "Olympus"
     },
     {
-      "symbol": "JTO",
-      "name": "Jito"
+      "symbol": "NFT",
+      "name": "AINFT"
     },
     {
       "symbol": "REAL",
       "name": "RealLink"
     },
     {
-      "symbol": "NFT",
-      "name": "AINFT"
+      "symbol": "JTO",
+      "name": "Jito"
     },
     {
       "symbol": "BONK",
       "name": "Bonk"
     },
     {
-      "symbol": "XPL",
-      "name": "Plasma"
-    },
-    {
       "symbol": "APEPE",
       "name": "Ape and Pepe"
+    },
+    {
+      "symbol": "XPL",
+      "name": "Plasma"
     },
     {
       "symbol": "FLOKI",
@@ -601,12 +601,12 @@
       "name": "Conflux"
     },
     {
-      "symbol": "XTZ",
-      "name": "Tezos"
-    },
-    {
       "symbol": "ENS",
       "name": "Ethereum Name Service"
+    },
+    {
+      "symbol": "XTZ",
+      "name": "Tezos"
     },
     {
       "symbol": "JASMY",
@@ -617,12 +617,12 @@
       "name": "Decred"
     },
     {
-      "symbol": "OP",
-      "name": "Optimism"
-    },
-    {
       "symbol": "TIBBIR",
       "name": "Ribbita by Virtuals"
+    },
+    {
+      "symbol": "OP",
+      "name": "Optimism"
     },
     {
       "symbol": "SYRUP",
@@ -657,20 +657,24 @@
       "name": "AUSD"
     },
     {
+      "symbol": "CASHCAT",
+      "name": "Cash Cat"
+    },
+    {
       "symbol": "FARTCOIN",
       "name": "Fartcoin"
     },
     {
-      "symbol": "WIF",
-      "name": "dogwifhat"
+      "symbol": "PC0000031",
+      "name": "Tradable NA Rent Financing Platform SSTN"
     },
     {
       "symbol": "IOTA",
       "name": "IOTA"
     },
     {
-      "symbol": "PC0000031",
-      "name": "Tradable NA Rent Financing Platform SSTN"
+      "symbol": "WIF",
+      "name": "dogwifhat"
     },
     {
       "symbol": "ULTIMA",
@@ -685,28 +689,24 @@
       "name": "The Graph"
     },
     {
-      "symbol": "2Z",
-      "name": "DoubleZero"
-    },
-    {
-      "symbol": "CASHCAT",
-      "name": "Cash Cat"
-    },
-    {
       "symbol": "COMP",
       "name": "Compound"
+    },
+    {
+      "symbol": "2Z",
+      "name": "DoubleZero"
     },
     {
       "symbol": "TWT",
       "name": "Trust Wallet"
     },
     {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
+    },
+    {
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
     },
     {
       "symbol": "EIGEN",
@@ -721,12 +721,12 @@
       "name": "USAT"
     },
     {
-      "symbol": "STRK",
-      "name": "Starknet"
-    },
-    {
       "symbol": "TEL",
       "name": "Telcoin"
+    },
+    {
+      "symbol": "STRK",
+      "name": "Starknet"
     },
     {
       "symbol": "THETA",
@@ -749,12 +749,12 @@
       "name": "EUR CoinVertible"
     },
     {
-      "symbol": "AXS",
-      "name": "Axie Infinity"
-    },
-    {
       "symbol": "COCO",
       "name": "coco"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity"
     },
     {
       "symbol": "AKT",
@@ -781,16 +781,8 @@
       "name": "NEO"
     },
     {
-      "symbol": "META",
-      "name": "MetaDAO"
-    },
-    {
       "symbol": "MX",
       "name": "MX"
-    },
-    {
-      "symbol": "TRAC",
-      "name": "OriginTrail"
     },
     {
       "symbol": "STRCX",
@@ -799,9 +791,17 @@
     {
       "symbol": "GUSD",
       "name": "GUSD"
+    },
+    {
+      "symbol": "SAFO",
+      "name": "Spiko Amundi Overnight Swap Fund"
+    },
+    {
+      "symbol": "TRAC",
+      "name": "OriginTrail"
     }
   ],
-  "updated_at": "2026-08-26T03:32:44.728687+00:00",
+  "updated_at": "2026-08-26T04:24:14.711400+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 0,
