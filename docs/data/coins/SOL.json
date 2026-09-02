@@ -2496,38 +2496,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-08-25T23:30:00+00:00",
-    "family": "news",
-    "sent": 0.15670515824960468,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-25T23:30:00+00:00",
-    "family": "social",
-    "sent": 0.11553731926708642,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-25T23:45:00+00:00",
-    "family": "news",
-    "sent": 0.15670515824960468,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-25T23:45:00+00:00",
-    "family": "social",
-    "sent": 0.11553731926708642,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-08-26T00:00:00+00:00",
     "family": "news",
     "sent": 0.15670515824960468,
@@ -2537,22 +2505,6 @@
   },
   {
     "ts": "2026-08-26T00:00:00+00:00",
-    "family": "social",
-    "sent": 0.11553731926708642,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-26T00:15:00+00:00",
-    "family": "news",
-    "sent": 0.15670515824960468,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-26T00:15:00+00:00",
     "family": "social",
     "sent": 0.11553731926708642,
     "sent_z": null,
@@ -4089,6 +4041,38 @@
   },
   {
     "ts": "2026-09-01T23:15:00+00:00",
+    "family": "social",
+    "sent": 0.11553731926708642,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-02T01:00:00+00:00",
+    "family": "news",
+    "sent": 0.15670515824960468,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-02T01:00:00+00:00",
+    "family": "social",
+    "sent": 0.11553731926708642,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-02T01:15:00+00:00",
+    "family": "news",
+    "sent": 0.15670515824960468,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-02T01:15:00+00:00",
     "family": "social",
     "sent": 0.11553731926708642,
     "sent_z": null,
