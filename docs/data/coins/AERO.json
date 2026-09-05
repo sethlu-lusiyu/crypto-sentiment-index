@@ -1416,14 +1416,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-08-29T10:15:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-08-29T14:45:00+00:00",
     "family": "news",
     "sent": 0.5,
@@ -2137,6 +2129,22 @@
   },
   {
     "ts": "2026-09-05T08:30:00+00:00",
+    "family": "news",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-05T11:45:00+00:00",
+    "family": "news",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-05T12:00:00+00:00",
     "family": "news",
     "sent": 0.5,
     "sent_z": null,
