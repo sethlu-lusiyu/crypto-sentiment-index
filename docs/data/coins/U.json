@@ -3600,38 +3600,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-09-09T18:15:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-09-09T18:15:00+00:00",
-    "family": "social",
-    "sent": -0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-09-09T18:30:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-09-09T18:30:00+00:00",
-    "family": "social",
-    "sent": -0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-09-09T21:00:00+00:00",
     "family": "news",
     "sent": 0.5,
@@ -5097,6 +5065,38 @@
   },
   {
     "ts": "2026-09-16T14:45:00+00:00",
+    "family": "social",
+    "sent": -0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-16T18:15:00+00:00",
+    "family": "news",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-16T18:15:00+00:00",
+    "family": "social",
+    "sent": -0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-16T18:30:00+00:00",
+    "family": "news",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-09-16T18:30:00+00:00",
     "family": "social",
     "sent": -0.5,
     "sent_z": null,
