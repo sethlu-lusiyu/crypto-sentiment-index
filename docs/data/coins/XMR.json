@@ -2296,14 +2296,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-10-02T20:45:00+00:00",
-    "family": "social",
-    "sent": 0.10073453858020488,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-10-02T21:00:00+00:00",
     "family": "social",
     "sent": 0.10073453858020488,
@@ -3089,6 +3081,38 @@
   },
   {
     "ts": "2026-10-09T18:45:00+00:00",
+    "family": "social",
+    "sent": 0.10073453858020488,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-10-09T22:45:00+00:00",
+    "family": "news",
+    "sent": 0.5502027317470971,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-10-09T22:45:00+00:00",
+    "family": "social",
+    "sent": 0.10073453858020488,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-10-09T23:00:00+00:00",
+    "family": "news",
+    "sent": 0.5502027317470971,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-10-09T23:00:00+00:00",
     "family": "social",
     "sent": 0.10073453858020488,
     "sent_z": null,
