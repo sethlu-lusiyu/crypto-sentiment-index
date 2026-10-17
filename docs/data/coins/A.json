@@ -1,21 +1,5 @@
 [
   {
-    "ts": "2026-10-10T08:15:00+00:00",
-    "family": "news",
-    "sent": 0.0013713786360232622,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "low"
-  },
-  {
-    "ts": "2026-10-10T08:30:00+00:00",
-    "family": "news",
-    "sent": 0.0013713786360232622,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-10-10T14:30:00+00:00",
     "family": "news",
     "sent": 0.0013713786360232622,
@@ -585,6 +569,22 @@
   },
   {
     "ts": "2026-10-17T06:00:00+00:00",
+    "family": "news",
+    "sent": 0.0013713786360232622,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-10-17T10:15:00+00:00",
+    "family": "news",
+    "sent": 0.0013713786360232622,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-10-17T10:30:00+00:00",
     "family": "news",
     "sent": 0.0013713786360232622,
     "sent_z": null,
