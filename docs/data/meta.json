@@ -97,20 +97,20 @@
       "name": "Ethena USDe"
     },
     {
-      "symbol": "RAIN",
-      "name": "Rain"
-    },
-    {
       "symbol": "LTC",
       "name": "Litecoin"
     },
     {
-      "symbol": "AVAX",
-      "name": "Avalanche"
+      "symbol": "RAIN",
+      "name": "Rain"
     },
     {
       "symbol": "CC",
       "name": "Canton"
+    },
+    {
+      "symbol": "AVAX",
+      "name": "Avalanche"
     },
     {
       "symbol": "SUI",
@@ -137,12 +137,12 @@
       "name": "Quant"
     },
     {
-      "symbol": "SHIB",
-      "name": "Shiba Inu"
-    },
-    {
       "symbol": "USDG",
       "name": "Global Dollar"
+    },
+    {
+      "symbol": "SHIB",
+      "name": "Shiba Inu"
     },
     {
       "symbol": "TAO",
@@ -189,16 +189,16 @@
       "name": "Ondo"
     },
     {
-      "symbol": "BUIDL",
-      "name": "BlackRock USD Institutional Digital Liquidity Fund"
-    },
-    {
       "symbol": "PUMP",
       "name": "Pump.fun"
     },
     {
       "symbol": "M",
       "name": "MemeCore"
+    },
+    {
+      "symbol": "BUIDL",
+      "name": "BlackRock USD Institutional Digital Liquidity Fund"
     },
     {
       "symbol": "EURSAFO",
@@ -225,20 +225,20 @@
       "name": "United Stables"
     },
     {
-      "symbol": "BTW",
-      "name": "Bitway"
+      "symbol": "SKY",
+      "name": "Sky"
     },
     {
       "symbol": "MNT",
       "name": "Mantle"
     },
     {
-      "symbol": "SKY",
-      "name": "Sky"
-    },
-    {
       "symbol": "MORPHO",
       "name": "Morpho"
+    },
+    {
+      "symbol": "BTW",
+      "name": "Bitway"
     },
     {
       "symbol": "WLFI",
@@ -301,16 +301,16 @@
       "name": "POL (ex-MATIC)"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
-    },
-    {
       "symbol": "OUSD",
       "name": "Open USD"
     },
     {
       "symbol": "KAS",
       "name": "Kaspa"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "PI",
@@ -321,12 +321,12 @@
       "name": "Jupiter"
     },
     {
-      "symbol": "LIT",
-      "name": "Lighter"
-    },
-    {
       "symbol": "RENDER",
       "name": "Render"
+    },
+    {
+      "symbol": "LIT",
+      "name": "Lighter"
     },
     {
       "symbol": "ATOM",
@@ -357,12 +357,12 @@
       "name": "GHO"
     },
     {
-      "symbol": "CAKE",
-      "name": "PancakeSwap"
-    },
-    {
       "symbol": "STX",
       "name": "Stacks"
+    },
+    {
+      "symbol": "CAKE",
+      "name": "PancakeSwap"
     },
     {
       "symbol": "DASH",
@@ -381,20 +381,20 @@
       "name": "Ether.fi"
     },
     {
-      "symbol": "BDX",
-      "name": "Beldex"
+      "symbol": "PEARL",
+      "name": "Pearl"
     },
     {
       "symbol": "JAAA",
       "name": "Janus Henderson Anemoy AAA CLO Fund"
     },
     {
-      "symbol": "APT",
-      "name": "Aptos"
+      "symbol": "BDX",
+      "name": "Beldex"
     },
     {
-      "symbol": "PEARL",
-      "name": "Pearl"
+      "symbol": "APT",
+      "name": "Aptos"
     },
     {
       "symbol": "USD0",
@@ -417,16 +417,16 @@
       "name": "EURC"
     },
     {
-      "symbol": "STABLE",
-      "name": "​​Stable"
-    },
-    {
       "symbol": "VET",
       "name": "VeChain"
     },
     {
       "symbol": "TUSD",
       "name": "TrueUSD"
+    },
+    {
+      "symbol": "STABLE",
+      "name": "​​Stable"
     },
     {
       "symbol": "YLDS",
@@ -469,6 +469,10 @@
       "name": "Artificial Superintelligence Alliance"
     },
     {
+      "symbol": "HASH",
+      "name": "Provenance Blockchain"
+    },
+    {
       "symbol": "REUSD",
       "name": "Re Protocol reUSD"
     },
@@ -477,8 +481,8 @@
       "name": "Derive"
     },
     {
-      "symbol": "HASH",
-      "name": "Provenance Blockchain"
+      "symbol": "TRUMP",
+      "name": "Official Trump"
     },
     {
       "symbol": "KAU",
@@ -495,10 +499,6 @@
     {
       "symbol": "BSV",
       "name": "Bitcoin SV"
-    },
-    {
-      "symbol": "TRUMP",
-      "name": "Official Trump"
     },
     {
       "symbol": "STRK",
@@ -533,12 +533,12 @@
       "name": "Plasma"
     },
     {
-      "symbol": "APXUSD",
-      "name": "apxUSD"
-    },
-    {
       "symbol": "SUN",
       "name": "Sun Token"
+    },
+    {
+      "symbol": "APXUSD",
+      "name": "apxUSD"
     },
     {
       "symbol": "GNO",
@@ -549,16 +549,20 @@
       "name": "First Digital USD"
     },
     {
-      "symbol": "LDO",
-      "name": "Lido DAO"
-    },
-    {
       "symbol": "KITE",
       "name": "Kite"
     },
     {
+      "symbol": "LDO",
+      "name": "Lido DAO"
+    },
+    {
       "symbol": "XTZ",
       "name": "Tezos"
+    },
+    {
+      "symbol": "UB",
+      "name": "Unibase"
     },
     {
       "symbol": "OHM",
@@ -569,12 +573,12 @@
       "name": "Bonk"
     },
     {
-      "symbol": "UB",
-      "name": "Unibase"
-    },
-    {
       "symbol": "OP",
       "name": "Optimism"
+    },
+    {
+      "symbol": "BP",
+      "name": "Backpack"
     },
     {
       "symbol": "APEPE",
@@ -589,28 +593,28 @@
       "name": "Spiko Amundi Overnight Swap Fund"
     },
     {
-      "symbol": "BP",
-      "name": "Backpack"
-    },
-    {
-      "symbol": "CARDS",
-      "name": "Collector Crypt"
+      "symbol": "DCR",
+      "name": "Decred"
     },
     {
       "symbol": "AERO",
       "name": "Aerodrome Finance"
     },
     {
-      "symbol": "DCR",
-      "name": "Decred"
-    },
-    {
       "symbol": "LUNC",
       "name": "Terra Luna Classic"
     },
     {
+      "symbol": "CARDS",
+      "name": "Collector Crypt"
+    },
+    {
       "symbol": "PC0000031",
       "name": "Tradable NA Rent Financing Platform SSTN"
+    },
+    {
+      "symbol": "NFT",
+      "name": "AINFT"
     },
     {
       "symbol": "BEAM",
@@ -621,48 +625,48 @@
       "name": "The Graph"
     },
     {
-      "symbol": "NFT",
-      "name": "AINFT"
+      "symbol": "KAIA",
+      "name": "Kaia"
     },
     {
       "symbol": "FLOKI",
       "name": "FLOKI"
     },
     {
-      "symbol": "KAIA",
-      "name": "Kaia"
-    },
-    {
-      "symbol": "MON",
-      "name": "Monad"
-    },
-    {
-      "symbol": "FRAX",
-      "name": "Legacy Frax Dollar"
+      "symbol": "BAT",
+      "name": "Basic Attention"
     },
     {
       "symbol": "AR",
       "name": "Arweave"
     },
     {
-      "symbol": "ENS",
-      "name": "Ethereum Name Service"
-    },
-    {
-      "symbol": "RUNE",
-      "name": "THORChain"
+      "symbol": "FRAX",
+      "name": "Legacy Frax Dollar"
     },
     {
       "symbol": "KMNO",
       "name": "Kamino"
     },
     {
-      "symbol": "KOGE",
-      "name": "KOGE"
+      "symbol": "ENS",
+      "name": "Ethereum Name Service"
     },
     {
-      "symbol": "BAT",
-      "name": "Basic Attention"
+      "symbol": "MON",
+      "name": "Monad"
+    },
+    {
+      "symbol": "FLUID",
+      "name": "Fluid"
+    },
+    {
+      "symbol": "RUNE",
+      "name": "THORChain"
+    },
+    {
+      "symbol": "KOGE",
+      "name": "KOGE"
     },
     {
       "symbol": "COMP",
@@ -677,16 +681,20 @@
       "name": "USX"
     },
     {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
-    },
-    {
       "symbol": "JTO",
       "name": "Jito"
     },
     {
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
+    },
+    {
       "symbol": "EURCV",
       "name": "EUR CoinVertible"
+    },
+    {
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "KAG",
@@ -697,10 +705,6 @@
       "name": "JasmyCoin"
     },
     {
-      "symbol": "FLUID",
-      "name": "Fluid"
-    },
-    {
       "symbol": "IOTA",
       "name": "IOTA"
     },
@@ -709,32 +713,28 @@
       "name": "Midas Fasanara Global Open"
     },
     {
-      "symbol": "EIGEN",
-      "name": "EigenCloud (prev. EigenLayer)"
+      "symbol": "SHFL",
+      "name": "Shuffle"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)"
     },
     {
       "symbol": "SYRUP",
       "name": "Maple Finance"
     },
     {
-      "symbol": "SHFL",
-      "name": "Shuffle"
-    },
-    {
       "symbol": "CVX",
       "name": "Convex Finance"
     },
     {
-      "symbol": "BTSE",
-      "name": "BTSE Token"
-    },
-    {
       "symbol": "ZAMA",
       "name": "Zama"
+    },
+    {
+      "symbol": "BTSE",
+      "name": "BTSE Token"
     },
     {
       "symbol": "USAT",
@@ -743,10 +743,6 @@
     {
       "symbol": "GEOD",
       "name": "Geodnet"
-    },
-    {
-      "symbol": "WIF",
-      "name": "dogwifhat"
     },
     {
       "symbol": "ANVL",
@@ -759,6 +755,10 @@
     {
       "symbol": "TWT",
       "name": "Trust Wallet"
+    },
+    {
+      "symbol": "WIF",
+      "name": "dogwifhat"
     },
     {
       "symbol": "MET",
@@ -777,12 +777,12 @@
       "name": "Tradable APAC Diversified Finance Provider SSTN"
     },
     {
-      "symbol": "KNTQ",
-      "name": "Kinetiq"
-    },
-    {
       "symbol": "S",
       "name": "Sonic"
+    },
+    {
+      "symbol": "THETA",
+      "name": "Theta Network"
     },
     {
       "symbol": "USDAI",
@@ -797,11 +797,11 @@
       "name": "OriginTrail"
     },
     {
-      "symbol": "THETA",
-      "name": "Theta Network"
+      "symbol": "CRVUSD",
+      "name": "crvUSD"
     }
   ],
-  "updated_at": "2026-11-04T17:58:57.154714+00:00",
+  "updated_at": "2026-11-04T23:35:40.407090+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 5,
