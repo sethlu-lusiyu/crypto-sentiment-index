@@ -5712,54 +5712,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-11-01T19:15:00+00:00",
-    "family": "news",
-    "sent": 0.01374728397449757,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-01T19:15:00+00:00",
-    "family": "social",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-01T19:30:00+00:00",
-    "family": "news",
-    "sent": 0.01374728397449757,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-01T19:30:00+00:00",
-    "family": "social",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-01T22:45:00+00:00",
-    "family": "news",
-    "sent": 0.01374728397449757,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-01T22:45:00+00:00",
-    "family": "social",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-11-01T23:00:00+00:00",
     "family": "news",
     "sent": 0.01374728397449757,
@@ -6633,6 +6585,38 @@
   },
   {
     "ts": "2026-11-08T19:00:00+00:00",
+    "family": "social",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-08T22:30:00+00:00",
+    "family": "news",
+    "sent": 0.01374728397449757,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-08T22:30:00+00:00",
+    "family": "social",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-08T22:45:00+00:00",
+    "family": "news",
+    "sent": 0.01374728397449757,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-08T22:45:00+00:00",
     "family": "social",
     "sent": 0.5,
     "sent_z": null,
