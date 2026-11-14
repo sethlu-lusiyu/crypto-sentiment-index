@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-08-16T18:00:00+00:00",
-    "family": "social",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-16T19:00:00+00:00",
-    "family": "social",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-16T20:00:00+00:00",
-    "family": "social",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-08-16T22:00:00+00:00",
     "family": "social",
     "sent": 0.5,
@@ -2888,14 +2864,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-11-07T18:15:00+00:00",
-    "family": "social",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-11-07T21:45:00+00:00",
     "family": "social",
     "sent": 0.5,
@@ -3545,6 +3513,38 @@
   },
   {
     "ts": "2026-11-14T16:30:00+00:00",
+    "family": "social",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-14T20:45:00+00:00",
+    "family": "news",
+    "sent": -0.2681296482358906,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-14T20:45:00+00:00",
+    "family": "social",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-14T21:00:00+00:00",
+    "family": "news",
+    "sent": -0.2681296482358906,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-14T21:00:00+00:00",
     "family": "social",
     "sent": 0.5,
     "sent_z": null,
