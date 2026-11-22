@@ -1,101 +1,5 @@
 [
   {
-    "ts": "2026-08-24T09:00:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T09:00:00+00:00",
-    "family": "social",
-    "sent": 0.09053808167992469,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T10:00:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T10:00:00+00:00",
-    "family": "social",
-    "sent": 0.09053808167992469,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T11:00:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T11:00:00+00:00",
-    "family": "social",
-    "sent": 0.09053808167992469,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T12:00:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T12:00:00+00:00",
-    "family": "social",
-    "sent": 0.09053808167992469,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T13:00:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T13:00:00+00:00",
-    "family": "social",
-    "sent": 0.09053808167992469,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T14:00:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-08-24T14:00:00+00:00",
-    "family": "social",
-    "sent": 0.09053808167992469,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-08-24T17:00:00+00:00",
     "family": "news",
     "sent": 0.5,
@@ -4064,22 +3968,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-11-15T14:45:00+00:00",
-    "family": "news",
-    "sent": 0.5,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-15T14:45:00+00:00",
-    "family": "social",
-    "sent": 0.09053808167992469,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-11-15T15:00:00+00:00",
     "family": "news",
     "sent": 0.5,
@@ -4825,6 +4713,38 @@
   },
   {
     "ts": "2026-11-22T08:00:00+00:00",
+    "family": "social",
+    "sent": 0.09053808167992469,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-22T16:00:00+00:00",
+    "family": "news",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-22T16:00:00+00:00",
+    "family": "social",
+    "sent": 0.09053808167992469,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-22T16:15:00+00:00",
+    "family": "news",
+    "sent": 0.5,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-22T16:15:00+00:00",
     "family": "social",
     "sent": 0.09053808167992469,
     "sent_z": null,
