@@ -113,12 +113,12 @@
       "name": "Tether Gold"
     },
     {
-      "symbol": "UNI",
-      "name": "Uniswap"
-    },
-    {
       "symbol": "USD1",
       "name": "USD1"
+    },
+    {
+      "symbol": "UNI",
+      "name": "Uniswap"
     },
     {
       "symbol": "GRAM",
@@ -233,12 +233,12 @@
       "name": "Aster"
     },
     {
-      "symbol": "MNT",
-      "name": "Mantle"
-    },
-    {
       "symbol": "VVV",
       "name": "Venice Token"
+    },
+    {
+      "symbol": "MNT",
+      "name": "Mantle"
     },
     {
       "symbol": "JST",
@@ -253,6 +253,10 @@
       "name": "Morpho"
     },
     {
+      "symbol": "BTW",
+      "name": "Bitway"
+    },
+    {
       "symbol": "BGB",
       "name": "Bitget Token"
     },
@@ -263,10 +267,6 @@
     {
       "symbol": "SKY",
       "name": "Sky"
-    },
-    {
-      "symbol": "BTW",
-      "name": "Bitway"
     },
     {
       "symbol": "USDGO",
@@ -293,12 +293,12 @@
       "name": "Pump.fun"
     },
     {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)"
-    },
-    {
       "symbol": "KCS",
       "name": "KuCoin"
+    },
+    {
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)"
     },
     {
       "symbol": "ARB",
@@ -329,16 +329,16 @@
       "name": "GHO"
     },
     {
-      "symbol": "ALGO",
-      "name": "Algorand"
-    },
-    {
       "symbol": "USTB",
       "name": "Invesco Short Duration US Government Securities Fund"
     },
     {
       "symbol": "GT",
       "name": "Gate"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "Algorand"
     },
     {
       "symbol": "ATOM",
@@ -357,12 +357,12 @@
       "name": "Pi Network"
     },
     {
-      "symbol": "LIT",
-      "name": "Lighter"
-    },
-    {
       "symbol": "JAAA",
       "name": "Janus Henderson Anemoy AAA CLO Fund"
+    },
+    {
+      "symbol": "LIT",
+      "name": "Lighter"
     },
     {
       "symbol": "BDX",
@@ -389,6 +389,10 @@
       "name": "PancakeSwap"
     },
     {
+      "symbol": "ETHFI",
+      "name": "Ether.fi"
+    },
+    {
       "symbol": "ZRO",
       "name": "LayerZero"
     },
@@ -403,10 +407,6 @@
     {
       "symbol": "A7A5",
       "name": "A7A5"
-    },
-    {
-      "symbol": "ETHFI",
-      "name": "Ether.fi"
     },
     {
       "symbol": "币安人生",
@@ -469,24 +469,24 @@
       "name": "Aptos"
     },
     {
-      "symbol": "KITE",
-      "name": "Kite"
-    },
-    {
       "symbol": "TIA",
       "name": "Celestia"
+    },
+    {
+      "symbol": "KITE",
+      "name": "Kite"
     },
     {
       "symbol": "OUSG",
       "name": "Ondo Short-Term U.S. Government Bond Fund"
     },
     {
-      "symbol": "APEPE",
-      "name": "Ape and Pepe"
-    },
-    {
       "symbol": "KAU",
       "name": "Kinesis Gold"
+    },
+    {
+      "symbol": "APEPE",
+      "name": "Ape and Pepe"
     },
     {
       "symbol": "AERO",
@@ -537,24 +537,24 @@
       "name": "Artificial Superintelligence Alliance"
     },
     {
-      "symbol": "VIRTUAL",
-      "name": "Virtuals Protocol"
-    },
-    {
       "symbol": "TRUMP",
       "name": "Official Trump"
+    },
+    {
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol"
     },
     {
       "symbol": "UB",
       "name": "Unibase"
     },
     {
-      "symbol": "STRK",
-      "name": "Starknet"
-    },
-    {
       "symbol": "GNO",
       "name": "Gnosis"
+    },
+    {
+      "symbol": "STRK",
+      "name": "Starknet"
     },
     {
       "symbol": "SEI",
@@ -609,20 +609,20 @@
       "name": "NVIDIA (bStocks Tokenized Stock)"
     },
     {
-      "symbol": "BTSE",
-      "name": "BTSE Token"
+      "symbol": "USAT",
+      "name": "USAT"
     },
     {
       "symbol": "MGLO",
       "name": "Midas Fasanara Global Open"
     },
     {
-      "symbol": "USAT",
-      "name": "USAT"
-    },
-    {
       "symbol": "NFT",
       "name": "AINFT"
+    },
+    {
+      "symbol": "BTSE",
+      "name": "BTSE Token"
     },
     {
       "symbol": "EURCV",
@@ -641,12 +641,16 @@
       "name": "Bonk"
     },
     {
-      "symbol": "KOGE",
-      "name": "KOGE"
+      "symbol": "ZBCN",
+      "name": "Zebec Network"
     },
     {
       "symbol": "USTBL",
       "name": "Spiko US T-Bills Money Market Fund"
+    },
+    {
+      "symbol": "KOGE",
+      "name": "KOGE"
     },
     {
       "symbol": "BEAM",
@@ -661,24 +665,24 @@
       "name": "Compound"
     },
     {
-      "symbol": "ZBCN",
-      "name": "Zebec Network"
-    },
-    {
       "symbol": "SHFL",
       "name": "Shuffle"
+    },
+    {
+      "symbol": "GEOD",
+      "name": "Geodnet"
     },
     {
       "symbol": "PC0000033",
       "name": "Tradable APAC Diversified Finance Provider SSTN"
     },
     {
-      "symbol": "RUNE",
-      "name": "THORChain"
-    },
-    {
       "symbol": "OP",
       "name": "Optimism"
+    },
+    {
+      "symbol": "RUNE",
+      "name": "THORChain"
     },
     {
       "symbol": "CFX",
@@ -693,16 +697,20 @@
       "name": "Monad"
     },
     {
+      "symbol": "ZAMA",
+      "name": "Zama"
+    },
+    {
       "symbol": "FLOKI",
       "name": "FLOKI"
     },
     {
-      "symbol": "AKT",
-      "name": "Akash Network"
+      "symbol": "KAG",
+      "name": "Kinesis Silver"
     },
     {
-      "symbol": "ZAMA",
-      "name": "Zama"
+      "symbol": "AKT",
+      "name": "Akash Network"
     },
     {
       "symbol": "JASMY",
@@ -711,10 +719,6 @@
     {
       "symbol": "ENS",
       "name": "Ethereum Name Service"
-    },
-    {
-      "symbol": "KAG",
-      "name": "Kinesis Silver"
     },
     {
       "symbol": "AUSD",
@@ -737,24 +741,20 @@
       "name": "GoMining Token"
     },
     {
-      "symbol": "IOTA",
-      "name": "IOTA"
-    },
-    {
-      "symbol": "KMNO",
-      "name": "Kamino"
-    },
-    {
       "symbol": "CAP",
       "name": "Cap"
+    },
+    {
+      "symbol": "IOTA",
+      "name": "IOTA"
     },
     {
       "symbol": "CARDS",
       "name": "Collector Crypt"
     },
     {
-      "symbol": "GEOD",
-      "name": "Geodnet"
+      "symbol": "KMNO",
+      "name": "Kamino"
     },
     {
       "symbol": "CRVUSD",
@@ -769,12 +769,12 @@
       "name": "Tradable LatAm Fintech SSTN"
     },
     {
-      "symbol": "MET",
-      "name": "Meteora"
-    },
-    {
       "symbol": "CASH",
       "name": "CASH"
+    },
+    {
+      "symbol": "MET",
+      "name": "Meteora"
     },
     {
       "symbol": "TWT",
@@ -801,7 +801,7 @@
       "name": "Theta Network"
     }
   ],
-  "updated_at": "2026-11-21T21:06:35.128802+00:00",
+  "updated_at": "2026-11-22T01:13:23.686184+00:00",
   "slot_minutes": 15,
   "quality_summary": {
     "sample_n": 5,
