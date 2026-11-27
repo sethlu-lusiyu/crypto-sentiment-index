@@ -1,13 +1,5 @@
 [
   {
-    "ts": "2026-08-29T03:00:00+00:00",
-    "family": "social",
-    "sent": -0.00948533590615998,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-08-29T10:00:00+00:00",
     "family": "social",
     "sent": -0.00948533590615998,
@@ -2520,38 +2512,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-11-20T02:15:00+00:00",
-    "family": "news",
-    "sent": -0.017490450806936852,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-20T02:15:00+00:00",
-    "family": "social",
-    "sent": -0.00948533590615998,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-20T02:30:00+00:00",
-    "family": "news",
-    "sent": -0.017490450806936852,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-20T02:30:00+00:00",
-    "family": "social",
-    "sent": -0.00948533590615998,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-11-20T10:00:00+00:00",
     "family": "news",
     "sent": -0.017490450806936852,
@@ -3217,6 +3177,38 @@
   },
   {
     "ts": "2026-11-26T22:00:00+00:00",
+    "family": "social",
+    "sent": -0.00948533590615998,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T03:45:00+00:00",
+    "family": "news",
+    "sent": -0.017490450806936852,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T03:45:00+00:00",
+    "family": "social",
+    "sent": -0.00948533590615998,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T04:00:00+00:00",
+    "family": "news",
+    "sent": -0.017490450806936852,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T04:00:00+00:00",
     "family": "social",
     "sent": -0.00948533590615998,
     "sent_z": null,

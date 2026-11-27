@@ -1,13 +1,5 @@
 [
   {
-    "ts": "2026-08-29T03:00:00+00:00",
-    "family": "social",
-    "sent": 0.6550786784296945,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-08-29T10:00:00+00:00",
     "family": "social",
     "sent": 0.6550786784296945,
@@ -2592,38 +2584,6 @@
     "confidence_flag": "carried"
   },
   {
-    "ts": "2026-11-20T02:15:00+00:00",
-    "family": "news",
-    "sent": 0.3352626251664365,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-20T02:15:00+00:00",
-    "family": "social",
-    "sent": 0.6550786784296945,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-20T02:30:00+00:00",
-    "family": "news",
-    "sent": 0.3352626251664365,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
-    "ts": "2026-11-20T02:30:00+00:00",
-    "family": "social",
-    "sent": 0.6550786784296945,
-    "sent_z": null,
-    "mentions": 0,
-    "confidence_flag": "carried"
-  },
-  {
     "ts": "2026-11-20T10:00:00+00:00",
     "family": "news",
     "sent": 0.3352626251664365,
@@ -3289,6 +3249,38 @@
   },
   {
     "ts": "2026-11-26T22:00:00+00:00",
+    "family": "social",
+    "sent": 0.6550786784296945,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T03:45:00+00:00",
+    "family": "news",
+    "sent": 0.3352626251664365,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T03:45:00+00:00",
+    "family": "social",
+    "sent": 0.6550786784296945,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T04:00:00+00:00",
+    "family": "news",
+    "sent": 0.3352626251664365,
+    "sent_z": null,
+    "mentions": 0,
+    "confidence_flag": "carried"
+  },
+  {
+    "ts": "2026-11-27T04:00:00+00:00",
     "family": "social",
     "sent": 0.6550786784296945,
     "sent_z": null,
